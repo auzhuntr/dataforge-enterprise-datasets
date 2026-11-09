@@ -1,7 +1,7 @@
 # DataForge IT — Live Catalogue & Free Dataset Samples
 
-This repository is published automatically after each 12-hour refresh and is the data source for
-**[dataforgeit.digital](https://dataforgeit.digital)** (`catalog.json` + free 50-row samples).
+This repository is the **[dataforgeit.digital](https://dataforgeit.digital)** website (hosted on GitHub Pages).
+It is published automatically after each 12-hour refresh, once the data passes its checks.
 Every dataset is built only from sources whose licences allow commercial reuse.
 
 Last refresh (UTC): 2026-11-08T19:18:40Z

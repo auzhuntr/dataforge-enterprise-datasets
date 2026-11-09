@@ -1,0 +1,836 @@
+window.DATAFORGE_CATALOG = {
+  "generated_at_utc": "2026-11-08T19:18:40Z",
+  "total_datasets": 8,
+  "total_cumulative_records": 1142,
+  "refresh_cycle": "12-Hourly Automated Pipeline (Rolling 90-Day Master + 60 Snapshot Archive)",
+  "datasets": [
+    {
+      "id": "world_universities_poi",
+      "title": "Global Higher Education Institutions & Domain Mapping",
+      "category": "Points of Interest (POI) & Geospatial Data",
+      "description": "Comprehensive institutional registry of global universities, accredited colleges, websites, and country domains.",
+      "update_frequency": "Every 12 Hours (06:00 & 18:00)",
+      "last_updated_utc": "2026-11-08T19:18:40Z",
+      "next_update_utc": "2026-11-09T07:18:40Z",
+      "latest_records": 300,
+      "master_records": 300,
+      "retained_snapshots": 6,
+      "completeness_pct": 86.2,
+      "columns": [
+        "institution_name",
+        "country",
+        "alpha_two_code",
+        "state_province",
+        "domains",
+        "web_pages",
+        "collected_at_iso"
+      ],
+      "price_monthly_usd": 140,
+      "price_new_member_usd": 126,
+      "price_oneoff_usd": 187,
+      "badge": "Verified Geospatial Directory",
+      "source": "Hipo university-domains-list",
+      "licence": "MIT License (c) Hipo",
+      "licence_url": "https://github.com/Hipo/university-domains-list/blob/master/LICENSE.txt",
+      "attribution": "Includes data from the Hipo university-domains-list, MIT License.",
+      "sample_csv_url": "samples/world_universities_poi_sample_50.csv",
+      "preview_rows": [
+        {
+          "institution_name": "Marywood University",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "",
+          "domains": "marywood.edu",
+          "web_pages": "http://www.marywood.edu/",
+          "collected_at_iso": "2026-11-08T19:18:40.784504+00:00"
+        },
+        {
+          "institution_name": "Lindenwood University",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "",
+          "domains": "lindenwood.edu",
+          "web_pages": "http://www.lindenwood.edu/",
+          "collected_at_iso": "2026-11-08T19:18:40.784504+00:00"
+        },
+        {
+          "institution_name": "Sullivan University",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "",
+          "domains": "sullivan.edu",
+          "web_pages": "https://sullivan.edu/",
+          "collected_at_iso": "2026-11-08T19:18:40.784504+00:00"
+        },
+        {
+          "institution_name": "Florida State College at Jacksonville",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "",
+          "domains": "fscj.edu",
+          "web_pages": "https://www.fscj.edu/",
+          "collected_at_iso": "2026-11-08T19:18:40.784504+00:00"
+        },
+        {
+          "institution_name": "Xavier University",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "",
+          "domains": "xavier.edu",
+          "web_pages": "https://www.xavier.edu/",
+          "collected_at_iso": "2026-11-08T19:18:40.784504+00:00"
+        },
+        {
+          "institution_name": "Tusculum College",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "",
+          "domains": "tusculum.edu",
+          "web_pages": "https://home.tusculum.edu/",
+          "collected_at_iso": "2026-11-08T19:18:40.784504+00:00"
+        },
+        {
+          "institution_name": "Claremont School of Theology",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "",
+          "domains": "cst.edu",
+          "web_pages": "https://cst.edu/",
+          "collected_at_iso": "2026-11-08T19:18:40.784504+00:00"
+        },
+        {
+          "institution_name": "Columbia College (SC)",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "",
+          "domains": "columbiasc.edu",
+          "web_pages": "https://www.columbiasc.edu/",
+          "collected_at_iso": "2026-11-08T19:18:40.784504+00:00"
+        }
+      ]
+    },
+    {
+      "id": "openfda_drug_ndc",
+      "title": "FDA National Drug Code (NDC) Directory & Labeling Feed",
+      "category": "Healthcare & Life Sciences Data",
+      "description": "Comprehensive pharmaceutical product registry, proprietary brand names, active ingredients, and labelers.",
+      "update_frequency": "Every 12 Hours (06:00 & 18:00)",
+      "last_updated_utc": "2026-11-08T19:18:45Z",
+      "next_update_utc": "2026-11-09T07:18:45Z",
+      "latest_records": 100,
+      "master_records": 246,
+      "retained_snapshots": 6,
+      "completeness_pct": 94.9,
+      "columns": [
+        "product_ndc",
+        "brand_name",
+        "generic_name",
+        "labeler_name",
+        "active_ingredient",
+        "dosage_form",
+        "route",
+        "marketing_category",
+        "collected_at_iso"
+      ],
+      "price_monthly_usd": 178,
+      "price_new_member_usd": 160,
+      "price_oneoff_usd": 246,
+      "badge": "12h Regulatory Compliance Feed",
+      "source": "openFDA (U.S. Food & Drug Administration)",
+      "licence": "Public domain (CC0)",
+      "licence_url": "https://open.fda.gov/license/",
+      "attribution": "Not endorsed or certified by the U.S. FDA.",
+      "sample_csv_url": "samples/openfda_drug_ndc_sample_50.csv",
+      "preview_rows": [
+        {
+          "product_ndc": "10237-482",
+          "brand_name": "Zicam",
+          "generic_name": "Allium cepa 5x, Zincum aceticum 2x, Zincum gluconium 1x",
+          "labeler_name": "Church & Dwight Co., Inc.",
+          "active_ingredient": "ZINC ACETATE ANHYDROUS",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_category": "UNAPPROVED HOMEOPATHIC"
+        },
+        {
+          "product_ndc": "57884-0027",
+          "brand_name": "",
+          "generic_name": "Tolvaptan",
+          "labeler_name": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+          "active_ingredient": "TOLVAPTAN",
+          "dosage_form": "POWDER",
+          "route": "",
+          "marketing_category": "BULK INGREDIENT"
+        },
+        {
+          "product_ndc": "58159-107",
+          "brand_name": "",
+          "generic_name": "Tetracaine",
+          "labeler_name": "NURAY CHEMICALS PRIVATE LIMITED",
+          "active_ingredient": "TETRACAINE",
+          "dosage_form": "POWDER",
+          "route": "",
+          "marketing_category": "BULK INGREDIENT"
+        },
+        {
+          "product_ndc": "58624-0200",
+          "brand_name": "",
+          "generic_name": "Calcium Polycarbophil",
+          "labeler_name": "Shandong Xinhua Pharmaceutical Company Limited",
+          "active_ingredient": "CALCIUM POLYCARBOPHIL",
+          "dosage_form": "POWDER",
+          "route": "",
+          "marketing_category": "BULK INGREDIENT"
+        },
+        {
+          "product_ndc": "59116-7110",
+          "brand_name": "",
+          "generic_name": "Filgotinib Maleate",
+          "labeler_name": "Cambrex Charles City, Inc",
+          "active_ingredient": "FILGOTINIB MALEATE",
+          "dosage_form": "POWDER",
+          "route": "",
+          "marketing_category": "BULK INGREDIENT"
+        },
+        {
+          "product_ndc": "59651-172",
+          "brand_name": "",
+          "generic_name": "Sodium Nitroprusside",
+          "labeler_name": "Aurobindo Pharma Limited",
+          "active_ingredient": "SODIUM NITROPRUSSIDE",
+          "dosage_form": "POWDER",
+          "route": "",
+          "marketing_category": "BULK INGREDIENT"
+        },
+        {
+          "product_ndc": "59726-482",
+          "brand_name": "",
+          "generic_name": "Nicotine Polacrilex",
+          "labeler_name": "P & L Development, LLC",
+          "active_ingredient": "NICOTINE",
+          "dosage_form": "GUM, CHEWING",
+          "route": "",
+          "marketing_category": "BULK INGREDIENT FOR HUMAN PRESCRIPTION COMPOUNDING"
+        },
+        {
+          "product_ndc": "60592-019",
+          "brand_name": "",
+          "generic_name": "CLOTRIMAZOLE",
+          "labeler_name": "KALCHEM INTERNATIONAL INC.",
+          "active_ingredient": "CLOTRIMAZOLE",
+          "dosage_form": "POWDER",
+          "route": "",
+          "marketing_category": "BULK INGREDIENT"
+        }
+      ]
+    },
+    {
+      "id": "open_brewery_poi",
+      "title": "Commercial Brewery Venues & Hospitality POI Directory",
+      "category": "Points of Interest (POI) & Geospatial Data",
+      "description": "Verified commercial breweries, taprooms, street addresses, postal codes, and GPS coordinates.",
+      "update_frequency": "Every 12 Hours (06:00 & 18:00)",
+      "last_updated_utc": "2026-11-08T19:18:39Z",
+      "next_update_utc": "2026-11-09T07:18:39Z",
+      "latest_records": 200,
+      "master_records": 200,
+      "retained_snapshots": 6,
+      "completeness_pct": 93.7,
+      "columns": [
+        "venue_id",
+        "venue_name",
+        "venue_type",
+        "address",
+        "city",
+        "state_province",
+        "postal_code",
+        "country",
+        "latitude",
+        "longitude",
+        "phone",
+        "website_url",
+        "collected_at_iso"
+      ],
+      "price_monthly_usd": 140,
+      "price_new_member_usd": 126,
+      "price_oneoff_usd": 187,
+      "badge": "Verified Geospatial Directory",
+      "source": "Open Brewery DB",
+      "licence": "MIT License (c) Open Brewery DB",
+      "licence_url": "https://github.com/openbrewerydb/openbrewerydb/blob/master/LICENSE",
+      "attribution": "Includes data from Open Brewery DB, MIT License.",
+      "sample_csv_url": "samples/open_brewery_poi_sample_50.csv",
+      "preview_rows": [
+        {
+          "venue_id": "ae7b3174-8be8-4d53-a3a5-9b8240970eea",
+          "venue_name": "'s",
+          "venue_type": "brewpub",
+          "address": "Friesener Stra\u00dfe 1",
+          "city": "Kronach",
+          "state_province": "Bayern",
+          "postal_code": "96317",
+          "country": "Germany"
+        },
+        {
+          "venue_id": "aa7cbe9b-3a0f-4888-9884-6186b0042b55",
+          "venue_name": "\u2019t Drankorgel",
+          "venue_type": "micro",
+          "address": "31a Geelsebaan",
+          "city": "Mol",
+          "state_province": "Vlaanderen",
+          "postal_code": "2400",
+          "country": "Belgium"
+        },
+        {
+          "venue_id": "1034754f-abf9-4b42-bd6d-37e110ba4b1a",
+          "venue_name": "'T Kroontje",
+          "venue_type": "micro",
+          "address": "62 Hogebrug",
+          "city": "Lebbeke",
+          "state_province": "Vlaanderen",
+          "postal_code": "9280",
+          "country": "Belgium"
+        },
+        {
+          "venue_id": "907826b3-6902-4d28-a5e2-f73084bebeed",
+          "venue_name": "'t Veense Brouwhuys",
+          "venue_type": "micro",
+          "address": "Langeweg 16",
+          "city": "Roelofarendsveen",
+          "state_province": "Zuid-Holland",
+          "postal_code": "2371 EG",
+          "country": "Netherlands"
+        },
+        {
+          "venue_id": "5128df48-79fc-4f0f-8b52-d06be54d0cec",
+          "venue_name": "(405) Brewing Co",
+          "venue_type": "micro",
+          "address": "1716 Topeka St",
+          "city": "Norman",
+          "state_province": "Oklahoma",
+          "postal_code": "73069-8224",
+          "country": "United States"
+        },
+        {
+          "venue_id": "9c5a66c8-cc13-416f-a5d9-0a769c87d318",
+          "venue_name": "(512) Brewing Co",
+          "venue_type": "micro",
+          "address": "407 Radam Ln Ste F200",
+          "city": "Austin",
+          "state_province": "Texas",
+          "postal_code": "78745-1197",
+          "country": "United States"
+        },
+        {
+          "venue_id": "34e8c68b-6146-453f-a4b9-1f6cd99a5ada",
+          "venue_name": "1 of Us Brewing Company",
+          "venue_type": "micro",
+          "address": "8100 Washington Ave",
+          "city": "Mount Pleasant",
+          "state_province": "Wisconsin",
+          "postal_code": "53406-3920",
+          "country": "United States"
+        },
+        {
+          "venue_id": "21f21cc0-5b2f-4b79-be29-3bc625bcc4c8",
+          "venue_name": "1. Altenberger Brauhaus",
+          "venue_type": "brewpub",
+          "address": "Zirndorfer Stra\u00dfe 18",
+          "city": "Oberasbach",
+          "state_province": "Bayern",
+          "postal_code": "90522",
+          "country": "Germany"
+        }
+      ]
+    },
+    {
+      "id": "fda_medical_devices",
+      "title": "FDA Medical Device Approvals & Device Classification Index",
+      "category": "Healthcare & Life Sciences Data",
+      "description": "Regulatory registry of approved medical devices, clearance classifications, and medical specialty panels.",
+      "update_frequency": "Every 12 Hours (06:00 & 18:00)",
+      "last_updated_utc": "2026-11-08T19:18:42Z",
+      "next_update_utc": "2026-11-09T07:18:42Z",
+      "latest_records": 100,
+      "master_records": 112,
+      "retained_snapshots": 6,
+      "completeness_pct": 100.0,
+      "columns": [
+        "device_class",
+        "device_name",
+        "medical_specialty",
+        "regulation_number",
+        "review_panel",
+        "collected_at_iso"
+      ],
+      "price_monthly_usd": 178,
+      "price_new_member_usd": 160,
+      "price_oneoff_usd": 246,
+      "badge": "12h Regulatory Compliance Feed",
+      "source": "openFDA (U.S. Food & Drug Administration)",
+      "licence": "Public domain (CC0)",
+      "licence_url": "https://open.fda.gov/license/",
+      "attribution": "Not endorsed or certified by the U.S. FDA.",
+      "sample_csv_url": "samples/fda_medical_devices_sample_50.csv",
+      "preview_rows": [
+        {
+          "device_class": "1",
+          "device_name": "Automated Urinalysis System",
+          "medical_specialty": "Clinical Chemistry",
+          "regulation_number": "862.2900",
+          "review_panel": "CH",
+          "collected_at_iso": "2026-11-08T19:18:42.024992+00:00"
+        },
+        {
+          "device_class": "2",
+          "device_name": "Apparatus, Electrosurgical",
+          "medical_specialty": "General, Plastic Surgery",
+          "regulation_number": "878.4400",
+          "review_panel": "SU",
+          "collected_at_iso": "2026-11-08T19:18:42.024992+00:00"
+        },
+        {
+          "device_class": "2",
+          "device_name": "Monitor, Heart Sound, Fetal, Ultrasonic",
+          "medical_specialty": "Obstetrics/Gynecology",
+          "regulation_number": "884.2660",
+          "review_panel": "OB",
+          "collected_at_iso": "2026-11-08T19:18:42.024992+00:00"
+        },
+        {
+          "device_class": "2",
+          "device_name": "Heparin, Vascular Access Flush",
+          "medical_specialty": "General Hospital",
+          "regulation_number": "880.5200",
+          "review_panel": "HO",
+          "collected_at_iso": "2026-11-08T19:18:42.024992+00:00"
+        },
+        {
+          "device_class": "1",
+          "device_name": "Monitor, U.V., Glc",
+          "medical_specialty": "Clinical Chemistry",
+          "regulation_number": "862.2250",
+          "review_panel": "TX",
+          "collected_at_iso": "2026-11-08T19:18:42.024992+00:00"
+        },
+        {
+          "device_class": "1",
+          "device_name": "Kit, Identification, Dermatophyte",
+          "medical_specialty": "Microbiology",
+          "regulation_number": "866.2660",
+          "review_panel": "MI",
+          "collected_at_iso": "2026-11-08T19:18:42.024992+00:00"
+        },
+        {
+          "device_class": "2",
+          "device_name": "Neurosurgical Laser With Mr Thermography",
+          "medical_specialty": "General, Plastic Surgery",
+          "regulation_number": "878.4810",
+          "review_panel": "NE",
+          "collected_at_iso": "2026-11-08T19:18:42.024992+00:00"
+        },
+        {
+          "device_class": "1",
+          "device_name": "Electrophoretic Separation, Lipoproteins",
+          "medical_specialty": "Clinical Chemistry",
+          "regulation_number": "862.1475",
+          "review_panel": "CH",
+          "collected_at_iso": "2026-11-08T19:18:42.024992+00:00"
+        }
+      ]
+    },
+    {
+      "id": "fda_drug_recalls",
+      "title": "FDA Pharmaceutical Recalls & Regulatory Enforcement Feed",
+      "category": "Healthcare & Life Sciences Data",
+      "description": "Risk intelligence monitoring recall classifications, voluntary recalls, affected product lots, and recall reasons.",
+      "update_frequency": "Every 12 Hours (06:00 & 18:00)",
+      "last_updated_utc": "2026-11-08T19:18:45Z",
+      "next_update_utc": "2026-11-09T07:18:45Z",
+      "latest_records": 100,
+      "master_records": 100,
+      "retained_snapshots": 6,
+      "completeness_pct": 100.0,
+      "columns": [
+        "recall_number",
+        "recalling_firm",
+        "classification",
+        "status",
+        "reason_for_recall",
+        "product_description",
+        "recall_initiation_date",
+        "collected_at_iso"
+      ],
+      "price_monthly_usd": 178,
+      "price_new_member_usd": 160,
+      "price_oneoff_usd": 246,
+      "badge": "12h Regulatory Compliance Feed",
+      "source": "openFDA (U.S. Food & Drug Administration)",
+      "licence": "Public domain (CC0)",
+      "licence_url": "https://open.fda.gov/license/",
+      "attribution": "Not endorsed or certified by the U.S. FDA.",
+      "sample_csv_url": "samples/fda_drug_recalls_sample_50.csv",
+      "preview_rows": [
+        {
+          "recall_number": "D-321-2016",
+          "recalling_firm": "Kalman Health & Wellness, Inc. dba Essential Wellness Pharma",
+          "classification": "Class II",
+          "status": "Terminated",
+          "reason_for_recall": "Lack of Assurance of Sterility:  A recall of all compounded sterile prepara...",
+          "product_description": "Progesterone 100 mg/mL in Corn Oil Injection, 2 mL vials, Rx only, Essentia...",
+          "recall_initiation_date": "20150903",
+          "collected_at_iso": "2026-11-08T19:18:45.078479+00:00"
+        },
+        {
+          "recall_number": "D-0080-2021",
+          "recalling_firm": "Albek De Mexico S.A. De C.V.",
+          "classification": "Class II",
+          "status": "Ongoing",
+          "reason_for_recall": "CGMP Deviations: Next Advanced Antibacterial Hand Sanitizer was found to be...",
+          "product_description": "Assured Instant Hand Sanitizer Aloe & Moisturizers (Ethyl Alcohol 70% v/v) ...",
+          "recall_initiation_date": "20200730",
+          "collected_at_iso": "2026-11-08T19:18:45.078479+00:00"
+        },
+        {
+          "recall_number": "D-0115-2026",
+          "recalling_firm": "ProRx LLC",
+          "classification": "Class II",
+          "status": "Ongoing",
+          "reason_for_recall": "Lack of Assurance of Sterility",
+          "product_description": "Semaglutide Injection, 10 mg/4 mL (2.5 mg/mL), 4mL Multidose Vial, For Subc...",
+          "recall_initiation_date": "20251015",
+          "collected_at_iso": "2026-11-08T19:18:45.078479+00:00"
+        },
+        {
+          "recall_number": "D-1285-2020",
+          "recalling_firm": "Teva Pharmaceuticals USA",
+          "classification": "Class II",
+          "status": "Terminated",
+          "reason_for_recall": "Some bottles may contain mixed strengths of the product.",
+          "product_description": "Dextroamphetamine Saccharate, Amphetamine Aspartate, Dextroamphetamine Sulf...",
+          "recall_initiation_date": "20200522",
+          "collected_at_iso": "2026-11-08T19:18:45.078479+00:00"
+        },
+        {
+          "recall_number": "D-0623-2022",
+          "recalling_firm": "Perrigo Company PLC",
+          "classification": "Class II",
+          "status": "Terminated",
+          "reason_for_recall": "CGMP Deviations: Products were manufactured with contaminated excipient tha...",
+          "product_description": "No Drip Nasal Spray, Oxymetazoline HCl 0.05% Nasal Decongestant, 1 FL Oz (3...",
+          "recall_initiation_date": "20211026",
+          "collected_at_iso": "2026-11-08T19:18:45.078479+00:00"
+        },
+        {
+          "recall_number": "D-1398-2016",
+          "recalling_firm": "Pharmedium Services, LLC",
+          "classification": "Class II",
+          "status": "Terminated",
+          "reason_for_recall": "Presence of Particulate Matter: API contaminated with glass particulate was...",
+          "product_description": "2 mcg/mL Fentanyl Citrate and 0.16% Bupivacaine HCl (Preservative Free) in ...",
+          "recall_initiation_date": "20160505",
+          "collected_at_iso": "2026-11-08T19:18:45.078479+00:00"
+        },
+        {
+          "recall_number": "D-1443-2014",
+          "recalling_firm": "Pfizer Inc.",
+          "classification": "Class III",
+          "status": "Terminated",
+          "reason_for_recall": "Labeling: Incorrect or missing lot and or Exp Date: The bottles were labele...",
+          "product_description": "VIRACEPT (R) (nelfinavir mesylate) Tablets, 625 mg, 120-count bottle, Rx on...",
+          "recall_initiation_date": "20140708",
+          "collected_at_iso": "2026-11-08T19:18:45.078479+00:00"
+        },
+        {
+          "recall_number": "D-0572-2024",
+          "recalling_firm": "Little Moon Essentials LLC",
+          "classification": "Class II",
+          "status": "Ongoing",
+          "reason_for_recall": "CGMP deviations",
+          "product_description": "Little Moon Essentials, Crampy Belly Rub (Camphor 1.1%), Packaged as a) 4 F...",
+          "recall_initiation_date": "20240620",
+          "collected_at_iso": "2026-11-08T19:18:45.078479+00:00"
+        }
+      ]
+    },
+    {
+      "id": "fda_food_recalls",
+      "title": "FDA Food Safety & Consumer Product Recall Alerts",
+      "category": "Supply Chain, ESG & Risk Data",
+      "description": "Consumer health and supply chain risk feed tracking contaminated or mislabeled food recalls across North America.",
+      "update_frequency": "Every 12 Hours (06:00 & 18:00)",
+      "last_updated_utc": "2026-11-08T19:18:41Z",
+      "next_update_utc": "2026-11-09T07:18:41Z",
+      "latest_records": 100,
+      "master_records": 100,
+      "retained_snapshots": 6,
+      "completeness_pct": 100.0,
+      "columns": [
+        "recall_number",
+        "recalling_firm",
+        "classification",
+        "reason_for_recall",
+        "voluntary_mandated",
+        "report_date",
+        "collected_at_iso"
+      ],
+      "price_monthly_usd": 178,
+      "price_new_member_usd": 160,
+      "price_oneoff_usd": 246,
+      "badge": "12h Regulatory Compliance Feed",
+      "source": "openFDA (U.S. Food & Drug Administration)",
+      "licence": "Public domain (CC0)",
+      "licence_url": "https://open.fda.gov/license/",
+      "attribution": "Not endorsed or certified by the U.S. FDA.",
+      "sample_csv_url": "samples/fda_food_recalls_sample_50.csv",
+      "preview_rows": [
+        {
+          "recall_number": "F-0276-2017",
+          "recalling_firm": "Pharmatech LLC",
+          "classification": "Class II",
+          "reason_for_recall": "Recall initiated as a precautionary measure due to potential risk of produc...",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20161102",
+          "collected_at_iso": "2026-11-08T19:18:41.882801+00:00"
+        },
+        {
+          "recall_number": "F-0865-2017",
+          "recalling_firm": "Magic Gourmet Trading Inc",
+          "classification": "Class II",
+          "reason_for_recall": "Mooncake products, manufactured and distributed by Magic Gourmet Trading, I...",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20170118",
+          "collected_at_iso": "2026-11-08T19:18:41.882801+00:00"
+        },
+        {
+          "recall_number": "F-0609-2015",
+          "recalling_firm": "Oasis Brands, Inc",
+          "classification": "Class I",
+          "reason_for_recall": "Virginia State (VDACS) found Listeria monocytogenes in Lacteos Santa Martha...",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20141210",
+          "collected_at_iso": "2026-11-08T19:18:41.882801+00:00"
+        },
+        {
+          "recall_number": "F-1922-2012",
+          "recalling_firm": "FreshPoint South Florida",
+          "classification": "Class I",
+          "reason_for_recall": "FreshPoint South Florida is recalling sliced fresh yellow onions and salsa ...",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20120815",
+          "collected_at_iso": "2026-11-08T19:18:41.882801+00:00"
+        },
+        {
+          "recall_number": "F-0904-2020",
+          "recalling_firm": "Organic By Nature, Inc.",
+          "classification": "Class III",
+          "reason_for_recall": "Firm was notified by supplier that Organic Ground Flaxseed powder was under...",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20200401",
+          "collected_at_iso": "2026-11-08T19:18:41.882801+00:00"
+        },
+        {
+          "recall_number": "F-1578-2018",
+          "recalling_firm": "Yukon Jackson",
+          "classification": "Class III",
+          "reason_for_recall": "Coffee Toffee is recalled because pecan is listed on the Ingredients statem...",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20180620",
+          "collected_at_iso": "2026-11-08T19:18:41.882801+00:00"
+        },
+        {
+          "recall_number": "F-0921-2020",
+          "recalling_firm": "Rong Shing Trading NY Inc",
+          "classification": "Class III",
+          "reason_for_recall": "Product contains dried peaches, but front labeling of product stated dried ...",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20200506",
+          "collected_at_iso": "2026-11-08T19:18:41.882801+00:00"
+        },
+        {
+          "recall_number": "F-2326-2017",
+          "recalling_firm": "Trophy Nut Co Inc",
+          "classification": "Class II",
+          "reason_for_recall": "The firm stated that the product contains undeclared allergens.",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20170614",
+          "collected_at_iso": "2026-11-08T19:18:41.882801+00:00"
+        }
+      ]
+    },
+    {
+      "id": "wikipedia_entity_trends",
+      "title": "Public Interest & Brand Attention Velocity Feed",
+      "category": "Alternative Investment & Sentiment Signals",
+      "description": "Daily Wikipedia search and pageview volume tracking institutional and consumer brand awareness.",
+      "update_frequency": "Every 12 Hours (06:00 & 18:00)",
+      "last_updated_utc": "2026-11-08T19:18:37Z",
+      "next_update_utc": "2026-11-09T07:18:37Z",
+      "latest_records": 54,
+      "master_records": 54,
+      "retained_snapshots": 6,
+      "completeness_pct": 100.0,
+      "columns": [
+        "entity",
+        "date",
+        "daily_views",
+        "collected_at_iso"
+      ],
+      "price_monthly_usd": 110,
+      "price_new_member_usd": 99,
+      "price_oneoff_usd": 153,
+      "badge": "12h Quant Sentiment Feed",
+      "source": "Wikimedia Pageviews API",
+      "licence": "CC0",
+      "licence_url": "https://dumps.wikimedia.org/other/pageviews/readme.html",
+      "attribution": "Not endorsed by the Wikimedia Foundation.",
+      "sample_csv_url": "samples/wikipedia_entity_trends_sample_50.csv",
+      "preview_rows": [
+        {
+          "entity": "Nvidia",
+          "date": "20261020",
+          "daily_views": "9883",
+          "collected_at_iso": "2026-11-08T19:18:37.257178+00:00"
+        },
+        {
+          "entity": "Nvidia",
+          "date": "20261021",
+          "daily_views": "8460",
+          "collected_at_iso": "2026-11-08T19:18:37.257178+00:00"
+        },
+        {
+          "entity": "Nvidia",
+          "date": "20261022",
+          "daily_views": "9041",
+          "collected_at_iso": "2026-11-08T19:18:37.257178+00:00"
+        },
+        {
+          "entity": "Nvidia",
+          "date": "20261023",
+          "daily_views": "8108",
+          "collected_at_iso": "2026-11-08T19:18:37.257178+00:00"
+        },
+        {
+          "entity": "Nvidia",
+          "date": "20261024",
+          "daily_views": "7805",
+          "collected_at_iso": "2026-11-08T19:18:37.257178+00:00"
+        },
+        {
+          "entity": "Nvidia",
+          "date": "20261025",
+          "daily_views": "6665",
+          "collected_at_iso": "2026-11-08T19:18:37.257178+00:00"
+        },
+        {
+          "entity": "Nvidia",
+          "date": "20261026",
+          "daily_views": "7776",
+          "collected_at_iso": "2026-11-08T19:18:37.257178+00:00"
+        },
+        {
+          "entity": "Nvidia",
+          "date": "20261027",
+          "daily_views": "7288",
+          "collected_at_iso": "2026-11-08T19:18:37.257178+00:00"
+        }
+      ]
+    },
+    {
+      "id": "arxiv_ai_research",
+      "title": "ArXiv Emerging AI & Computer Science Research Papers",
+      "category": "Alternative Investment & Sentiment Signals",
+      "description": "Preprint publications tracking LLM architecture breakthroughs, multi-modal systems, and robotics research.",
+      "update_frequency": "Every 12 Hours (06:00 & 18:00)",
+      "last_updated_utc": "2026-11-08T19:18:37Z",
+      "next_update_utc": "2026-11-09T07:18:37Z",
+      "latest_records": 30,
+      "master_records": 30,
+      "retained_snapshots": 6,
+      "completeness_pct": 100.0,
+      "columns": [
+        "paper_title",
+        "arxiv_url",
+        "abstract_preview",
+        "publication_date",
+        "category",
+        "collected_at_iso"
+      ],
+      "price_monthly_usd": 110,
+      "price_new_member_usd": 99,
+      "price_oneoff_usd": 153,
+      "badge": "12h Quant Sentiment Feed",
+      "source": "arXiv.org paper metadata",
+      "licence": "CC0 (metadata only)",
+      "licence_url": "https://info.arxiv.org/help/api/tou.html",
+      "attribution": "Thank you to arXiv for use of its open access interoperability. Not endorsed by arXiv.",
+      "sample_csv_url": "samples/arxiv_ai_research_sample_50.csv",
+      "preview_rows": [
+        {
+          "paper_title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimizatio...",
+          "arxiv_url": "http://arxiv.org/abs/2611.08483v1",
+          "abstract_preview": "LLM-guided evolutionary search uses AI agents to improve programs for mathe...",
+          "publication_date": "2026-11-05T18:59:29Z",
+          "category": "Computer Science (AI)",
+          "collected_at_iso": "2026-11-08T19:18:37.081082+00:00"
+        },
+        {
+          "paper_title": "Selectivity and Shape in the Design of Forward-Forward Goodness Functions",
+          "arxiv_url": "http://arxiv.org/abs/2604.13081v3",
+          "abstract_preview": "The Forward-Forward (FF) algorithm trains networks layer-by-layer using a l...",
+          "publication_date": "2026-11-05T18:59:03Z",
+          "category": "Computer Science (AI)",
+          "collected_at_iso": "2026-11-08T19:18:37.081082+00:00"
+        },
+        {
+          "paper_title": "Scientist World: Grow a Research World for AI-Scientists",
+          "arxiv_url": "http://arxiv.org/abs/2611.08478v1",
+          "abstract_preview": "AI-Scientists arrived, but a world for them to grow in did not. Human scien...",
+          "publication_date": "2026-11-05T18:58:17Z",
+          "category": "Computer Science (AI)",
+          "collected_at_iso": "2026-11-08T19:18:37.081082+00:00"
+        },
+        {
+          "paper_title": "XStack: A Benchmark for ML Repo Migration",
+          "arxiv_url": "http://arxiv.org/abs/2611.08472v1",
+          "abstract_preview": "ML code should run where researchers choose, not where it was first written...",
+          "publication_date": "2026-11-05T18:55:54Z",
+          "category": "Computer Science (AI)",
+          "collected_at_iso": "2026-11-08T19:18:37.081082+00:00"
+        },
+        {
+          "paper_title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify Abo...",
+          "arxiv_url": "http://arxiv.org/abs/2611.08469v1",
+          "abstract_preview": "Interpretability, AI auditing and assessments of machine consciousness incr...",
+          "publication_date": "2026-11-05T18:55:31Z",
+          "category": "Computer Science (AI)",
+          "collected_at_iso": "2026-11-08T19:18:37.081082+00:00"
+        },
+        {
+          "paper_title": "Towards interpreting any residual stream direction by scaling activation in...",
+          "arxiv_url": "http://arxiv.org/abs/2611.08465v1",
+          "abstract_preview": "To interpret a direction in a language model's residual stream, we can look...",
+          "publication_date": "2026-11-05T18:54:40Z",
+          "category": "Computer Science (AI)",
+          "collected_at_iso": "2026-11-08T19:18:37.081082+00:00"
+        },
+        {
+          "paper_title": "Everything at Every Scale: Scale-Invariant Diffusion with Continuous Super-...",
+          "arxiv_url": "http://arxiv.org/abs/2605.26032v2",
+          "abstract_preview": "Creating images from noise is image generation; reconstructing fine details...",
+          "publication_date": "2026-11-05T18:49:37Z",
+          "category": "Computer Science (AI)",
+          "collected_at_iso": "2026-11-08T19:18:37.081082+00:00"
+        },
+        {
+          "paper_title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+          "arxiv_url": "http://arxiv.org/abs/2611.08452v1",
+          "abstract_preview": "Reproducing machine learning experiments requires reconstructing procedures...",
+          "publication_date": "2026-11-05T18:45:36Z",
+          "category": "Computer Science (AI)",
+          "collected_at_iso": "2026-11-08T19:18:37.081082+00:00"
+        }
+      ]
+    }
+  ]
+};

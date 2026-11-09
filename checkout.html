@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Checkout | DataForge IT Enterprise Data Feeds</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="catalog-data.js?v=20261109"></script>
+  <script src="catalog-loader.js?v=20261109"></script>
+</head>
+<body class="bg-[#0b0f19] text-slate-100 font-sans antialiased min-h-screen flex flex-col">
+  <nav class="border-b border-slate-800/80 px-6 py-4 bg-[#0b0f19]/90">
+    <div class="max-w-5xl mx-auto flex items-center justify-between">
+      <a href="https://dataforgeit.digital" class="flex items-center gap-3 hover:opacity-90 transition-opacity">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/25">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2 1 3 3 3h10c2 0 3-1 3-3V7c0-2-1-3-3-3H7C5 4 4 5 4 7zm0 4h16M9 4v16"/>
+          </svg>
+        </div>
+        <span class="text-lg font-bold tracking-tight text-white">DataForge <span class="text-cyan-400">IT</span> Checkout</span>
+      </a>
+      <a href="https://dataforgeit.digital/#catalog" class="text-xs text-slate-400 hover:text-cyan-400 transition-colors">&larr; Back to Data Catalog</a>
+    </div>
+  </nav>
+
+  <main class="flex-1 max-w-5xl w-full mx-auto px-6 py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <!-- Left: Order Summary -->
+    <div class="lg:col-span-5 bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between h-fit">
+      <div>
+        <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-[11px] font-semibold mb-4">
+          &check; New Member 10% Discount (NEWMEMBER10) Applied
+        </div>
+        <div id="coCategory" class="text-xs uppercase tracking-wider text-cyan-400 font-semibold">Enterprise Data Feed</div>
+        <h1 id="coTitle" class="text-xl font-extrabold text-white mt-1">Loading Dataset...</h1>
+        <p id="coDesc" class="text-xs text-slate-400 mt-2 leading-relaxed"></p>
+
+        <div class="mt-6 pt-5 border-t border-slate-800 space-y-3 text-sm">
+          <div class="flex justify-between items-center">
+            <span class="text-slate-400">Plan Type</span>
+            <select id="planSelect" onchange="updateTotal()" class="bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1 text-xs text-white font-semibold">
+              <option value="monthly">12-Hourly Subscription (Monthly)</option>
+              <option value="oneoff">One-Off Full Snapshot Archive</option>
+            </select>
+          </div>
+          <div class="flex justify-between text-xs text-slate-300">
+            <span>Standard Rate</span>
+            <span id="coStdPrice">$327.00</span>
+          </div>
+          <div id="coDiscountRow" class="flex justify-between text-xs text-emerald-400 font-semibold">
+            <span>Promo Code (NEWMEMBER10 - 10% Off)</span>
+            <span id="coDiscountAmt">-$33.00</span>
+          </div>
+          <div class="pt-3 border-t border-slate-800 flex justify-between items-baseline">
+            <span class="font-bold text-white">Total Due Today (USD)</span>
+            <span id="coTotalPrice" class="text-2xl font-extrabold text-cyan-400">$294.00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 pt-4 border-t border-slate-800/80 text-[11px] text-slate-400 space-y-1.5">
+        <div>&bull; After payment we run a fresh extract, check it for accuracy and privacy, then email it to your PayPal email address as soon as possible</div>
+        <div>&bull; A monthly plan covers one month of 12-hourly updates; renew by purchasing again (no automatic charges)</div>
+        <div>&bull; Refreshed every 12 hours (06:00 &amp; 18:00 Sydney time)</div>
+        <div>&bull; Payments processed securely by PayPal</div>
+      </div>
+    </div>
+
+    <!-- Right: Payment Gateway -->
+    <div class="lg:col-span-7 bg-slate-900/80 border border-slate-800 rounded-2xl p-6 sm:p-8">
+      <div class="flex items-center gap-2 mb-6">
+        <button id="tabStripe" onclick="switchTab('stripe')" class="flex-1 py-2.5 px-4 rounded-xl text-xs font-bold border transition-all bg-cyan-500/20 border-cyan-500 text-cyan-300">
+          Pay by Card
+        </button>
+        <button id="tabPaypal" onclick="switchTab('paypal')" class="flex-1 py-2.5 px-4 rounded-xl text-xs font-bold border transition-all bg-slate-800 border-slate-700 text-slate-400">
+          Pay with PayPal
+        </button>
+      </div>
+
+      <!-- Card Payment (processed securely by PayPal - no card details are entered on this site) -->
+      <div id="stripePanel" class="space-y-5">
+        <div class="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 leading-relaxed">
+          Pay by <strong>debit or credit card</strong> through PayPal's secure checkout. <strong>No PayPal account is needed</strong> &mdash; choose &ldquo;Pay with Debit or Credit Card&rdquo; on the next screen. Your card details are entered on PayPal only and are never seen or stored by DataForge IT.
+        </div>
+        <a id="cardPaypalLink" href="#" target="_blank" rel="noopener" class="block w-full text-center py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold text-sm shadow-lg shadow-cyan-500/25 transition-all">
+          Pay by Card (Secure Checkout) &rarr;
+        </a>
+      </div>
+
+      <!-- PayPal Panel -->
+      <div id="paypalPanel" class="hidden space-y-5">
+        <div class="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 leading-relaxed">
+          Click below to complete your instant checkout via <strong>PayPal Express Checkout</strong> (supports PayPal Balance, Bank, or Debit/Credit Card).
+        </div>
+        <a id="directPaypalLink" href="#" target="_blank" rel="noopener" class="block w-full text-center py-3.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white font-bold text-sm shadow-lg transition-all">
+          Proceed to PayPal Checkout &rarr;
+        </a>
+      </div>
+
+      <p class="mt-5 text-[11px] text-slate-500 leading-relaxed">By paying you agree to our <a href="terms.html" target="_blank" class="text-cyan-400 hover:underline">Terms &amp; Conditions</a> and <a href="refunds.html" target="_blank" class="text-cyan-400 hover:underline">Refund Policy</a>. Payments are handled by PayPal; see our <a href="privacy.html" target="_blank" class="text-cyan-400 hover:underline">Privacy Policy</a>.</p>
+
+      <div id="paymentStatusBox" class="hidden mt-5 p-4 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs leading-relaxed"></div>
+    </div>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const datasetId = params.get('dataset') || 'ecommerce_pricing_intelligence';
+    const initialMethod = params.get('method') || 'stripe';
+    let currentDataset = null;
+
+    function switchTab(method) {
+      const isStripe = method === 'stripe';
+      document.getElementById('stripePanel').classList.toggle('hidden', !isStripe);
+      document.getElementById('paypalPanel').classList.toggle('hidden', isStripe);
+      document.getElementById('tabStripe').className = isStripe
+        ? 'flex-1 py-2.5 px-4 rounded-xl text-xs font-bold border transition-all bg-cyan-500/20 border-cyan-500 text-cyan-300'
+        : 'flex-1 py-2.5 px-4 rounded-xl text-xs font-bold border transition-all bg-slate-800 border-slate-700 text-slate-400';
+      document.getElementById('tabPaypal').className = !isStripe
+        ? 'flex-1 py-2.5 px-4 rounded-xl text-xs font-bold border transition-all bg-[#0070ba]/30 border-[#0070ba] text-white'
+        : 'flex-1 py-2.5 px-4 rounded-xl text-xs font-bold border transition-all bg-slate-800 border-slate-700 text-slate-400';
+    }
+
+    function updateTotal() {
+      if (!currentDataset) return;
+      const plan = document.getElementById('planSelect').value;
+      const isMonthly = plan === 'monthly';
+      const std = isMonthly ? currentDataset.price_monthly_usd : currentDataset.price_oneoff_usd;
+      const finalPrice = isMonthly ? (currentDataset.price_new_member_usd || std) : currentDataset.price_oneoff_usd;
+
+      document.getElementById('coStdPrice').textContent = '$' + std + (isMonthly ? '/mo' : '');
+      document.getElementById('coDiscountRow').classList.toggle('hidden', !isMonthly);
+      document.getElementById('coDiscountAmt').textContent = '-$' + (std - finalPrice) + '/mo';
+      document.getElementById('coTotalPrice').textContent = '$' + finalPrice + '.00';
+      document.getElementById('cardPaypalLink').textContent = 'Pay $' + finalPrice + '.00 USD by Card (Secure Checkout) \u2192';
+
+      const itemName = encodeURIComponent('DataForge IT - ' + currentDataset.title + (isMonthly ? ' (12h Subscription)' : ' (One-Off Archive)'));
+      const paypalUrl = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=jleake2620%40gmail.com&item_name=' + itemName + '&amount=' + finalPrice + '&currency_code=USD&no_shipping=1';
+      document.getElementById('directPaypalLink').href = paypalUrl;
+      document.getElementById('cardPaypalLink').href = paypalUrl + '&landing_page=billing';
+    }
+
+    function showDataset() {
+      const cat = window.DATAFORGE_CATALOG;
+      if (cat && cat.datasets) {
+        currentDataset = cat.datasets.find(d => d.id === datasetId);
+        if (!currentDataset) {
+          document.getElementById('coTitle').textContent = 'This dataset is no longer available';
+          document.getElementById('coDesc').textContent = 'Please go back to the Data Catalog and choose a current dataset.';
+          document.querySelectorAll('#directPaypalLink, #cardPaypalLink').forEach(el => { el.removeAttribute('href'); el.style.pointerEvents = 'none'; el.style.opacity = '0.4'; });
+          return;
+        }
+        document.getElementById('coCategory').textContent = currentDataset.category;
+        document.getElementById('coTitle').textContent = currentDataset.title;
+        document.getElementById('coDesc').textContent = currentDataset.description;
+        updateTotal();
+      }
+    }
+    window.addEventListener('DOMContentLoaded', () => {
+      showDataset();
+      switchTab(initialMethod);
+      if (window.loadLatestCatalog) window.loadLatestCatalog().then(updated => { if (updated) showDataset(); });
+    });
+  </script>
+</body>
+</html>

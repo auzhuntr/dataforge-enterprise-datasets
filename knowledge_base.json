@@ -1,0 +1,110 @@
+{
+  "company_name": "DataForge IT",
+  "tagline": "Open-licence data feeds, refreshed every 12 hours",
+  "website_summary": "DataForge IT sells cleaned, ready-to-use datasets built only from openly licensed public sources, refreshed every 12 hours, plus custom data feed and IT services.",
+  "quick_prompts": [
+    "What datasets do you have?",
+    "How often is data updated?",
+    "How do I receive my data?",
+    "Can you build a custom data feed?"
+  ],
+  "faq": [
+    {
+      "question": "What datasets are available in your catalog?",
+      "keywords": [
+        "datasets",
+        "catalog",
+        "feeds",
+        "what data",
+        "fda",
+        "recalls",
+        "universities",
+        "brewery",
+        "arxiv",
+        "wikipedia",
+        "list"
+      ],
+      "answer": "Our catalogue only includes datasets built from sources whose licences allow commercial reuse:\n• **openFDA** (public domain): drug recalls, food recalls, medical device classifications and the drug NDC directory.\n• **arXiv** paper metadata (CC0): recent AI research papers.\n• **Wikimedia pageviews** (CC0): Wikipedia attention trends.\n• **World universities** and **Open Brewery DB** directories (MIT licence).\nEach card in the **Data Catalog** shows its source and licence, and has a free 50-row sample CSV."
+    },
+    {
+      "question": "How often is data refreshed?",
+      "keywords": [
+        "refresh",
+        "frequency",
+        "updated",
+        "how often",
+        "schedule",
+        "history",
+        "12"
+      ],
+      "answer": "Datasets are refreshed on a 12-hour schedule (**06:00 and 18:00 Sydney time**). Each dataset card shows exactly when it was last updated."
+    },
+    {
+      "question": "How do I receive my data after paying?",
+      "keywords": [
+        "deliver",
+        "delivery",
+        "receive",
+        "after",
+        "paid",
+        "payment",
+        "download",
+        "email",
+        "how long"
+      ],
+      "answer": "After your payment is confirmed, we run a fresh extract, review it for accuracy and privacy, and then email it to your PayPal email address as soon as possible. Nothing is sent until it has been checked."
+    },
+    {
+      "question": "How does pricing and the new member discount work?",
+      "keywords": [
+        "pricing",
+        "cost",
+        "price",
+        "discount",
+        "promo",
+        "code",
+        "coupon",
+        "newmember10",
+        "rates",
+        "membership"
+      ],
+      "answer": "Every dataset shows a monthly subscription price and a one-off price on its card. Monthly plans get a **10% new member discount**, already shown on each card and applied at checkout. A monthly plan covers one month of 12-hourly updates with no automatic renewal. Prices are in USD."
+    },
+    {
+      "question": "Can you build a custom data feed?",
+      "keywords": [
+        "custom",
+        "bespoke",
+        "pipeline",
+        "request",
+        "sample",
+        "quote"
+      ],
+      "answer": "Yes. Use the **Request Custom Data Feed** form on this page to describe the data you need. We only work with sources that allow the data to be used and shared, and we'll reply by email."
+    },
+    {
+      "question": "What is your refund policy?",
+      "keywords": [
+        "refund",
+        "money back",
+        "cancel",
+        "faulty",
+        "error",
+        "wrong"
+      ],
+      "answer": "If a one-off dataset is faulty or not delivered, we refund the purchase. If a subscription delivery fails because of an error on our side, we refund that month. This is in addition to your rights under the Australian Consumer Law. See our **Refund Policy** page for details."
+    },
+    {
+      "question": "How do I contact you?",
+      "keywords": [
+        "support",
+        "contact",
+        "email",
+        "talk",
+        "sales",
+        "help"
+      ],
+      "answer": "Use the contact form on this page and we'll reply by email as soon as possible."
+    }
+  ]
+}
