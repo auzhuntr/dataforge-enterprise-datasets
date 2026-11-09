@@ -1,51 +1,51 @@
 device_class,device_name,medical_specialty,regulation_number,review_panel,collected_at_iso
-1,Automated Urinalysis System,Clinical Chemistry,862.2900,CH,2026-11-09T07:00:19.935548+00:00
-2,"Apparatus, Electrosurgical","General, Plastic Surgery",878.4400,SU,2026-11-09T07:00:19.935548+00:00
-2,"Monitor, Heart Sound, Fetal, Ultrasonic",Obstetrics/Gynecology,884.2660,OB,2026-11-09T07:00:19.935548+00:00
-2,"Heparin, Vascular Access Flush",General Hospital,880.5200,HO,2026-11-09T07:00:19.935548+00:00
-1,"Monitor, U.V., Glc",Clinical Chemistry,862.2250,TX,2026-11-09T07:00:19.935548+00:00
-1,"Kit, Identification, Dermatophyte",Microbiology,866.2660,MI,2026-11-09T07:00:19.935548+00:00
-2,Neurosurgical Laser With Mr Thermography,"General, Plastic Surgery",878.4810,NE,2026-11-09T07:00:19.935548+00:00
-1,"Electrophoretic Separation, Lipoproteins",Clinical Chemistry,862.1475,CH,2026-11-09T07:00:19.935548+00:00
-2,"Coating, Filling Material, Resin",Dental,872.3310,DE,2026-11-09T07:00:19.935548+00:00
-2,"Apparatus, Hemoperfusion, Sorbent","Gastroenterology, Urology",876.5870,GU,2026-11-09T07:00:19.935548+00:00
-2,Interventional Fluoroscopic X-Ray System,Radiology,892.1650,RA,2026-11-09T07:00:19.935548+00:00
-1,Bone Marrow Biopsy Tray,"General, Plastic Surgery",878.4800,SU,2026-11-09T07:00:19.935548+00:00
-2,"Plate, Cranioplasty, Preformed, Non-Alterable",Neurology,882.5330,NE,2026-11-09T07:00:19.935548+00:00
-1,"Antisera, Cf, Coxsackievirus A 1-24, B 1-6",Microbiology,866.3145,MI,2026-11-09T07:00:19.935548+00:00
-1,"Hearing Aid, Air-Conduction, Prescription","Ear, Nose, Throat",874.3300,EN,2026-11-09T07:00:19.935548+00:00
-3,Ventricular Bypass (Assist) Device,Cardiovascular,870.3545,CV,2026-11-09T07:00:19.935548+00:00
-2,"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component, Metal Composite",Orthopedic,888.3030,OR,2026-11-09T07:00:19.935548+00:00
-1,"Supplement, Culture Media",Microbiology,866.2450,MI,2026-11-09T07:00:19.935548+00:00
-2,"Duodenoscope And Accessories, Flexible/Rigid","Gastroenterology, Urology",876.1500,GU,2026-11-09T07:00:19.935548+00:00
-2,"Candida Species, Antibody Detection",Microbiology,866.3165,MI,2026-11-09T07:00:19.935548+00:00
-U,"Protector, Hearing (Circumaural)",Unknown,,EN,2026-11-09T07:00:19.935548+00:00
-2,"Intervertebral Fusion Device With Bone Graft, Thoracic",Orthopedic,888.3080,OR,2026-11-09T07:00:19.935548+00:00
-3,"Stimulator, Osteogenesis, Electric, Battery-Operated, Invasive",Unknown,,OR,2026-11-09T07:00:19.935548+00:00
-2,"Glucose-6-Phosphate Dehydrogenase (Erythrocytic), U.V. Kinetic",Hematology,864.7360,HE,2026-11-09T07:00:19.935548+00:00
-1,"Respiratory Syncytial Virus, Antigen, Antibody, Ifa",Microbiology,866.3480,MI,2026-11-09T07:00:19.935548+00:00
-1,"Brush, Dermabrasion, Powered","General, Plastic Surgery",878.4820,SU,2026-11-09T07:00:19.935548+00:00
-3,"System, Pacing, Temporary, Acute, Internal Atrial Defibrillation",Unknown,,CV,2026-11-09T07:00:19.935548+00:00
-1,"Maxwell Spot, Ac-Powered",Ophthalmic,886.1435,OP,2026-11-09T07:00:19.935548+00:00
-1,"Radioimmunoassay, Human Growth Hormone",Clinical Chemistry,862.1370,CH,2026-11-09T07:00:19.935548+00:00
-2,Radiological Computer-Assisted Triage And Notification Software,Radiology,892.2080,RA,2026-11-09T07:00:19.935548+00:00
-2,Intracranial Pressure & Temperature Monitoring Kit,Neurology,882.1620,NE,2026-11-09T07:00:19.935548+00:00
-2,"Cabinet, Ethylene-Oxide Gas Aerator",General Hospital,880.6100,HO,2026-11-09T07:00:19.935548+00:00
-2,Wound Dressing With Poly(Diallyl Dimethyl Ammonium Chloride)(Pdadmac),"General, Plastic Surgery",878.4015,SU,2026-11-09T07:00:19.935548+00:00
-2,"Test, Donor, Cmv",Unknown,,IM,2026-11-09T07:00:19.935548+00:00
-3,"Assay,Enzyme Linked Immunosorbent,Parvovirus B19 Igg",Unknown,,MI,2026-11-09T07:00:19.935548+00:00
-2,Neuropsychiatric Interpretative Electroencephalograph Assessment Aid,Neurology,882.1440,NE,2026-11-09T07:00:19.935548+00:00
-2,Multivariate Vital Signs Index,Cardiovascular,870.2300,CV,2026-11-09T07:00:19.935548+00:00
-1,"Amalgamator, Dental, Ac-Powered",Dental,872.3100,DE,2026-11-09T07:00:19.935548+00:00
-2,"Table, Physical Therapy, Multi Function",Physical Medicine,890.5880,PM,2026-11-09T07:00:19.935548+00:00
-2,"Staple, Implantable","General, Plastic Surgery",878.4750,SU,2026-11-09T07:00:19.935548+00:00
-2,Nucleic Acid Detection System For Non-Viral Microorganism(S) Causing Sexually Transmitted Infections,Microbiology,866.3393,MI,2026-11-09T07:00:19.935548+00:00
-2,"Devices, Measure, Antibodies To Glomerular Basement Membrane (Gbm)",Immunology,866.5660,IM,2026-11-09T07:00:19.935548+00:00
-2,"Scanner, Color",Dental,872.3661,DE,2026-11-09T07:00:19.935548+00:00
-3,"Sensor, Glucose, Invasive, Component Of Automated Insulin Delivery System",Unknown,,CH,2026-11-09T07:00:19.935548+00:00
-2,"Prosthesis, Eyelid Spacer/Graft, Polymer",Ophthalmic,886.3130,OP,2026-11-09T07:00:19.935548+00:00
-2,Immunoassay Blood Test For Amyloid Pathology Assessment,Immunology,866.5840,IM,2026-11-09T07:00:19.935548+00:00
-2,Tympanic Membrane Direct Contact Hearing Aid,"Ear, Nose, Throat",874.3315,EN,2026-11-09T07:00:19.935548+00:00
-1,"Antigen, Indirect Fluorescent Antibody Test, Echinococcus Granulosus",Microbiology,866.3200,MI,2026-11-09T07:00:19.935548+00:00
-2,"Cement, Ear, Nose And Throat",Dental,872.3275,EN,2026-11-09T07:00:19.935548+00:00
-3,"Prosthesis, Finger, Constrained, Metal/Polymer",Orthopedic,888.3220,OR,2026-11-09T07:00:19.935548+00:00
+1,Automated Urinalysis System,Clinical Chemistry,862.2900,CH,2026-11-09T19:00:15.089514+00:00
+2,"Apparatus, Electrosurgical","General, Plastic Surgery",878.4400,SU,2026-11-09T19:00:15.089514+00:00
+2,"Monitor, Heart Sound, Fetal, Ultrasonic",Obstetrics/Gynecology,884.2660,OB,2026-11-09T19:00:15.089514+00:00
+2,"Heparin, Vascular Access Flush",General Hospital,880.5200,HO,2026-11-09T19:00:15.089514+00:00
+1,"Monitor, U.V., Glc",Clinical Chemistry,862.2250,TX,2026-11-09T19:00:15.089514+00:00
+1,"Kit, Identification, Dermatophyte",Microbiology,866.2660,MI,2026-11-09T19:00:15.089514+00:00
+2,Neurosurgical Laser With Mr Thermography,"General, Plastic Surgery",878.4810,NE,2026-11-09T19:00:15.089514+00:00
+1,"Electrophoretic Separation, Lipoproteins",Clinical Chemistry,862.1475,CH,2026-11-09T19:00:15.089514+00:00
+2,"Coating, Filling Material, Resin",Dental,872.3310,DE,2026-11-09T19:00:15.089514+00:00
+2,"Apparatus, Hemoperfusion, Sorbent","Gastroenterology, Urology",876.5870,GU,2026-11-09T19:00:15.089514+00:00
+2,Interventional Fluoroscopic X-Ray System,Radiology,892.1650,RA,2026-11-09T19:00:15.089514+00:00
+1,Bone Marrow Biopsy Tray,"General, Plastic Surgery",878.4800,SU,2026-11-09T19:00:15.089514+00:00
+2,"Plate, Cranioplasty, Preformed, Non-Alterable",Neurology,882.5330,NE,2026-11-09T19:00:15.089514+00:00
+1,"Antisera, Cf, Coxsackievirus A 1-24, B 1-6",Microbiology,866.3145,MI,2026-11-09T19:00:15.089514+00:00
+1,"Hearing Aid, Air-Conduction, Prescription","Ear, Nose, Throat",874.3300,EN,2026-11-09T19:00:15.089514+00:00
+3,Ventricular Bypass (Assist) Device,Cardiovascular,870.3545,CV,2026-11-09T19:00:15.089514+00:00
+2,"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component, Metal Composite",Orthopedic,888.3030,OR,2026-11-09T19:00:15.089514+00:00
+1,"Supplement, Culture Media",Microbiology,866.2450,MI,2026-11-09T19:00:15.089514+00:00
+2,"Duodenoscope And Accessories, Flexible/Rigid","Gastroenterology, Urology",876.1500,GU,2026-11-09T19:00:15.089514+00:00
+2,"Candida Species, Antibody Detection",Microbiology,866.3165,MI,2026-11-09T19:00:15.089514+00:00
+U,"Protector, Hearing (Circumaural)",Unknown,,EN,2026-11-09T19:00:15.089514+00:00
+2,"Intervertebral Fusion Device With Bone Graft, Thoracic",Orthopedic,888.3080,OR,2026-11-09T19:00:15.089514+00:00
+3,"Stimulator, Osteogenesis, Electric, Battery-Operated, Invasive",Unknown,,OR,2026-11-09T19:00:15.089514+00:00
+2,"Glucose-6-Phosphate Dehydrogenase (Erythrocytic), U.V. Kinetic",Hematology,864.7360,HE,2026-11-09T19:00:15.089514+00:00
+1,"Respiratory Syncytial Virus, Antigen, Antibody, Ifa",Microbiology,866.3480,MI,2026-11-09T19:00:15.089514+00:00
+1,"Brush, Dermabrasion, Powered","General, Plastic Surgery",878.4820,SU,2026-11-09T19:00:15.089514+00:00
+3,"System, Pacing, Temporary, Acute, Internal Atrial Defibrillation",Unknown,,CV,2026-11-09T19:00:15.089514+00:00
+1,"Maxwell Spot, Ac-Powered",Ophthalmic,886.1435,OP,2026-11-09T19:00:15.089514+00:00
+1,"Radioimmunoassay, Human Growth Hormone",Clinical Chemistry,862.1370,CH,2026-11-09T19:00:15.089514+00:00
+2,Radiological Computer-Assisted Triage And Notification Software,Radiology,892.2080,RA,2026-11-09T19:00:15.089514+00:00
+2,Intracranial Pressure & Temperature Monitoring Kit,Neurology,882.1620,NE,2026-11-09T19:00:15.089514+00:00
+2,"Cabinet, Ethylene-Oxide Gas Aerator",General Hospital,880.6100,HO,2026-11-09T19:00:15.089514+00:00
+2,Wound Dressing With Poly(Diallyl Dimethyl Ammonium Chloride)(Pdadmac),"General, Plastic Surgery",878.4015,SU,2026-11-09T19:00:15.089514+00:00
+2,"Test, Donor, Cmv",Unknown,,IM,2026-11-09T19:00:15.089514+00:00
+3,"Assay,Enzyme Linked Immunosorbent,Parvovirus B19 Igg",Unknown,,MI,2026-11-09T19:00:15.089514+00:00
+2,Neuropsychiatric Interpretative Electroencephalograph Assessment Aid,Neurology,882.1440,NE,2026-11-09T19:00:15.089514+00:00
+2,Multivariate Vital Signs Index,Cardiovascular,870.2300,CV,2026-11-09T19:00:15.089514+00:00
+1,"Amalgamator, Dental, Ac-Powered",Dental,872.3100,DE,2026-11-09T19:00:15.089514+00:00
+2,"Table, Physical Therapy, Multi Function",Physical Medicine,890.5880,PM,2026-11-09T19:00:15.089514+00:00
+2,"Staple, Implantable","General, Plastic Surgery",878.4750,SU,2026-11-09T19:00:15.089514+00:00
+2,Nucleic Acid Detection System For Non-Viral Microorganism(S) Causing Sexually Transmitted Infections,Microbiology,866.3393,MI,2026-11-09T19:00:15.089514+00:00
+2,"Devices, Measure, Antibodies To Glomerular Basement Membrane (Gbm)",Immunology,866.5660,IM,2026-11-09T19:00:15.089514+00:00
+2,"Scanner, Color",Dental,872.3661,DE,2026-11-09T19:00:15.089514+00:00
+3,"Sensor, Glucose, Invasive, Component Of Automated Insulin Delivery System",Unknown,,CH,2026-11-09T19:00:15.089514+00:00
+2,"Prosthesis, Eyelid Spacer/Graft, Polymer",Ophthalmic,886.3130,OP,2026-11-09T19:00:15.089514+00:00
+2,Immunoassay Blood Test For Amyloid Pathology Assessment,Immunology,866.5840,IM,2026-11-09T19:00:15.089514+00:00
+2,Tympanic Membrane Direct Contact Hearing Aid,"Ear, Nose, Throat",874.3315,EN,2026-11-09T19:00:15.089514+00:00
+1,"Antigen, Indirect Fluorescent Antibody Test, Echinococcus Granulosus",Microbiology,866.3200,MI,2026-11-09T19:00:15.089514+00:00
+2,"Cement, Ear, Nose And Throat",Dental,872.3275,EN,2026-11-09T19:00:15.089514+00:00
+3,"Prosthesis, Finger, Constrained, Metal/Polymer",Orthopedic,888.3220,OR,2026-11-09T19:00:15.089514+00:00

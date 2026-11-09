@@ -1,7 +1,7 @@
 window.DATAFORGE_CATALOG = {
-  "generated_at_utc": "2026-11-09T07:00:18Z",
+  "generated_at_utc": "2026-11-09T19:00:11Z",
   "total_datasets": 8,
-  "total_cumulative_records": 1172,
+  "total_cumulative_records": 1174,
   "refresh_cycle": "12-Hourly Automated Pipeline (Rolling 90-Day Master + 60 Snapshot Archive)",
   "datasets": [
     {
@@ -10,11 +10,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Points of Interest (POI) & Geospatial Data",
       "description": "Comprehensive institutional registry of global universities, accredited colleges, websites, and country domains.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T07:00:18Z",
-      "next_update_utc": "2026-11-09T19:00:18Z",
+      "last_updated_utc": "2026-11-09T19:00:11Z",
+      "next_update_utc": "2026-11-10T07:00:11Z",
       "latest_records": 300,
       "master_records": 300,
-      "retained_snapshots": 7,
+      "retained_snapshots": 8,
       "completeness_pct": 86.2,
       "columns": [
         "institution_name",
@@ -42,7 +42,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "",
           "domains": "marywood.edu",
           "web_pages": "http://www.marywood.edu/",
-          "collected_at_iso": "2026-11-09T07:00:18.017381+00:00"
+          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
         },
         {
           "institution_name": "Lindenwood University",
@@ -51,7 +51,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "",
           "domains": "lindenwood.edu",
           "web_pages": "http://www.lindenwood.edu/",
-          "collected_at_iso": "2026-11-09T07:00:18.017381+00:00"
+          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
         },
         {
           "institution_name": "Sullivan University",
@@ -60,7 +60,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "",
           "domains": "sullivan.edu",
           "web_pages": "https://sullivan.edu/",
-          "collected_at_iso": "2026-11-09T07:00:18.017381+00:00"
+          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
         },
         {
           "institution_name": "Florida State College at Jacksonville",
@@ -69,7 +69,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "",
           "domains": "fscj.edu",
           "web_pages": "https://www.fscj.edu/",
-          "collected_at_iso": "2026-11-09T07:00:18.017381+00:00"
+          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
         },
         {
           "institution_name": "Xavier University",
@@ -78,7 +78,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "",
           "domains": "xavier.edu",
           "web_pages": "https://www.xavier.edu/",
-          "collected_at_iso": "2026-11-09T07:00:18.017381+00:00"
+          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
         },
         {
           "institution_name": "Tusculum College",
@@ -87,7 +87,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "",
           "domains": "tusculum.edu",
           "web_pages": "https://home.tusculum.edu/",
-          "collected_at_iso": "2026-11-09T07:00:18.017381+00:00"
+          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
         },
         {
           "institution_name": "Claremont School of Theology",
@@ -96,7 +96,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "",
           "domains": "cst.edu",
           "web_pages": "https://cst.edu/",
-          "collected_at_iso": "2026-11-09T07:00:18.017381+00:00"
+          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
         },
         {
           "institution_name": "Columbia College (SC)",
@@ -105,7 +105,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "",
           "domains": "columbiasc.edu",
           "web_pages": "https://www.columbiasc.edu/",
-          "collected_at_iso": "2026-11-09T07:00:18.017381+00:00"
+          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
         }
       ]
     },
@@ -115,11 +115,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Healthcare & Life Sciences Data",
       "description": "Comprehensive pharmaceutical product registry, proprietary brand names, active ingredients, and labelers.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T07:00:18Z",
-      "next_update_utc": "2026-11-09T19:00:18Z",
+      "last_updated_utc": "2026-11-09T19:00:13Z",
+      "next_update_utc": "2026-11-10T07:00:13Z",
       "latest_records": 100,
-      "master_records": 246,
-      "retained_snapshots": 7,
+      "master_records": 248,
+      "retained_snapshots": 8,
       "completeness_pct": 100.0,
       "columns": [
         "product_ndc",
@@ -230,11 +230,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Points of Interest (POI) & Geospatial Data",
       "description": "Verified commercial breweries, taprooms, street addresses, postal codes, and GPS coordinates.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T07:00:15Z",
-      "next_update_utc": "2026-11-09T19:00:15Z",
+      "last_updated_utc": "2026-11-09T19:00:10Z",
+      "next_update_utc": "2026-11-10T07:00:10Z",
       "latest_records": 200,
       "master_records": 200,
-      "retained_snapshots": 7,
+      "retained_snapshots": 8,
       "completeness_pct": 93.7,
       "columns": [
         "venue_id",
@@ -349,11 +349,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Healthcare & Life Sciences Data",
       "description": "Regulatory registry of approved medical devices, clearance classifications, and medical specialty panels.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T07:00:19Z",
-      "next_update_utc": "2026-11-09T19:00:19Z",
+      "last_updated_utc": "2026-11-09T19:00:15Z",
+      "next_update_utc": "2026-11-10T07:00:15Z",
       "latest_records": 100,
       "master_records": 112,
-      "retained_snapshots": 7,
+      "retained_snapshots": 8,
       "completeness_pct": 100.0,
       "columns": [
         "device_class",
@@ -379,7 +379,7 @@ window.DATAFORGE_CATALOG = {
           "medical_specialty": "Clinical Chemistry",
           "regulation_number": "862.2900",
           "review_panel": "CH",
-          "collected_at_iso": "2026-11-09T07:00:19.935548+00:00"
+          "collected_at_iso": "2026-11-09T19:00:15.089514+00:00"
         },
         {
           "device_class": "2",
@@ -387,7 +387,7 @@ window.DATAFORGE_CATALOG = {
           "medical_specialty": "General, Plastic Surgery",
           "regulation_number": "878.4400",
           "review_panel": "SU",
-          "collected_at_iso": "2026-11-09T07:00:19.935548+00:00"
+          "collected_at_iso": "2026-11-09T19:00:15.089514+00:00"
         },
         {
           "device_class": "2",
@@ -395,7 +395,7 @@ window.DATAFORGE_CATALOG = {
           "medical_specialty": "Obstetrics/Gynecology",
           "regulation_number": "884.2660",
           "review_panel": "OB",
-          "collected_at_iso": "2026-11-09T07:00:19.935548+00:00"
+          "collected_at_iso": "2026-11-09T19:00:15.089514+00:00"
         },
         {
           "device_class": "2",
@@ -403,7 +403,7 @@ window.DATAFORGE_CATALOG = {
           "medical_specialty": "General Hospital",
           "regulation_number": "880.5200",
           "review_panel": "HO",
-          "collected_at_iso": "2026-11-09T07:00:19.935548+00:00"
+          "collected_at_iso": "2026-11-09T19:00:15.089514+00:00"
         },
         {
           "device_class": "1",
@@ -411,7 +411,7 @@ window.DATAFORGE_CATALOG = {
           "medical_specialty": "Clinical Chemistry",
           "regulation_number": "862.2250",
           "review_panel": "TX",
-          "collected_at_iso": "2026-11-09T07:00:19.935548+00:00"
+          "collected_at_iso": "2026-11-09T19:00:15.089514+00:00"
         },
         {
           "device_class": "1",
@@ -419,7 +419,7 @@ window.DATAFORGE_CATALOG = {
           "medical_specialty": "Microbiology",
           "regulation_number": "866.2660",
           "review_panel": "MI",
-          "collected_at_iso": "2026-11-09T07:00:19.935548+00:00"
+          "collected_at_iso": "2026-11-09T19:00:15.089514+00:00"
         },
         {
           "device_class": "2",
@@ -427,7 +427,7 @@ window.DATAFORGE_CATALOG = {
           "medical_specialty": "General, Plastic Surgery",
           "regulation_number": "878.4810",
           "review_panel": "NE",
-          "collected_at_iso": "2026-11-09T07:00:19.935548+00:00"
+          "collected_at_iso": "2026-11-09T19:00:15.089514+00:00"
         },
         {
           "device_class": "1",
@@ -435,7 +435,7 @@ window.DATAFORGE_CATALOG = {
           "medical_specialty": "Clinical Chemistry",
           "regulation_number": "862.1475",
           "review_panel": "CH",
-          "collected_at_iso": "2026-11-09T07:00:19.935548+00:00"
+          "collected_at_iso": "2026-11-09T19:00:15.089514+00:00"
         }
       ]
     },
@@ -445,11 +445,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Healthcare & Life Sciences Data",
       "description": "Risk intelligence monitoring recall classifications, voluntary recalls, affected product lots, and recall reasons.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T07:00:18Z",
-      "next_update_utc": "2026-11-09T19:00:18Z",
+      "last_updated_utc": "2026-11-09T19:00:13Z",
+      "next_update_utc": "2026-11-10T07:00:13Z",
       "latest_records": 100,
       "master_records": 100,
-      "retained_snapshots": 7,
+      "retained_snapshots": 8,
       "completeness_pct": 100.0,
       "columns": [
         "recall_number",
@@ -479,7 +479,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Lack of Assurance of Sterility:  A recall of all compounded sterile prepara...",
           "product_description": "Progesterone 100 mg/mL in Corn Oil Injection, 2 mL vials, Rx only, Essentia...",
           "recall_initiation_date": "20150903",
-          "collected_at_iso": "2026-11-09T07:00:18.399813+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.366278+00:00"
         },
         {
           "recall_number": "D-0080-2021",
@@ -489,7 +489,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP Deviations: Next Advanced Antibacterial Hand Sanitizer was found to be...",
           "product_description": "Assured Instant Hand Sanitizer Aloe & Moisturizers (Ethyl Alcohol 70% v/v) ...",
           "recall_initiation_date": "20200730",
-          "collected_at_iso": "2026-11-09T07:00:18.399813+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.366278+00:00"
         },
         {
           "recall_number": "D-0115-2026",
@@ -499,7 +499,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Lack of Assurance of Sterility",
           "product_description": "Semaglutide Injection, 10 mg/4 mL (2.5 mg/mL), 4mL Multidose Vial, For Subc...",
           "recall_initiation_date": "20251015",
-          "collected_at_iso": "2026-11-09T07:00:18.400811+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.366278+00:00"
         },
         {
           "recall_number": "D-1285-2020",
@@ -509,7 +509,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Some bottles may contain mixed strengths of the product.",
           "product_description": "Dextroamphetamine Saccharate, Amphetamine Aspartate, Dextroamphetamine Sulf...",
           "recall_initiation_date": "20200522",
-          "collected_at_iso": "2026-11-09T07:00:18.400811+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.366278+00:00"
         },
         {
           "recall_number": "D-0623-2022",
@@ -519,7 +519,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP Deviations: Products were manufactured with contaminated excipient tha...",
           "product_description": "No Drip Nasal Spray, Oxymetazoline HCl 0.05% Nasal Decongestant, 1 FL Oz (3...",
           "recall_initiation_date": "20211026",
-          "collected_at_iso": "2026-11-09T07:00:18.400811+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.366278+00:00"
         },
         {
           "recall_number": "D-1398-2016",
@@ -529,7 +529,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Presence of Particulate Matter: API contaminated with glass particulate was...",
           "product_description": "2 mcg/mL Fentanyl Citrate and 0.16% Bupivacaine HCl (Preservative Free) in ...",
           "recall_initiation_date": "20160505",
-          "collected_at_iso": "2026-11-09T07:00:18.400811+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.366278+00:00"
         },
         {
           "recall_number": "D-1443-2014",
@@ -539,7 +539,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Labeling: Incorrect or missing lot and or Exp Date: The bottles were labele...",
           "product_description": "VIRACEPT (R) (nelfinavir mesylate) Tablets, 625 mg, 120-count bottle, Rx on...",
           "recall_initiation_date": "20140708",
-          "collected_at_iso": "2026-11-09T07:00:18.400811+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.366278+00:00"
         },
         {
           "recall_number": "D-0572-2024",
@@ -549,7 +549,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP deviations",
           "product_description": "Little Moon Essentials, Crampy Belly Rub (Camphor 1.1%), Packaged as a) 4 F...",
           "recall_initiation_date": "20240620",
-          "collected_at_iso": "2026-11-09T07:00:18.400811+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.366278+00:00"
         }
       ]
     },
@@ -559,11 +559,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Supply Chain, ESG & Risk Data",
       "description": "Consumer health and supply chain risk feed tracking contaminated or mislabeled food recalls across North America.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T07:00:18Z",
-      "next_update_utc": "2026-11-09T19:00:18Z",
+      "last_updated_utc": "2026-11-09T19:00:13Z",
+      "next_update_utc": "2026-11-10T07:00:13Z",
       "latest_records": 100,
       "master_records": 100,
-      "retained_snapshots": 7,
+      "retained_snapshots": 8,
       "completeness_pct": 100.0,
       "columns": [
         "recall_number",
@@ -591,7 +591,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Recall initiated as a precautionary measure due to potential risk of produc...",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20161102",
-          "collected_at_iso": "2026-11-09T07:00:18.397805+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.302343+00:00"
         },
         {
           "recall_number": "F-0865-2017",
@@ -600,7 +600,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Mooncake products, manufactured and distributed by Magic Gourmet Trading, I...",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20170118",
-          "collected_at_iso": "2026-11-09T07:00:18.397805+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.302343+00:00"
         },
         {
           "recall_number": "F-0609-2015",
@@ -609,7 +609,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Virginia State (VDACS) found Listeria monocytogenes in Lacteos Santa Martha...",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20141210",
-          "collected_at_iso": "2026-11-09T07:00:18.397805+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.302343+00:00"
         },
         {
           "recall_number": "F-1922-2012",
@@ -618,7 +618,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "FreshPoint South Florida is recalling sliced fresh yellow onions and salsa ...",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20120815",
-          "collected_at_iso": "2026-11-09T07:00:18.397805+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.302343+00:00"
         },
         {
           "recall_number": "F-0904-2020",
@@ -627,7 +627,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Firm was notified by supplier that Organic Ground Flaxseed powder was under...",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20200401",
-          "collected_at_iso": "2026-11-09T07:00:18.397805+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.302343+00:00"
         },
         {
           "recall_number": "F-1578-2018",
@@ -636,7 +636,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Coffee Toffee is recalled because pecan is listed on the Ingredients statem...",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20180620",
-          "collected_at_iso": "2026-11-09T07:00:18.397805+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.302343+00:00"
         },
         {
           "recall_number": "F-0921-2020",
@@ -645,7 +645,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Product contains dried peaches, but front labeling of product stated dried ...",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20200506",
-          "collected_at_iso": "2026-11-09T07:00:18.397805+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.302343+00:00"
         },
         {
           "recall_number": "F-2326-2017",
@@ -654,7 +654,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "The firm stated that the product contains undeclared allergens.",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20170614",
-          "collected_at_iso": "2026-11-09T07:00:18.397805+00:00"
+          "collected_at_iso": "2026-11-09T19:00:13.302343+00:00"
         }
       ]
     },
@@ -664,11 +664,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Alternative Investment & Sentiment Signals",
       "description": "Preprint publications tracking LLM architecture breakthroughs, multi-modal systems, and robotics research.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T07:00:12Z",
-      "next_update_utc": "2026-11-09T19:00:12Z",
+      "last_updated_utc": "2026-11-09T19:00:08Z",
+      "next_update_utc": "2026-11-10T07:00:08Z",
       "latest_records": 30,
       "master_records": 60,
-      "retained_snapshots": 7,
+      "retained_snapshots": 8,
       "completeness_pct": 100.0,
       "columns": [
         "paper_title",
@@ -694,7 +694,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Recent work on robot manipulation has focused on specialist policies traine...",
           "publication_date": "2026-11-06T18:59:34Z",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T07:00:12.491914+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
         },
         {
           "paper_title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
@@ -702,7 +702,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Large language models reinvent the wheel all the time. They conflate task-s...",
           "publication_date": "2026-11-06T18:58:50Z",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T07:00:12.491914+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
         },
         {
           "paper_title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcemen...",
@@ -710,7 +710,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Test-time reinforcement learning (TTRL) adapts pretrained language models t...",
           "publication_date": "2026-11-06T18:49:02Z",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T07:00:12.491914+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
         },
         {
           "paper_title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Descrip...",
@@ -718,7 +718,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Purpose: Surgical operative reports support procedural documentation, surgi...",
           "publication_date": "2026-11-06T18:47:23Z",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T07:00:12.493002+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
         },
         {
           "paper_title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensi...",
@@ -726,7 +726,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Loco-manipulation, which requires mobile manipulators to coordinate locomot...",
           "publication_date": "2026-11-06T18:44:33Z",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T07:00:12.493002+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
         },
         {
           "paper_title": "Flow-Guided Target-Space Alignment via Path Consistency",
@@ -734,7 +734,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Many multimodal alignment problems require mapping a source modality into a...",
           "publication_date": "2026-11-06T18:44:08Z",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T07:00:12.493002+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
         },
         {
           "paper_title": "Differentiable Nonlinear Model Predictive Control",
@@ -742,7 +742,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "The efficient computation of parametric solution sensitivities is a key cha...",
           "publication_date": "2026-11-06T18:39:20Z",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T07:00:12.493002+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
         },
         {
           "paper_title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based ...",
@@ -750,7 +750,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "This paper describes an approach and use case to estimate the correctness o...",
           "publication_date": "2026-11-06T18:29:48Z",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T07:00:12.493002+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
         }
       ]
     },
@@ -760,11 +760,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Alternative Investment & Sentiment Signals",
       "description": "Daily Wikipedia search and pageview volume tracking institutional and consumer brand awareness.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T07:00:14Z",
-      "next_update_utc": "2026-11-09T19:00:14Z",
+      "last_updated_utc": "2026-11-09T19:00:09Z",
+      "next_update_utc": "2026-11-10T07:00:09Z",
       "latest_records": 54,
       "master_records": 54,
-      "retained_snapshots": 7,
+      "retained_snapshots": 8,
       "completeness_pct": 100.0,
       "columns": [
         "entity",
@@ -786,49 +786,49 @@ window.DATAFORGE_CATALOG = {
           "entity": "Nvidia",
           "date": "20261020",
           "daily_views": "9883",
-          "collected_at_iso": "2026-11-09T07:00:12.072246+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261021",
           "daily_views": "8460",
-          "collected_at_iso": "2026-11-09T07:00:12.072246+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261022",
           "daily_views": "9041",
-          "collected_at_iso": "2026-11-09T07:00:12.072246+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261023",
           "daily_views": "8108",
-          "collected_at_iso": "2026-11-09T07:00:12.072246+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261024",
           "daily_views": "7805",
-          "collected_at_iso": "2026-11-09T07:00:12.072246+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261025",
           "daily_views": "6665",
-          "collected_at_iso": "2026-11-09T07:00:12.072246+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261026",
           "daily_views": "7776",
-          "collected_at_iso": "2026-11-09T07:00:12.072246+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261027",
           "daily_views": "7288",
-          "collected_at_iso": "2026-11-09T07:00:12.072246+00:00"
+          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
         }
       ]
     }
