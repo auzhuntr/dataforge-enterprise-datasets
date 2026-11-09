@@ -4,7 +4,7 @@ This repository is the **[dataforgeit.digital](https://dataforgeit.digital)** we
 It is published automatically after each 12-hour refresh, once the data passes its checks.
 Every dataset is built only from sources whose licences allow commercial reuse.
 
-Last refresh (UTC): 2026-11-08T19:18:40Z
+Last refresh (UTC): 2026-11-09T07:00:18Z
 
 | Dataset | Sample file | Source | Licence |
 |---|---|---|---|
@@ -14,8 +14,8 @@ Last refresh (UTC): 2026-11-08T19:18:40Z
 | FDA Medical Device Approvals & Device Classification Index | `samples/fda_medical_devices_sample_50.csv` | openFDA (U.S. Food & Drug Administration) | [Public domain (CC0)](https://open.fda.gov/license/) |
 | FDA Pharmaceutical Recalls & Regulatory Enforcement Feed | `samples/fda_drug_recalls_sample_50.csv` | openFDA (U.S. Food & Drug Administration) | [Public domain (CC0)](https://open.fda.gov/license/) |
 | FDA Food Safety & Consumer Product Recall Alerts | `samples/fda_food_recalls_sample_50.csv` | openFDA (U.S. Food & Drug Administration) | [Public domain (CC0)](https://open.fda.gov/license/) |
-| Public Interest & Brand Attention Velocity Feed | `samples/wikipedia_entity_trends_sample_50.csv` | Wikimedia Pageviews API | [CC0](https://dumps.wikimedia.org/other/pageviews/readme.html) |
 | ArXiv Emerging AI & Computer Science Research Papers | `samples/arxiv_ai_research_sample_50.csv` | arXiv.org paper metadata | [CC0 (metadata only)](https://info.arxiv.org/help/api/tou.html) |
+| Public Interest & Brand Attention Velocity Feed | `samples/wikipedia_entity_trends_sample_50.csv` | Wikimedia Pageviews API | [CC0](https://dumps.wikimedia.org/other/pageviews/readme.html) |
 
 ## Licences and attribution
 - Includes data from Open Brewery DB, MIT License.
