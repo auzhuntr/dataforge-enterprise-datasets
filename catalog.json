@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-10T02:01:31Z",
+  "generated_at_utc": "2026-11-10T07:21:07Z",
   "total_datasets": 8,
-  "total_cumulative_records": 975,
+  "total_cumulative_records": 1255,
   "refresh_cycle": "12-Hourly Automated Pipeline (Rolling 90-Day Master + 60 Snapshot Archive)",
   "datasets": [
     {
@@ -10,11 +10,11 @@
       "category": "Points of Interest (POI) & Geospatial Data",
       "description": "Directory of United States universities and colleges with their websites and internet domains, from the Hipo university-domains-list. Up to 300 records per refresh.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T02:01:31Z",
-      "next_update_utc": "2026-11-10T07:00:00Z",
+      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 299,
       "master_records": 299,
-      "retained_snapshots": 3,
+      "retained_snapshots": 4,
       "completeness_pct": 84.7,
       "columns": [
         "institution_name",
@@ -42,7 +42,7 @@
           "state_province": "",
           "domains": "student.42.us.org",
           "web_pages": "http://www.42.us.org/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "institution_name": "A.T. Still University",
@@ -51,7 +51,7 @@
           "state_province": "",
           "domains": "atsu.edu",
           "web_pages": "https://www.atsu.edu/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "institution_name": "ASA College",
@@ -60,7 +60,7 @@
           "state_province": "",
           "domains": "asa.edu",
           "web_pages": "http://www.asa.edu/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "institution_name": "Aaniiih Nakoda College",
@@ -69,7 +69,7 @@
           "state_province": "",
           "domains": "ancollege.edu",
           "web_pages": "http://www.ancollege.edu/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "institution_name": "Abilene Christian University",
@@ -78,7 +78,7 @@
           "state_province": "",
           "domains": "acu.edu",
           "web_pages": "http://www.acu.edu/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "institution_name": "Abraham Baldwin Agricultural College",
@@ -87,7 +87,7 @@
           "state_province": "Georgia",
           "domains": "abac.edu; stallions.abac.edu",
           "web_pages": "https://www.abac.edu/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "institution_name": "Academic medical center at State University of New York at Stony Brook",
@@ -96,7 +96,7 @@
           "state_province": "",
           "domains": "stonybrookmedicine.edu",
           "web_pages": "http://www.stonybrookmedicine.edu/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "institution_name": "Academy of Art University",
@@ -105,7 +105,7 @@
           "state_province": "California",
           "domains": "academyart.edu; art.edu",
           "web_pages": "https://www.academyart.edu/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         }
       ]
     },
@@ -115,12 +115,12 @@
       "category": "Healthcare & Life Sciences Data",
       "description": "Product records from the openFDA National Drug Code directory: brand and generic names, labeler, active ingredient, dosage form, route and marketing category. 100 records per refresh, accumulated into a rolling 90-day master file.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T02:01:31Z",
-      "next_update_utc": "2026-11-10T07:00:00Z",
+      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 100,
-      "master_records": 100,
-      "retained_snapshots": 2,
-      "completeness_pct": 88.5,
+      "master_records": 200,
+      "retained_snapshots": 3,
+      "completeness_pct": 93.5,
       "columns": [
         "product_ndc",
         "brand_name",
@@ -143,92 +143,92 @@
       "sample_csv_url": "samples/openfda_drug_ndc_sample_50.csv",
       "preview_rows": [
         {
-          "product_ndc": "10237-482",
-          "brand_name": "Zicam",
-          "generic_name": "Allium cepa 5x, Zincum aceticum 2x, Zincum gluconium 1x",
-          "labeler_name": "Church & Dwight Co., Inc.",
-          "active_ingredient": "ZINC ACETATE ANHYDROUS",
+          "product_ndc": "76162-970",
+          "brand_name": "Pyrithione zinc",
+          "generic_name": "Pyrithione zinc",
+          "labeler_name": "Topco Associates LLC",
+          "active_ingredient": "PYRITHIONE ZINC",
+          "dosage_form": "SHAMPOO",
+          "route": "TOPICAL",
+          "marketing_category": "OTC MONOGRAPH DRUG",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "product_ndc": "76282-704",
+          "brand_name": "OSELTAMIVIR PHOSPHATE",
+          "generic_name": "OSELTAMIVIR PHOSPHATE",
+          "labeler_name": "Exelan Pharmaceuticals, Inc.",
+          "active_ingredient": "OSELTAMIVIR PHOSPHATE",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_category": "ANDA",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "product_ndc": "80684-072",
+          "brand_name": "LAVENDER SCENTED HAND SANITIZER",
+          "generic_name": "ALCOHOL",
+          "labeler_name": "FOURSTAR GROUP USA, INC.",
+          "active_ingredient": "ALCOHOL",
+          "dosage_form": "LIQUID",
+          "route": "TOPICAL",
+          "marketing_category": "OTC MONOGRAPH DRUG",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "product_ndc": "80861-007",
+          "brand_name": "Acne Free SENSITIVE SKIN 24 HR Acne Clearing System",
+          "generic_name": "SALICYLIC ACID, BENZOYL PEROXIDE",
+          "labeler_name": "AcneFree LLC",
+          "active_ingredient": "",
+          "dosage_form": "KIT",
+          "route": "",
+          "marketing_category": "OTC MONOGRAPH DRUG",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "product_ndc": "80425-0334",
+          "brand_name": "BUSPIRONE HYDROCHLORIDE",
+          "generic_name": "BUSPIRONE HYDROCHLORIDE",
+          "labeler_name": "Advanced Rx Pharmacy of Tennessee, LLC",
+          "active_ingredient": "BUSPIRONE HYDROCHLORIDE",
           "dosage_form": "TABLET",
           "route": "ORAL",
-          "marketing_category": "UNAPPROVED HOMEOPATHIC",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "marketing_category": "ANDA",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "product_ndc": "57884-0027",
-          "brand_name": "",
-          "generic_name": "Tolvaptan",
-          "labeler_name": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
-          "active_ingredient": "TOLVAPTAN",
-          "dosage_form": "POWDER",
-          "route": "",
-          "marketing_category": "BULK INGREDIENT",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "product_ndc": "80425-0587",
+          "brand_name": "Ibuprofen and Famotidine",
+          "generic_name": "Ibuprofen and Famotidine",
+          "labeler_name": "Advanced Rx of Tennessee, LLC",
+          "active_ingredient": "IBUPROFEN",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_category": "ANDA",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "product_ndc": "58159-107",
-          "brand_name": "",
-          "generic_name": "Tetracaine",
-          "labeler_name": "NURAY CHEMICALS PRIVATE LIMITED",
-          "active_ingredient": "TETRACAINE",
-          "dosage_form": "POWDER",
-          "route": "",
-          "marketing_category": "BULK INGREDIENT",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "product_ndc": "0591-5443",
+          "brand_name": "Prednisone",
+          "generic_name": "Prednisone",
+          "labeler_name": "Actavis Pharma, Inc.",
+          "active_ingredient": "PREDNISONE",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_category": "ANDA",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "product_ndc": "58624-0200",
-          "brand_name": "",
-          "generic_name": "Calcium Polycarbophil",
-          "labeler_name": "Shandong Xinhua Pharmaceutical Company Limited",
-          "active_ingredient": "CALCIUM POLYCARBOPHIL",
-          "dosage_form": "POWDER",
-          "route": "",
-          "marketing_category": "BULK INGREDIENT",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "product_ndc": "59116-7110",
-          "brand_name": "",
-          "generic_name": "Filgotinib Maleate",
-          "labeler_name": "Cambrex Charles City, Inc",
-          "active_ingredient": "FILGOTINIB MALEATE",
-          "dosage_form": "POWDER",
-          "route": "",
-          "marketing_category": "BULK INGREDIENT",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "product_ndc": "59651-172",
-          "brand_name": "",
-          "generic_name": "Sodium Nitroprusside",
-          "labeler_name": "Aurobindo Pharma Limited",
-          "active_ingredient": "SODIUM NITROPRUSSIDE",
-          "dosage_form": "POWDER",
-          "route": "",
-          "marketing_category": "BULK INGREDIENT",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "product_ndc": "59726-482",
-          "brand_name": "",
-          "generic_name": "Nicotine Polacrilex",
-          "labeler_name": "P & L Development, LLC",
-          "active_ingredient": "NICOTINE",
-          "dosage_form": "GUM, CHEWING",
-          "route": "",
-          "marketing_category": "BULK INGREDIENT FOR HUMAN PRESCRIPTION COMPOUNDING",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "product_ndc": "60592-019",
-          "brand_name": "",
-          "generic_name": "CLOTRIMAZOLE",
-          "labeler_name": "KALCHEM INTERNATIONAL INC.",
-          "active_ingredient": "CLOTRIMAZOLE",
-          "dosage_form": "POWDER",
-          "route": "",
-          "marketing_category": "BULK INGREDIENT",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "product_ndc": "0597-0100",
+          "brand_name": "Spiriva Respimat",
+          "generic_name": "tiotropium bromide inhalation spray",
+          "labeler_name": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+          "active_ingredient": "TIOTROPIUM BROMIDE ANHYDROUS",
+          "dosage_form": "SPRAY, METERED",
+          "route": "RESPIRATORY (INHALATION)",
+          "marketing_category": "NDA",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         }
       ]
     },
@@ -238,11 +238,11 @@
       "category": "Points of Interest (POI) & Geospatial Data",
       "description": "Brewery, taproom and brewpub listings from Open Brewery DB with addresses, postal codes, coordinates and websites where available. Up to 200 records per refresh.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T02:01:31Z",
-      "next_update_utc": "2026-11-10T07:00:00Z",
+      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 200,
       "master_records": 200,
-      "retained_snapshots": 3,
+      "retained_snapshots": 4,
       "completeness_pct": 93.2,
       "columns": [
         "venue_id",
@@ -282,7 +282,7 @@
           "longitude": "11.327765",
           "phone": "+49 9261 628000",
           "website_url": "http://www.antla.de",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "venue_id": "aa7cbe9b-3a0f-4888-9884-6186b0042b55",
@@ -297,7 +297,7 @@
           "longitude": "5.0569549",
           "phone": "+32 496 76 40 63",
           "website_url": "http://tdrankorgel.be/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "venue_id": "1034754f-abf9-4b42-bd6d-37e110ba4b1a",
@@ -312,7 +312,7 @@
           "longitude": "4.0913928",
           "phone": "+32 495 43 33 25",
           "website_url": "http://www.tkroontje.be/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "venue_id": "907826b3-6902-4d28-a5e2-f73084bebeed",
@@ -327,7 +327,7 @@
           "longitude": "",
           "phone": "071-3314585",
           "website_url": "https://www.t-veen.nl/t-veense-brouwhuys/",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "venue_id": "5128df48-79fc-4f0f-8b52-d06be54d0cec",
@@ -342,7 +342,7 @@
           "longitude": "-97.46818222",
           "phone": "4058160490",
           "website_url": "http://www.405brewing.com",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "venue_id": "9c5a66c8-cc13-416f-a5d9-0a769c87d318",
@@ -357,7 +357,7 @@
           "longitude": "",
           "phone": "5129211545",
           "website_url": "http://www.512brewing.com",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "venue_id": "34e8c68b-6146-453f-a4b9-1f6cd99a5ada",
@@ -372,7 +372,7 @@
           "longitude": "-87.883363502094",
           "phone": "2624847553",
           "website_url": "https://www.1ofusbrewing.com",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "venue_id": "21f21cc0-5b2f-4b79-be29-3bc625bcc4c8",
@@ -387,7 +387,7 @@
           "longitude": "10.9685585",
           "phone": "+49 911 604237",
           "website_url": "http://www.altenberger-brauhaus.de",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         }
       ]
     },
@@ -397,12 +397,12 @@
       "category": "Healthcare & Life Sciences Data",
       "description": "Device classification records from openFDA: device name, device class, medical specialty, regulation number and review panel. 100 records per refresh, accumulated into a rolling 90-day master file. This is the classification database, not a list of approvals or clearances.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T02:01:31Z",
-      "next_update_utc": "2026-11-10T07:00:00Z",
+      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 100,
-      "master_records": 100,
-      "retained_snapshots": 2,
-      "completeness_pct": 97.6,
+      "master_records": 198,
+      "retained_snapshots": 3,
+      "completeness_pct": 98.4,
       "columns": [
         "device_class",
         "device_name",
@@ -422,68 +422,68 @@
       "sample_csv_url": "samples/fda_medical_devices_sample_50.csv",
       "preview_rows": [
         {
-          "device_class": "1",
-          "device_name": "Automated Urinalysis System",
-          "medical_specialty": "Clinical Chemistry",
-          "regulation_number": "862.2900",
-          "review_panel": "CH",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
           "device_class": "2",
-          "device_name": "Apparatus, Electrosurgical",
-          "medical_specialty": "General, Plastic Surgery",
-          "regulation_number": "878.4400",
-          "review_panel": "SU",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "device_class": "2",
-          "device_name": "Monitor, Heart Sound, Fetal, Ultrasonic",
-          "medical_specialty": "Obstetrics/Gynecology",
-          "regulation_number": "884.2660",
-          "review_panel": "OB",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "device_class": "2",
-          "device_name": "Heparin, Vascular Access Flush",
-          "medical_specialty": "General Hospital",
-          "regulation_number": "880.5200",
-          "review_panel": "HO",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "device_class": "1",
-          "device_name": "Monitor, U.V., Glc",
-          "medical_specialty": "Clinical Chemistry",
-          "regulation_number": "862.2250",
-          "review_panel": "TX",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "device_class": "1",
-          "device_name": "Kit, Identification, Dermatophyte",
-          "medical_specialty": "Microbiology",
-          "regulation_number": "866.2660",
-          "review_panel": "MI",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "device_class": "2",
-          "device_name": "Neurosurgical Laser With Mr Thermography",
-          "medical_specialty": "General, Plastic Surgery",
-          "regulation_number": "878.4810",
+          "device_name": "Stimulator, Peripheral Nerve, Implanted (Pain Relief)",
+          "medical_specialty": "Neurology",
+          "regulation_number": "882.5870",
           "review_panel": "NE",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "device_class": "2",
+          "device_name": "Diagnostic Ultrasonic Transducer, Robotic",
+          "medical_specialty": "Radiology",
+          "regulation_number": "892.1570",
+          "review_panel": "RA",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "device_class": "1",
-          "device_name": "Electrophoretic Separation, Lipoproteins",
-          "medical_specialty": "Clinical Chemistry",
-          "regulation_number": "862.1475",
-          "review_panel": "CH",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "device_name": "Topographer, Corneal, Battery Powered",
+          "medical_specialty": "Ophthalmic",
+          "regulation_number": "886.1350",
+          "review_panel": "OP",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "device_class": "1",
+          "device_name": "Antiserum, Rocky Mountain Spotted Fever",
+          "medical_specialty": "Microbiology",
+          "regulation_number": "866.3500",
+          "review_panel": "MI",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "device_class": "2",
+          "device_name": "Immunoassay Blood Test For Amyloid Pathology Assessment",
+          "medical_specialty": "Immunology",
+          "regulation_number": "866.5840",
+          "review_panel": "IM",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "device_class": "1",
+          "device_name": "Alcohol Control Materials",
+          "medical_specialty": "Clinical Toxicology",
+          "regulation_number": "862.3280",
+          "review_panel": "TX",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "device_class": "2",
+          "device_name": "Lamp, Surgical",
+          "medical_specialty": "General, Plastic Surgery",
+          "regulation_number": "878.4580",
+          "review_panel": "SU",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "device_class": "1",
+          "device_name": "Bougie, Esophageal, Ent",
+          "medical_specialty": "Ear, Nose, Throat",
+          "regulation_number": "874.4420",
+          "review_panel": "EN",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         }
       ]
     },
@@ -493,11 +493,11 @@
       "category": "Healthcare & Life Sciences Data",
       "description": "The 100 most recent drug enforcement reports (recalls) from openFDA each refresh: recall number, firm, classification, status, reason and product description, accumulated into a rolling 90-day master file.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T02:01:31Z",
-      "next_update_utc": "2026-11-10T07:00:00Z",
+      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 99,
-      "master_records": 99,
-      "retained_snapshots": 2,
+      "master_records": 133,
+      "retained_snapshots": 3,
       "completeness_pct": 100.0,
       "columns": [
         "recall_number",
@@ -520,84 +520,84 @@
       "sample_csv_url": "samples/fda_drug_recalls_sample_50.csv",
       "preview_rows": [
         {
-          "recall_number": "D-0062-2027",
-          "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
+          "recall_number": "D-0103-2027",
+          "recalling_firm": "ABC Compounding Co., Inc.",
           "classification": "Class II",
           "status": "Ongoing",
-          "reason_for_recall": "CGMP Deviations.",
-          "product_description": "Brush Buddies, Mint Chocolate Chip Ice Cream Flavored Toothpaste, Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Net Wt. 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-520-35, Item # 88520, UPC 8 10147 88520 6",
-          "recall_initiation_date": "20260910",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "reason_for_recall": "CGMP Deviations",
+          "product_description": "Wechem Hand Guard8/1000mL Bag, Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA, 30013",
+          "recall_initiation_date": "20260922",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "recall_number": "D-0082-2027",
-          "recalling_firm": "Par Health USA, LLC",
-          "classification": "Class I",
-          "status": "Ongoing",
-          "reason_for_recall": "Particulate matter: particulate matter identified as cellulose, polystyrene, polyethylene teraphalate, stainless steel, or stopper material in the product solution.",
-          "product_description": "Argatroban Injection, USP, 250 mg/2.5mL (100 mg/mL), 2.5 mL x 1 Single Dose Vial, Rx only, Manufactured for: Endo USA, Malvern,PA 19355/Argatroban Injection, 250 mg/2.5mL (100 mg/mL), 2.5 mL x 1 Single Dose Vial, Rx only,  Distributed by: Par Pharmaceutical, Chestnut Ridge, NY 10977, NDC 42023-182-01.",
-          "recall_initiation_date": "20261013",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "recall_number": "D-0060-2027",
-          "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
+          "recall_number": "D-0104-2027",
+          "recalling_firm": "Fei Fah Medical Manufacturing Pte. Ltd.",
           "classification": "Class II",
           "status": "Ongoing",
-          "reason_for_recall": "CGMP Deviations.",
-          "product_description": "evo, Sensitive, Anticavity Fluoride Toothpaste, (potassium nitrate 5%, sodium fluoride 0.24%) Sweet Mint, Net Wt. 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-620-35, Item # 88620 UPC8 10147 88620 3",
-          "recall_initiation_date": "20260910",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "reason_for_recall": "CGMP Deviations",
+          "product_description": "ULTRA STRENTGH, ELECTRIC MIDICATED BALM (menthol 16% and methyl salicylate 32%) packaged in a) Net 2.45 oz (70g) (NDC 63299-001-01) and b) 10g (NDC 63299-001-02), Manufactured by Fei Fah Medical Mfg Pte Ltd, Singapore, U.S Distributor: SOLISTICE MEDICINE COMPANY, 215 West Ann Street, Los Angeles, CA 90012",
+          "recall_initiation_date": "20261023",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "recall_number": "D-0056-2027",
-          "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
+          "recall_number": "D-0077-2027",
+          "recalling_firm": "MACLEODS PHARMA USA, INC",
           "classification": "Class II",
           "status": "Ongoing",
-          "reason_for_recall": "CGMP Deviations.",
-          "product_description": "Brush Buddies, Crayola, Silly Scents, Anticavity Fluoride Toothpaste, (sodium fluoride0.243%) Watermelon Flavor, Net Wt. 4.0 oz (113g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-004-40, Item # Product code: 32730, UPC 8 50048 32730 6.",
-          "recall_initiation_date": "20260910",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "recall_number": "D-0067-2027",
-          "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-          "classification": "Class II",
-          "status": "Ongoing",
-          "reason_for_recall": "CGMP Deviations.",
-          "product_description": "BB (Brush Buddies) Advanced Whitening, Anti-Cavity Fluoride Toothpaste, (sodium fluoride 0,24%) Peppermint, Net Wt 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-885-42, Item # 88542, UPC 8 10147 88542 8",
-          "recall_initiation_date": "20260910",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "recall_number": "D-0058-2027",
-          "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-          "classification": "Class II",
-          "status": "Ongoing",
-          "reason_for_recall": "CGMP Deviations.",
-          "product_description": "Brush Buddies, My Little Pony Scents Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Bubble Gum Flavor, Net Wt. 4.0 oz (113g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-008-40, Item# 88270, UPC 8 10147 88270 0.",
-          "recall_initiation_date": "20260910",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "recall_number": "D-0066-2027",
-          "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-          "classification": "Class II",
-          "status": "Ongoing",
-          "reason_for_recall": "CGMP Deviations.",
-          "product_description": "BB (Brush Buddies) Cavity Protection, Anti-Cavity Fluoride Toothpaste, (sodium monofluorophosphate 0.76%) Cool Mint, 2 Value Pack, Two 3.5 oz (99g) tubes, Total Net Wt 7 oz (198g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-035-10, Item # 88543, UPC 8 10147 88543 5",
-          "recall_initiation_date": "20260910",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "recall_number": "D-0079-2027",
-          "recalling_firm": "STRIDES PHARMA INC",
-          "classification": "Class II",
-          "status": "Ongoing",
-          "reason_for_recall": "Failed dissolution specifications",
-          "product_description": "Cinacalcet Tablets, 30 mg, 30-count bottle, Rx only, Manufactured by: Strides Pharma Science Ltd. Puducherry, 605 014, India; Distributed by: Strides Pharma Inc. Bridgewater, NJ 08807, NDC 64380-883-04",
+          "reason_for_recall": "Failed Dissolution Specifications.",
+          "product_description": "Olmesartan Medoxomil, Amlodipine, and Hydrochlorothiazide Tablets 40 mg/10 mg/12.5mg, packaged as a) 30-count bottle, NDC 33342-246-07; b) 90-count bottle, NDC 33342-246-10;  Rx Only, Manufactured for : Macleods Pharma USA, Inc. Princeton, NJ 08540, Manufactured by: Macleods Pharmaceuticals Ltd, Daman, 396210, India",
           "recall_initiation_date": "20261007",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "recall_number": "D-0092-2027",
+          "recalling_firm": "ABC Compounding Co., Inc.",
+          "classification": "Class II",
+          "status": "Ongoing",
+          "reason_for_recall": "CGMP Deviations",
+          "product_description": "Lynx, LX0864 peachy-foam antiseptic handsoap, 1000 ML (33.8 FL OZ.) Manufactured by: ABC Compounding Co., INC., 2500 Dogwood Dr., Conyers, GA 30013, UPC 711808210804.",
+          "recall_initiation_date": "20260922",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "recall_number": "D-0080-2027",
+          "recalling_firm": "Huons Co., Ltd.",
+          "classification": "Class II",
+          "status": "Ongoing",
+          "reason_for_recall": "Failed Impurities/Degradation Specification; detection of polyethylene (PE)-related oligomers",
+          "product_description": "Carboxymethylcellulose Sodium, 0.5% Lubricant Eye Drops, Sterile, 30 Single-Use Containers, 0.02 FL OZ (0.5 mL) each, Manufactured by: Huons Co., Ltd, Jecheon-si, Chungcheongbuk-do, 27159, South Korea; Marketed by: GSMS Incorporated, Camarillo, CA 93012, USA. NDC 51407-945-30  Pouch Label: Carboxymethylcellulose Sodium, Lubricant Eye Drops, 0.5 mL, Single-Use, gsms.",
+          "recall_initiation_date": "20261002",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "recall_number": "D-0098-2027",
+          "recalling_firm": "ABC Compounding Co., Inc.",
+          "classification": "Class II",
+          "status": "Ongoing",
+          "reason_for_recall": "CGMP Deviations",
+          "product_description": "PRO CHEM BAN AID, Antiseptic Hand Soap, Net Contents: 1 GALLON (3.8 L), Sold by: PRO CHEM, Inc.,1475 Bluegrass Lakes Parkway, Alpharetta, GA 30004.",
+          "recall_initiation_date": "20260922",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "recall_number": "D-0091-2027",
+          "recalling_firm": "ABC Compounding Co., Inc.",
+          "classification": "Class II",
+          "status": "Ongoing",
+          "reason_for_recall": "CGMP Deviations",
+          "product_description": "Antiseptic Hand Soap, Net Contents: 1 Gallon (3.8 L) Distributed By: image supply, inc., P.O. Box 1108, 5081 Dawn Drive, Lumberton, NC28359",
+          "recall_initiation_date": "20260922",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "recall_number": "D-0101-2027",
+          "recalling_firm": "ABC Compounding Co., Inc.",
+          "classification": "Class II",
+          "status": "Ongoing",
+          "reason_for_recall": "CGMP Deviations",
+          "product_description": "Spurrier, Antimicrobial Hand Soap, Net Contents: 1 Gallon (3.8 L), Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA, 30013, UPC 726133100508",
+          "recall_initiation_date": "20260922",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         }
       ]
     },
@@ -607,11 +607,11 @@
       "category": "Supply Chain, ESG & Risk Data",
       "description": "The 100 most recent food enforcement reports (recalls) from openFDA each refresh: recall number, firm, classification, reason, voluntary or mandated, and report date, accumulated into a rolling 90-day master file. United States data.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T02:01:31Z",
-      "next_update_utc": "2026-11-10T07:00:00Z",
+      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 99,
-      "master_records": 99,
-      "retained_snapshots": 2,
+      "master_records": 111,
+      "retained_snapshots": 3,
       "completeness_pct": 100.0,
       "columns": [
         "recall_number",
@@ -633,76 +633,76 @@
       "sample_csv_url": "samples/fda_food_recalls_sample_50.csv",
       "preview_rows": [
         {
-          "recall_number": "H-0130-2027",
-          "recalling_firm": "El Ruisenor De Mexico, Inc.",
-          "classification": "Class II",
-          "reason_for_recall": "undeclared allergen ingredient (Red#40, Yellow#5, Yellow#6, Blue#1)",
-          "voluntary_mandated": "Voluntary: Firm initiated",
-          "report_date": "20261028",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "recall_number": "H-0158-2027",
-          "recalling_firm": "El Ruisenor De Mexico, Inc.",
-          "classification": "Class II",
-          "reason_for_recall": "undeclared allergen ingredient (Milk, Soy)",
-          "voluntary_mandated": "Voluntary: Firm initiated",
-          "report_date": "20261028",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "recall_number": "H-0162-2027",
-          "recalling_firm": "El Ruisenor De Mexico, Inc.",
-          "classification": "Class III",
-          "reason_for_recall": "undeclared allergen ingredient (Wheat)",
-          "voluntary_mandated": "Voluntary: Firm initiated",
-          "report_date": "20261028",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
-        },
-        {
-          "recall_number": "H-0141-2027",
-          "recalling_firm": "El Ruisenor De Mexico, Inc.",
+          "recall_number": "H-0184-2027",
+          "recalling_firm": "GF Blends Inc",
           "classification": "Class I",
-          "reason_for_recall": "undeclared allergen ingredient (Sesame, Peanuts, Wheat, Soy, Almonds, Walnuts, Yellow#5, Yellow#6, Red#40, Blue#2)",
+          "reason_for_recall": "Products are recalled due to potential undeclared wheat gluten",
           "voluntary_mandated": "Voluntary: Firm initiated",
-          "report_date": "20261028",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "report_date": "20261104",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "recall_number": "H-0120-2027",
-          "recalling_firm": "El Ruisenor De Mexico, Inc.",
+          "recall_number": "H-0177-2027",
+          "recalling_firm": "EDEN BROTHERS",
+          "classification": "Class I",
+          "reason_for_recall": "Salmonella",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20261104",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "recall_number": "H-0178-2027",
+          "recalling_firm": "Prosperity Organic Foods Inc",
           "classification": "Class II",
-          "reason_for_recall": "undeclared allergen ingredient (Wheat, Yellow #5, Yellow #6)",
+          "reason_for_recall": "Product recalled due to yeast, mold, and E. coli.",
           "voluntary_mandated": "Voluntary: Firm initiated",
-          "report_date": "20261028",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "report_date": "20261104",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "recall_number": "H-0104-2027",
-          "recalling_firm": "El Ruisenor De Mexico, Inc.",
-          "classification": "Class III",
-          "reason_for_recall": "undeclared allergen ingredient (Sesame)",
+          "recall_number": "H-0181-2027",
+          "recalling_firm": "Oliva on Main",
+          "classification": "Class I",
+          "reason_for_recall": "contains undeclared sesame",
           "voluntary_mandated": "Voluntary: Firm initiated",
-          "report_date": "20261028",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "report_date": "20261104",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "recall_number": "H-0159-2027",
-          "recalling_firm": "El Ruisenor De Mexico, Inc.",
-          "classification": "Class III",
-          "reason_for_recall": "undeclared allergen ingredient (Wheat)",
+          "recall_number": "H-0179-2027",
+          "recalling_firm": "Oliva on Main",
+          "classification": "Class I",
+          "reason_for_recall": "contains undeclared sesame",
           "voluntary_mandated": "Voluntary: Firm initiated",
-          "report_date": "20261028",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "report_date": "20261104",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "recall_number": "H-0155-2027",
-          "recalling_firm": "El Ruisenor De Mexico, Inc.",
-          "classification": "Class III",
-          "reason_for_recall": "undeclared allergen ingredient (Soy)",
+          "recall_number": "H-0176-2027",
+          "recalling_firm": "FORTUNA MARKETING, INC",
+          "classification": "Class I",
+          "reason_for_recall": "Broccoli seeds potentially contaminated with Salmonella",
           "voluntary_mandated": "Voluntary: Firm initiated",
-          "report_date": "20261028",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "report_date": "20261104",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "recall_number": "H-0185-2027",
+          "recalling_firm": "GF Blends Inc",
+          "classification": "Class I",
+          "reason_for_recall": "Products are recalled due to potential undeclared wheat gluten",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20261104",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+        },
+        {
+          "recall_number": "H-0182-2027",
+          "recalling_firm": "Sunny Sky Products, LLC",
+          "classification": "Class II",
+          "reason_for_recall": "Product sterility was potentially compromised.",
+          "voluntary_mandated": "Voluntary: Firm initiated",
+          "report_date": "20261104",
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         }
       ]
     },
@@ -712,11 +712,11 @@
       "category": "Alternative Investment & Sentiment Signals",
       "description": "Metadata for the 30 most recently updated cs.AI papers on arXiv each refresh: title, link, 250-character abstract preview and update date, accumulated into a rolling 90-day master file.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T02:01:31Z",
-      "next_update_utc": "2026-11-10T07:00:00Z",
+      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 30,
-      "master_records": 30,
-      "retained_snapshots": 3,
+      "master_records": 60,
+      "retained_snapshots": 4,
       "completeness_pct": 100.0,
       "columns": [
         "paper_title",
@@ -737,68 +737,68 @@
       "sample_csv_url": "samples/arxiv_ai_research_sample_50.csv",
       "preview_rows": [
         {
-          "paper_title": "On Agentic Manipulation Policies",
-          "arxiv_url": "http://arxiv.org/abs/2611.09892v1",
-          "abstract_preview": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-a",
-          "publication_date": "2026-11-06",
+          "paper_title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+          "arxiv_url": "http://arxiv.org/abs/2611.12557v1",
+          "abstract_preview": "Video world models conditioned on an input video make it possible to explore real, recorded dynamic scenes, enabling re-shooting of footage, free-viewpoint replay, and real-to-sim environments for embodied agents. Such uses require the generated roll",
+          "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "paper_title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
-          "arxiv_url": "http://arxiv.org/abs/2611.09891v1",
-          "abstract_preview": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its s",
-          "publication_date": "2026-11-06",
+          "paper_title": "Correctness vs Efficiency: Behavior Control with Weight-Space Extrapolation in Code RL",
+          "arxiv_url": "http://arxiv.org/abs/2605.28751v2",
+          "abstract_preview": "A model trained with an imperfect reward in RL may learn to exploit the reward with undesired behavior. We study a controlled form of this problem in competitive programming. A program may pass small tests while violating the intended efficiency requ",
+          "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "paper_title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
-          "arxiv_url": "http://arxiv.org/abs/2611.09872v1",
-          "abstract_preview": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direc",
-          "publication_date": "2026-11-06",
+          "paper_title": "Hierarchical Conformal Classification",
+          "arxiv_url": "http://arxiv.org/abs/2508.13288v2",
+          "abstract_preview": "Conformal prediction (CP) is a powerful framework for quantifying uncertainty in machine learning models, offering reliable predictions with finite-sample coverage guarantees. When applied to classification, CP produces a prediction set of possible l",
+          "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "paper_title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
-          "arxiv_url": "http://arxiv.org/abs/2611.09866v1",
-          "abstract_preview": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated ",
-          "publication_date": "2026-11-06",
+          "paper_title": "Conformal PM2.5 Mapping Under Spatial Covariate Shift: Satellite-Reanalysis Fusion for Africa's Green Industrial Transition",
+          "arxiv_url": "http://arxiv.org/abs/2604.22787v2",
+          "abstract_preview": "Africa's green industrialization imperative demands reliable infrastructure for monitoring air quality. We present a satellite-reanalysis PM2.5 fusion system trained on 2,068,901 records from 404 monitoring locations in 29 African countries (OpenAQ, ",
+          "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "paper_title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
-          "arxiv_url": "http://arxiv.org/abs/2611.09864v1",
-          "abstract_preview": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent p",
-          "publication_date": "2026-11-06",
+          "paper_title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
+          "arxiv_url": "http://arxiv.org/abs/2611.12552v1",
+          "abstract_preview": "We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, ",
+          "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "paper_title": "Flow-Guided Target-Space Alignment via Path Consistency",
-          "arxiv_url": "http://arxiv.org/abs/2611.09863v1",
-          "abstract_preview": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, succes",
-          "publication_date": "2026-11-06",
+          "paper_title": "A Strict Upper Bound for Three-Point Weighted Selection in Planar Vector-Valued Regression",
+          "arxiv_url": "http://arxiv.org/abs/2611.12550v1",
+          "abstract_preview": "We prove $F_{\\mathrm{weighted}}(2,2,3)<11/6$ for minimum-Frobenius-norm least-squares regression with two input and two output coordinates, improving the upper bound $15/8$. More precisely, a universal $\\varepsilon_0>0$ satisfies $\\mathcal T_3\\le(5/6",
+          "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "paper_title": "Differentiable Nonlinear Model Predictive Control",
-          "arxiv_url": "http://arxiv.org/abs/2505.01353v3",
-          "abstract_preview": "The efficient computation of parametric solution sensitivities is a key challenge in the integration of learning-enhanced methods with nonlinear model predictive control, as their availability is crucial for many learning algorithms. This paper discu",
-          "publication_date": "2026-11-06",
+          "paper_title": "Web World Models",
+          "arxiv_url": "http://arxiv.org/abs/2512.23676v2",
+          "abstract_preview": "Language agents increasingly require persistent worlds in which they can act, remember, and learn. Existing approaches sit at two extremes: conventional web frameworks provide reliable but fixed contexts backed by databases, while fully generative wo",
+          "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
-          "paper_title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization",
-          "arxiv_url": "http://arxiv.org/abs/2611.09846v1",
-          "abstract_preview": "This paper describes an approach and use case to estimate the correctness of LLM-generated COBOL summaries without access to human-authored references. The core intuition is that inter-model agreement on semantics is informative about truth, and that",
-          "publication_date": "2026-11-06",
+          "paper_title": "EffiNav: Fusing Depth and Vision-Language for Efficient Object Goal Navigation",
+          "arxiv_url": "http://arxiv.org/abs/2606.18634v2",
+          "abstract_preview": "To locate a target object while exploring the unknown environment is a fundamental capability for autonomous agents, with applications ranging from search-and-rescue to field robots. A simplified version of such task is Object Goal Navigation (ObjNav",
+          "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         }
       ]
     },
@@ -808,11 +808,11 @@
       "category": "Alternative Investment & Sentiment Signals",
       "description": "Daily English Wikipedia pageview counts for 6 tracked entities (Nvidia, OpenAI, Microsoft, Tesla, Bitcoin, Amazon) over the most recent 9 days. Pageviews only; it does not include search volume.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T02:01:31Z",
-      "next_update_utc": "2026-11-10T07:00:00Z",
-      "latest_records": 48,
-      "master_records": 48,
-      "retained_snapshots": 3,
+      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "next_update_utc": "2026-11-10T19:00:00Z",
+      "latest_records": 54,
+      "master_records": 54,
+      "retained_snapshots": 4,
       "completeness_pct": 100.0,
       "columns": [
         "entity",
@@ -834,49 +834,49 @@
           "entity": "Nvidia",
           "date": "20261101",
           "daily_views": "7196",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261102",
           "daily_views": "7838",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261103",
           "daily_views": "8383",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261104",
           "daily_views": "7206",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261105",
           "daily_views": "7613",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261106",
           "daily_views": "7740",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261107",
           "daily_views": "8324",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261108",
           "daily_views": "21027",
-          "collected_at_iso": "2026-11-10T02:01:31+00:00"
+          "collected_at_iso": "2026-11-10T07:21:07+00:00"
         }
       ]
     }
