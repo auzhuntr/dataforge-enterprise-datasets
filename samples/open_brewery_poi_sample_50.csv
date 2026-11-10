@@ -1,51 +1,51 @@
 venue_id,venue_name,venue_type,address,city,state_province,postal_code,country,latitude,longitude,phone,website_url,collected_at_iso
-ae7b3174-8be8-4d53-a3a5-9b8240970eea,'s,brewpub,Friesener Straße 1,Kronach,Bayern,96317,Germany,50.241246,11.327765,+49 9261 628000,http://www.antla.de,2026-11-10T14:11:27+00:00
-ea4f30c0-bce6-416b-8904-fab4055a7362,10 Barrel Brewing Co - Boise,large,826 W Bannock St,Boise,Idaho,83702-5857,United States,43.618516,-116.202929,2083445870,http://www.10barrel.com,2026-11-10T14:11:27+00:00
-7531dbd8-afc9-4b5b-95bc-7ece7f2c0bf3,10-56 Brewing Company,micro,400 Brown Cir,Knox,Indiana,46534,United States,41.289715,-86.627954,6308165790,,2026-11-10T14:11:27+00:00
-42aa37d5-8384-4ffe-8c81-7c982eff0384,10K Brewing,micro,2005 2nd Ave,Anoka,Minnesota,55303-2243,United States,45.19812039,-93.38952559,7633924753,http://10KBrew.com,2026-11-10T14:11:27+00:00
-d81ff708-b5d2-478f-af6a-6d40f5beb9ac,12 Gates Brewing Company,brewpub,80 Earhart Dr Ste 20,Williamsville,New York,14221-7804,United States,,,7169066600,http://www.12gatesbrewing.com,2026-11-10T14:11:27+00:00
-50521ef7-f543-4c5d-98b1-0d0ee1a2be01,12welve Eyes Brewing,micro,141 E 4th St Ste LL2,Saint Paul,Minnesota,55101-1639,United States,,,6514938106,http://www.12welveEyes.com,2026-11-10T14:11:27+00:00
-950180bd-29c9-46b3-ad0c-e6f09799ec7f,13 Below Brewery,micro,7391 Forbes Rd,Cincinnati,Ohio,45233-1013,United States,39.12639764,-84.70634815,5139750613,http://www.13belowbrewery.com,2026-11-10T14:11:27+00:00
-c1dc2b15-1ad0-4af4-840b-13a5c204f19a,1516 Westparkbräu,brewpub,Am Westpark 6,Ingolstadt,Bayern,85057,Germany,48.7752587,11.3903278,+49 841 9568777,http://www.westparkbraeu.com,2026-11-10T14:11:27+00:00
-31935dfe-87ab-4b3c-b845-1347e78f3d98,1812 Brewery,micro,13006 Mason Road NE,Cumberland,Maryland,21502,United States,39.7021475,-78.7008528,3013382490,http://1812brewery.com/,2026-11-10T14:11:27+00:00
-1a1b2165-73ed-40aa-b89b-56794d140f22,1840 Brewing Company,micro,342 E Ward St,Milwaukee,Wisconsin,53207-1348,United States,43.00436242,-87.90606942,4142364056,http://www.1840brewing.com,2026-11-10T14:11:27+00:00
-add7f978-942e-4d56-b209-c80837a51d69,18th Street Brewery,micro,5417 Oakley Ave,Hammond,Indiana,46320-1817,United States,41.61556796,-87.517422,,,2026-11-10T14:11:27+00:00
-97f86746-ac71-4c47-9506-2af55f1b5614,2 Brothers Brewing,micro,Waddinxveen,Waddinxveen,Zuid-Holland,,Netherlands,,,,https://www.2brothersbrewing.nl/,2026-11-10T14:11:27+00:00
-8436b02b-9a06-474c-b5eb-8ff9aedf1f99,2 Dogz and A Guy Brewing,micro,228 Church St,Montrose,Pennsylvania,18801-1271,United States,41.8336364,-75.8800318,5704320069,http://2dogzandaguybrewing.com,2026-11-10T14:11:27+00:00
-fb2460bb-d6bb-4690-a700-f0b5628cc7dd,2 Silos Brewing Company,micro,9925 Discovery Blvd,Manassas,Virginia,20109,United States,,,7034202257,http://www.2silosbrewing.com,2026-11-10T14:11:27+00:00
-5ec3b488-48bd-49a7-9828-05bd90195cd5,2 Tread Brewing Co,brewpub,1018 Santa Rosa Plz,Santa Rosa,California,95401-6399,United States,38.4387767,-122.7167729,4152330857,http://www.2treadbrewing.com,2026-11-10T14:11:27+00:00
-00fdce16-e1dd-4678-87f2-45550f9083e1,212 Brewing Company,contract,21476 Route 23,Davenport,New York,13750,United States,,,2123779050,,2026-11-10T14:11:27+00:00
-46a8ed58-5d1a-413e-871e-d2d29d6d43f0,217 Brew Works,micro,217 South St S,Wilson,North Carolina,27893-4911,United States,35.7227625,-77.9120318,2529916959,,2026-11-10T14:11:27+00:00
-e05dc493-284f-4ece-995e-19899398f077,238 Brewing Company,closed,10321 E Day Mt Spokane Rd,Mead,Washington,99021,United States,,,5092382739,http://www.238brewing.com,2026-11-10T14:11:27+00:00
-29c73154-9117-4f27-98e1-b5bb5f69c055,23rd Ave Brewery,closed,2313 S Jackson St,Seattle,Washington,98144-2340,United States,47.599163,-122.301811,2066792048,https://23rd-ave-brewery.square.site,2026-11-10T14:11:27+00:00
-43cd61af-dd59-4a91-8e3f-fce26a141a9b,28 Brewery,micro,80 Boulevard Anspach,Bruxelles,Brussels Capital Region,1000,Belgium,50.8482035,4.3499006,+32 2 880 47 00,https://www.belgianbeerworld.be/,2026-11-10T14:11:27+00:00
-d6e77d51-2fa2-44cb-89b3-c94bf1dc77df,28th State Brewing,planning,,Houston,Texas,77095-6933,United States,,,,https://www.instagram.com/28thstatebrew/?hl=en,2026-11-10T14:11:27+00:00
-e45c9ca7-f82d-42a0-8daa-4f3a2555bc25,2Donkey Brewery,contract,De Trompet 1945,Heemskerk,Noord-Holland,1967 DB,Netherlands,,,06-22310380,https://padelblond.nl/,2026-11-10T14:11:27+00:00
-e2923681-b2b4-443b-9f90-6d560992e85f,2T,micro,Bismarckstraße 1,Lindlar,Nordrhein-Westfalen,51789,Germany,51.0241713,7.375127,+49 2266 8058830,http://www.2t-brauerei.de,2026-11-10T14:11:27+00:00
-065200ec-51cf-4612-b1b9-61f7db489c3c,3 Daughters Brewing,micro,222 22nd St S,Saint Petersburg,Florida,33712-1240,United States,27.76899022,-82.6629721,7274956002,http://www.3dbrewing.com,2026-11-10T14:11:27+00:00
-1218736c-bfcf-4b95-b473-7399aaf60d1d,"3 Keys Brewing Company, LLC",brewpub,2505 Manatee Ave E,Bradenton,Florida,34208-2421,United States,27.49645026,-82.53393502,9412180396,http://www.3keysbrewing.com,2026-11-10T14:11:27+00:00
-e2ddeea8-03d4-43e7-bfd0-d27797b9d016,3 Sons Brewing Co.,proprietor,236 N Federal Hwy,Dania,Florida,33004-2870,United States,26.04800238,-80.14361029,9546013833,http://www.3sonsbrewingco.com,2026-11-10T14:11:27+00:00
-cb56e27e-d113-4f74-925a-69305a56d082,3 Trails Brewing Co,micro,111 N Main St,Independence,Missouri,64050,United States,39.122385,-94.41265,8168866256,http://www.3trailsbrewing.com,2026-11-10T14:11:27+00:00
-3b0b5b9b-f6d8-49e3-8ebd-0bcef6939bcd,32 North Brewing Co,brewpub,8655 Production Ave Ste A,San Diego,California,92121-2258,United States,32.88313237,-117.1649842,(619) 363-2622,https://42northbrewing.com,2026-11-10T14:11:27+00:00
-3b836ff9-8088-4df0-b2f1-8287f2a35b81,33 Acres Brewing Company,brewpub,15 West 8th Avenue,Vancouver,British Columbia,V5Y 1M8,Canada,49.2637804,-123.1053533,,http://www.33acresbrewing.com,2026-11-10T14:11:27+00:00
-098595c2-f606-40b4-9b49-195f73fb6fd6,350 Brewing Co,brewpub,7144 183rd St,Tinley Park,Illinois,60477-3933,United States,41.55864726,-87.79160288,7088257339,http://www.350brewing.com,2026-11-10T14:11:27+00:00
-63969ec8-b557-4c71-b993-ad00c99ab70e,360 Degree Brewing Company,micro,Bluebell Business Estate,Sheffield Park,East Sussex,TN22 3HQ,England,50.993912,-0.00086,1825722375,https://www.360degreebrewing.com/,2026-11-10T14:11:27+00:00
-b72f2ce6-e062-404d-ac31-c1060db2d870,4 By 4 Brewing Company,micro,2811 E Galloway St Ste A,Springfield,Missouri,65804-4601,United States,37.147986,-93.239889,4178616400,http://www.4by4brewingcompany.com,2026-11-10T14:11:27+00:00
-dc652569-19d7-4f63-a999-3e8d5d6798c1,4 Noses Brewing Company,micro,8855 W 116th Cir Ste 3,Broomfield,Colorado,80021-2521,United States,,,7204602797,http://4nosesbrewing.com,2026-11-10T14:11:27+00:00
-d4c7fb43-6671-4597-8cdd-e938d751aca2,400 North Brewing,planning,,Sugarhill,Georgia,30518-7916,United States,,,4047911119,http://400northbrewing.com,2026-11-10T14:11:27+00:00
-ef60f8cf-0fdc-4ea1-aa94-09e1f869176b,412 Brews,brewpub,706 Island Ave,Mc Kees Rocks,Pennsylvania,15136-3287,United States,,,,http://www.412brews.com,2026-11-10T14:11:27+00:00
-52dd0878-928b-4b47-b7fa-602f140592ed,4204 Main Street Brewing Co,brewpub,4204 W Main St,Belleville,Illinois,62226,United States,38.53796122,-90.02053343,6184167261,,2026-11-10T14:11:27+00:00
-1d3084b5-c9bc-4380-9862-14e837b82bb9,45 Degree Brewhouse,micro,10421 E Sprague Ave,Spokane Valley,Washington,99206-3629,United States,47.657478,-117.264473,5092413281,http://45degreebrewhouse.com,2026-11-10T14:11:27+00:00
-cd97aeab-a499-4c95-b20b-881bfe3ed6c8,49th State Brewing Co,micro,248.4 Parks Hwy 5 Mile,Healy,Alaska,99743,United States,63.864759,-149.017877,9076832739,https://www.49statebrewing.com/denali,2026-11-10T14:11:27+00:00
-aea0a6f9-557e-4907-be23-d80737a071e4,4J Brewing Company,micro,1348 Cedar Post Ln.,Houston,Texas,77055,United States,,,7136780776,https://4jbrewingcompany.com,2026-11-10T14:11:27+00:00
-257e9aac-7dbe-4656-b366-9d8a94c49d58,5 North Brewing Company,closed,6501 N Cedar Rd,Spokane,Washington,99208,United States,47.71758683,-117.4328496,5093217818,http://5northbrewingcompany.com/,2026-11-10T14:11:27+00:00
-a34cb542-e683-4e86-ac8a-d285f891f083,5 Paddles Brewing Company,micro,1 Industrial Blvd,Whitby,Ontario,L1N 9L5,Canada,,,9054445050.0,http://5paddlesbrewing.com,2026-11-10T14:11:27+00:00
-12e7f950-af94-4014-abdf-e09600209de9,555 Brewing Co.,micro,297 Main St,Wellington,Ontario,K0K 3L0,Canada,,,,http://www.555beer.com,2026-11-10T14:11:27+00:00
-f4a902c1-e5a6-43da-b3e4-a1ffc97d31a9,5770 Brewery,micro,303A W Main St,Teutopolis,Illinois,62467-1355,United States,39.13142194,-88.47806652,6183397841,http://www.5770brewery.com,2026-11-10T14:11:27+00:00
-cc8de428-9663-466c-bae8-73ad9edf0892,5th Line Brewing Co,micro,1015 E Lincoln Ave Ste 106,Yakima,Washington,98901-2534,United States,46.61136701,-120.4930458,5093676300,https://5thlinebrewing.com/,2026-11-10T14:11:27+00:00
-76ee21a3-d4bd-4526-9ef8-5a23a4507566,6 Bridges Brewing,planning,,Johns Creek,Georgia,30097,United States,,,7708460292,http://www.sixbridgesbrewing.com,2026-11-10T14:11:27+00:00
-ddf69cff-978e-47b6-b42e-75f102418bd0,603 Brewery,micro,12 Liberty Dr Unit 7,Londonderry,New Hampshire,03053-2286,United States,,,6036307745,http://www.603brewery.com,2026-11-10T14:11:27+00:00
-c02412dc-7507-4047-9497-9066e454c4e1,666 Brewing,closed,34 Mahana Road,Hamilton,Waikato Region,3200,New Zealand,-37.7589444,175.2515685,+64 7 282 0254,http://www.brewaucracy.co.nz/,2026-11-10T14:11:27+00:00
-4e84a8d0-0d52-431e-a57a-da8977625bd2,7 Locks Brewing,micro,12227 Wilkins Ave,Rockville,Maryland,20852-1833,United States,39.0561237,-77.1103415,3018417123,http://www.7locksbrewing.com,2026-11-10T14:11:27+00:00
-84c84db6-1120-4106-a5d3-fd65b9d7303d,7 Mile Brewery,micro,3156 Route 9 South Ste 1-2,Rio Grande,New Jersey,08242,United States,,,6093657777,http://www.7milebrew.com,2026-11-10T14:11:27+00:00
-e062c040-4ff9-46f1-9f3d-172626694cb0,7 Seas Brewing Co - Gig Harbor,taproom,2905 Harborview Dr,Gig Harbor,Washington,98335-1910,United States,47.328217,-122.577347,2535148129,https://www.7seasbrewing.com/gig-harbor,2026-11-10T14:11:27+00:00
+ae7b3174-8be8-4d53-a3a5-9b8240970eea,'s,brewpub,Friesener Straße 1,Kronach,Bayern,96317,Germany,50.241246,11.327765,+49 9261 628000,http://www.antla.de,2026-11-10T14:15:11+00:00
+ea4f30c0-bce6-416b-8904-fab4055a7362,10 Barrel Brewing Co - Boise,large,826 W Bannock St,Boise,Idaho,83702-5857,United States,43.618516,-116.202929,2083445870,http://www.10barrel.com,2026-11-10T14:15:11+00:00
+7531dbd8-afc9-4b5b-95bc-7ece7f2c0bf3,10-56 Brewing Company,micro,400 Brown Cir,Knox,Indiana,46534,United States,41.289715,-86.627954,6308165790,,2026-11-10T14:15:11+00:00
+42aa37d5-8384-4ffe-8c81-7c982eff0384,10K Brewing,micro,2005 2nd Ave,Anoka,Minnesota,55303-2243,United States,45.19812039,-93.38952559,7633924753,http://10KBrew.com,2026-11-10T14:15:11+00:00
+d81ff708-b5d2-478f-af6a-6d40f5beb9ac,12 Gates Brewing Company,brewpub,80 Earhart Dr Ste 20,Williamsville,New York,14221-7804,United States,,,7169066600,http://www.12gatesbrewing.com,2026-11-10T14:15:11+00:00
+50521ef7-f543-4c5d-98b1-0d0ee1a2be01,12welve Eyes Brewing,micro,141 E 4th St Ste LL2,Saint Paul,Minnesota,55101-1639,United States,,,6514938106,http://www.12welveEyes.com,2026-11-10T14:15:11+00:00
+950180bd-29c9-46b3-ad0c-e6f09799ec7f,13 Below Brewery,micro,7391 Forbes Rd,Cincinnati,Ohio,45233-1013,United States,39.12639764,-84.70634815,5139750613,http://www.13belowbrewery.com,2026-11-10T14:15:11+00:00
+c1dc2b15-1ad0-4af4-840b-13a5c204f19a,1516 Westparkbräu,brewpub,Am Westpark 6,Ingolstadt,Bayern,85057,Germany,48.7752587,11.3903278,+49 841 9568777,http://www.westparkbraeu.com,2026-11-10T14:15:11+00:00
+31935dfe-87ab-4b3c-b845-1347e78f3d98,1812 Brewery,micro,13006 Mason Road NE,Cumberland,Maryland,21502,United States,39.7021475,-78.7008528,3013382490,http://1812brewery.com/,2026-11-10T14:15:11+00:00
+1a1b2165-73ed-40aa-b89b-56794d140f22,1840 Brewing Company,micro,342 E Ward St,Milwaukee,Wisconsin,53207-1348,United States,43.00436242,-87.90606942,4142364056,http://www.1840brewing.com,2026-11-10T14:15:11+00:00
+add7f978-942e-4d56-b209-c80837a51d69,18th Street Brewery,micro,5417 Oakley Ave,Hammond,Indiana,46320-1817,United States,41.61556796,-87.517422,,,2026-11-10T14:15:11+00:00
+97f86746-ac71-4c47-9506-2af55f1b5614,2 Brothers Brewing,micro,Waddinxveen,Waddinxveen,Zuid-Holland,,Netherlands,,,,https://www.2brothersbrewing.nl/,2026-11-10T14:15:11+00:00
+8436b02b-9a06-474c-b5eb-8ff9aedf1f99,2 Dogz and A Guy Brewing,micro,228 Church St,Montrose,Pennsylvania,18801-1271,United States,41.8336364,-75.8800318,5704320069,http://2dogzandaguybrewing.com,2026-11-10T14:15:11+00:00
+fb2460bb-d6bb-4690-a700-f0b5628cc7dd,2 Silos Brewing Company,micro,9925 Discovery Blvd,Manassas,Virginia,20109,United States,,,7034202257,http://www.2silosbrewing.com,2026-11-10T14:15:11+00:00
+5ec3b488-48bd-49a7-9828-05bd90195cd5,2 Tread Brewing Co,brewpub,1018 Santa Rosa Plz,Santa Rosa,California,95401-6399,United States,38.4387767,-122.7167729,4152330857,http://www.2treadbrewing.com,2026-11-10T14:15:11+00:00
+00fdce16-e1dd-4678-87f2-45550f9083e1,212 Brewing Company,contract,21476 Route 23,Davenport,New York,13750,United States,,,2123779050,,2026-11-10T14:15:11+00:00
+46a8ed58-5d1a-413e-871e-d2d29d6d43f0,217 Brew Works,micro,217 South St S,Wilson,North Carolina,27893-4911,United States,35.7227625,-77.9120318,2529916959,,2026-11-10T14:15:11+00:00
+e05dc493-284f-4ece-995e-19899398f077,238 Brewing Company,closed,10321 E Day Mt Spokane Rd,Mead,Washington,99021,United States,,,5092382739,http://www.238brewing.com,2026-11-10T14:15:11+00:00
+29c73154-9117-4f27-98e1-b5bb5f69c055,23rd Ave Brewery,closed,2313 S Jackson St,Seattle,Washington,98144-2340,United States,47.599163,-122.301811,2066792048,https://23rd-ave-brewery.square.site,2026-11-10T14:15:11+00:00
+43cd61af-dd59-4a91-8e3f-fce26a141a9b,28 Brewery,micro,80 Boulevard Anspach,Bruxelles,Brussels Capital Region,1000,Belgium,50.8482035,4.3499006,+32 2 880 47 00,https://www.belgianbeerworld.be/,2026-11-10T14:15:11+00:00
+d6e77d51-2fa2-44cb-89b3-c94bf1dc77df,28th State Brewing,planning,,Houston,Texas,77095-6933,United States,,,,https://www.instagram.com/28thstatebrew/?hl=en,2026-11-10T14:15:11+00:00
+e45c9ca7-f82d-42a0-8daa-4f3a2555bc25,2Donkey Brewery,contract,De Trompet 1945,Heemskerk,Noord-Holland,1967 DB,Netherlands,,,06-22310380,https://padelblond.nl/,2026-11-10T14:15:11+00:00
+e2923681-b2b4-443b-9f90-6d560992e85f,2T,micro,Bismarckstraße 1,Lindlar,Nordrhein-Westfalen,51789,Germany,51.0241713,7.375127,+49 2266 8058830,http://www.2t-brauerei.de,2026-11-10T14:15:11+00:00
+065200ec-51cf-4612-b1b9-61f7db489c3c,3 Daughters Brewing,micro,222 22nd St S,Saint Petersburg,Florida,33712-1240,United States,27.76899022,-82.6629721,7274956002,http://www.3dbrewing.com,2026-11-10T14:15:11+00:00
+1218736c-bfcf-4b95-b473-7399aaf60d1d,"3 Keys Brewing Company, LLC",brewpub,2505 Manatee Ave E,Bradenton,Florida,34208-2421,United States,27.49645026,-82.53393502,9412180396,http://www.3keysbrewing.com,2026-11-10T14:15:11+00:00
+e2ddeea8-03d4-43e7-bfd0-d27797b9d016,3 Sons Brewing Co.,proprietor,236 N Federal Hwy,Dania,Florida,33004-2870,United States,26.04800238,-80.14361029,9546013833,http://www.3sonsbrewingco.com,2026-11-10T14:15:11+00:00
+cb56e27e-d113-4f74-925a-69305a56d082,3 Trails Brewing Co,micro,111 N Main St,Independence,Missouri,64050,United States,39.122385,-94.41265,8168866256,http://www.3trailsbrewing.com,2026-11-10T14:15:11+00:00
+3b0b5b9b-f6d8-49e3-8ebd-0bcef6939bcd,32 North Brewing Co,brewpub,8655 Production Ave Ste A,San Diego,California,92121-2258,United States,32.88313237,-117.1649842,(619) 363-2622,https://42northbrewing.com,2026-11-10T14:15:11+00:00
+3b836ff9-8088-4df0-b2f1-8287f2a35b81,33 Acres Brewing Company,brewpub,15 West 8th Avenue,Vancouver,British Columbia,V5Y 1M8,Canada,49.2637804,-123.1053533,,http://www.33acresbrewing.com,2026-11-10T14:15:11+00:00
+098595c2-f606-40b4-9b49-195f73fb6fd6,350 Brewing Co,brewpub,7144 183rd St,Tinley Park,Illinois,60477-3933,United States,41.55864726,-87.79160288,7088257339,http://www.350brewing.com,2026-11-10T14:15:11+00:00
+63969ec8-b557-4c71-b993-ad00c99ab70e,360 Degree Brewing Company,micro,Bluebell Business Estate,Sheffield Park,East Sussex,TN22 3HQ,England,50.993912,-0.00086,1825722375,https://www.360degreebrewing.com/,2026-11-10T14:15:11+00:00
+b72f2ce6-e062-404d-ac31-c1060db2d870,4 By 4 Brewing Company,micro,2811 E Galloway St Ste A,Springfield,Missouri,65804-4601,United States,37.147986,-93.239889,4178616400,http://www.4by4brewingcompany.com,2026-11-10T14:15:11+00:00
+dc652569-19d7-4f63-a999-3e8d5d6798c1,4 Noses Brewing Company,micro,8855 W 116th Cir Ste 3,Broomfield,Colorado,80021-2521,United States,,,7204602797,http://4nosesbrewing.com,2026-11-10T14:15:11+00:00
+d4c7fb43-6671-4597-8cdd-e938d751aca2,400 North Brewing,planning,,Sugarhill,Georgia,30518-7916,United States,,,4047911119,http://400northbrewing.com,2026-11-10T14:15:11+00:00
+ef60f8cf-0fdc-4ea1-aa94-09e1f869176b,412 Brews,brewpub,706 Island Ave,Mc Kees Rocks,Pennsylvania,15136-3287,United States,,,,http://www.412brews.com,2026-11-10T14:15:11+00:00
+52dd0878-928b-4b47-b7fa-602f140592ed,4204 Main Street Brewing Co,brewpub,4204 W Main St,Belleville,Illinois,62226,United States,38.53796122,-90.02053343,6184167261,,2026-11-10T14:15:11+00:00
+1d3084b5-c9bc-4380-9862-14e837b82bb9,45 Degree Brewhouse,micro,10421 E Sprague Ave,Spokane Valley,Washington,99206-3629,United States,47.657478,-117.264473,5092413281,http://45degreebrewhouse.com,2026-11-10T14:15:11+00:00
+cd97aeab-a499-4c95-b20b-881bfe3ed6c8,49th State Brewing Co,micro,248.4 Parks Hwy 5 Mile,Healy,Alaska,99743,United States,63.864759,-149.017877,9076832739,https://www.49statebrewing.com/denali,2026-11-10T14:15:11+00:00
+aea0a6f9-557e-4907-be23-d80737a071e4,4J Brewing Company,micro,1348 Cedar Post Ln.,Houston,Texas,77055,United States,,,7136780776,https://4jbrewingcompany.com,2026-11-10T14:15:11+00:00
+257e9aac-7dbe-4656-b366-9d8a94c49d58,5 North Brewing Company,closed,6501 N Cedar Rd,Spokane,Washington,99208,United States,47.71758683,-117.4328496,5093217818,http://5northbrewingcompany.com/,2026-11-10T14:15:11+00:00
+a34cb542-e683-4e86-ac8a-d285f891f083,5 Paddles Brewing Company,micro,1 Industrial Blvd,Whitby,Ontario,L1N 9L5,Canada,,,9054445050.0,http://5paddlesbrewing.com,2026-11-10T14:15:11+00:00
+12e7f950-af94-4014-abdf-e09600209de9,555 Brewing Co.,micro,297 Main St,Wellington,Ontario,K0K 3L0,Canada,,,,http://www.555beer.com,2026-11-10T14:15:11+00:00
+f4a902c1-e5a6-43da-b3e4-a1ffc97d31a9,5770 Brewery,micro,303A W Main St,Teutopolis,Illinois,62467-1355,United States,39.13142194,-88.47806652,6183397841,http://www.5770brewery.com,2026-11-10T14:15:11+00:00
+cc8de428-9663-466c-bae8-73ad9edf0892,5th Line Brewing Co,micro,1015 E Lincoln Ave Ste 106,Yakima,Washington,98901-2534,United States,46.61136701,-120.4930458,5093676300,https://5thlinebrewing.com/,2026-11-10T14:15:11+00:00
+76ee21a3-d4bd-4526-9ef8-5a23a4507566,6 Bridges Brewing,planning,,Johns Creek,Georgia,30097,United States,,,7708460292,http://www.sixbridgesbrewing.com,2026-11-10T14:15:11+00:00
+ddf69cff-978e-47b6-b42e-75f102418bd0,603 Brewery,micro,12 Liberty Dr Unit 7,Londonderry,New Hampshire,03053-2286,United States,,,6036307745,http://www.603brewery.com,2026-11-10T14:15:11+00:00
+c02412dc-7507-4047-9497-9066e454c4e1,666 Brewing,closed,34 Mahana Road,Hamilton,Waikato Region,3200,New Zealand,-37.7589444,175.2515685,+64 7 282 0254,http://www.brewaucracy.co.nz/,2026-11-10T14:15:11+00:00
+4e84a8d0-0d52-431e-a57a-da8977625bd2,7 Locks Brewing,micro,12227 Wilkins Ave,Rockville,Maryland,20852-1833,United States,39.0561237,-77.1103415,3018417123,http://www.7locksbrewing.com,2026-11-10T14:15:11+00:00
+84c84db6-1120-4106-a5d3-fd65b9d7303d,7 Mile Brewery,micro,3156 Route 9 South Ste 1-2,Rio Grande,New Jersey,08242,United States,,,6093657777,http://www.7milebrew.com,2026-11-10T14:15:11+00:00
+e062c040-4ff9-46f1-9f3d-172626694cb0,7 Seas Brewing Co - Gig Harbor,taproom,2905 Harborview Dr,Gig Harbor,Washington,98335-1910,United States,47.328217,-122.577347,2535148129,https://www.7seasbrewing.com/gig-harbor,2026-11-10T14:15:11+00:00
