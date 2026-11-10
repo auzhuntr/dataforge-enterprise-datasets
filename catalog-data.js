@@ -1,7 +1,7 @@
 window.DATAFORGE_CATALOG = {
-  "generated_at_utc": "2026-11-09T19:00:11Z",
+  "generated_at_utc": "2026-11-10T01:57:34Z",
   "total_datasets": 8,
-  "total_cumulative_records": 1174,
+  "total_cumulative_records": 1137,
   "refresh_cycle": "12-Hourly Automated Pipeline (Rolling 90-Day Master + 60 Snapshot Archive)",
   "datasets": [
     {
@@ -10,12 +10,12 @@ window.DATAFORGE_CATALOG = {
       "category": "Points of Interest (POI) & Geospatial Data",
       "description": "Directory of United States universities and colleges with their websites and internet domains, from the Hipo university-domains-list. Up to 300 records per refresh.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T19:00:11Z",
-      "next_update_utc": "2026-11-10T07:00:11Z",
-      "latest_records": 300,
-      "master_records": 300,
-      "retained_snapshots": 8,
-      "completeness_pct": 86.2,
+      "last_updated_utc": "2026-11-10T01:57:34Z",
+      "next_update_utc": "2026-11-10T07:00:00Z",
+      "latest_records": 299,
+      "master_records": 299,
+      "retained_snapshots": 1,
+      "completeness_pct": 84.7,
       "columns": [
         "institution_name",
         "country",
@@ -36,76 +36,76 @@ window.DATAFORGE_CATALOG = {
       "sample_csv_url": "samples/world_universities_poi_sample_50.csv",
       "preview_rows": [
         {
-          "institution_name": "Marywood University",
+          "institution_name": "42 US",
           "country": "United States",
           "alpha_two_code": "US",
           "state_province": "",
-          "domains": "marywood.edu",
-          "web_pages": "http://www.marywood.edu/",
-          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
+          "domains": "student.42.us.org",
+          "web_pages": "http://www.42.us.org/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "institution_name": "Lindenwood University",
+          "institution_name": "A.T. Still University",
           "country": "United States",
           "alpha_two_code": "US",
           "state_province": "",
-          "domains": "lindenwood.edu",
-          "web_pages": "http://www.lindenwood.edu/",
-          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
+          "domains": "atsu.edu",
+          "web_pages": "https://www.atsu.edu/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "institution_name": "Sullivan University",
+          "institution_name": "ASA College",
           "country": "United States",
           "alpha_two_code": "US",
           "state_province": "",
-          "domains": "sullivan.edu",
-          "web_pages": "https://sullivan.edu/",
-          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
+          "domains": "asa.edu",
+          "web_pages": "http://www.asa.edu/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "institution_name": "Florida State College at Jacksonville",
+          "institution_name": "Aaniiih Nakoda College",
           "country": "United States",
           "alpha_two_code": "US",
           "state_province": "",
-          "domains": "fscj.edu",
-          "web_pages": "https://www.fscj.edu/",
-          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
+          "domains": "ancollege.edu",
+          "web_pages": "http://www.ancollege.edu/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "institution_name": "Xavier University",
+          "institution_name": "Abilene Christian University",
           "country": "United States",
           "alpha_two_code": "US",
           "state_province": "",
-          "domains": "xavier.edu",
-          "web_pages": "https://www.xavier.edu/",
-          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
+          "domains": "acu.edu",
+          "web_pages": "http://www.acu.edu/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "institution_name": "Tusculum College",
+          "institution_name": "Abraham Baldwin Agricultural College",
           "country": "United States",
           "alpha_two_code": "US",
-          "state_province": "",
-          "domains": "tusculum.edu",
-          "web_pages": "https://home.tusculum.edu/",
-          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
+          "state_province": "Georgia",
+          "domains": "abac.edu; stallions.abac.edu",
+          "web_pages": "https://www.abac.edu/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "institution_name": "Claremont School of Theology",
+          "institution_name": "Academic medical center at State University of New York at Stony Brook",
           "country": "United States",
           "alpha_two_code": "US",
           "state_province": "",
-          "domains": "cst.edu",
-          "web_pages": "https://cst.edu/",
-          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
+          "domains": "stonybrookmedicine.edu",
+          "web_pages": "http://www.stonybrookmedicine.edu/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "institution_name": "Columbia College (SC)",
+          "institution_name": "Academy of Art University",
           "country": "United States",
           "alpha_two_code": "US",
-          "state_province": "",
-          "domains": "columbiasc.edu",
-          "web_pages": "https://www.columbiasc.edu/",
-          "collected_at_iso": "2026-11-09T19:00:11.434280+00:00"
+          "state_province": "California",
+          "domains": "academyart.edu; art.edu",
+          "web_pages": "https://www.academyart.edu/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         }
       ]
     },
@@ -230,12 +230,12 @@ window.DATAFORGE_CATALOG = {
       "category": "Points of Interest (POI) & Geospatial Data",
       "description": "Brewery, taproom and brewpub listings from Open Brewery DB with addresses, postal codes, coordinates and websites where available. Up to 200 records per refresh.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T19:00:10Z",
-      "next_update_utc": "2026-11-10T07:00:10Z",
+      "last_updated_utc": "2026-11-10T01:57:34Z",
+      "next_update_utc": "2026-11-10T07:00:00Z",
       "latest_records": 200,
       "master_records": 200,
-      "retained_snapshots": 8,
-      "completeness_pct": 93.7,
+      "retained_snapshots": 1,
+      "completeness_pct": 93.2,
       "columns": [
         "venue_id",
         "venue_name",
@@ -269,7 +269,12 @@ window.DATAFORGE_CATALOG = {
           "city": "Kronach",
           "state_province": "Bayern",
           "postal_code": "96317",
-          "country": "Germany"
+          "country": "Germany",
+          "latitude": "50.241246",
+          "longitude": "11.327765",
+          "phone": "+49 9261 628000",
+          "website_url": "http://www.antla.de",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "venue_id": "aa7cbe9b-3a0f-4888-9884-6186b0042b55",
@@ -279,7 +284,12 @@ window.DATAFORGE_CATALOG = {
           "city": "Mol",
           "state_province": "Vlaanderen",
           "postal_code": "2400",
-          "country": "Belgium"
+          "country": "Belgium",
+          "latitude": "51.1762578",
+          "longitude": "5.0569549",
+          "phone": "+32 496 76 40 63",
+          "website_url": "http://tdrankorgel.be/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "venue_id": "1034754f-abf9-4b42-bd6d-37e110ba4b1a",
@@ -289,7 +299,12 @@ window.DATAFORGE_CATALOG = {
           "city": "Lebbeke",
           "state_province": "Vlaanderen",
           "postal_code": "9280",
-          "country": "Belgium"
+          "country": "Belgium",
+          "latitude": "51.0078878",
+          "longitude": "4.0913928",
+          "phone": "+32 495 43 33 25",
+          "website_url": "http://www.tkroontje.be/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "venue_id": "907826b3-6902-4d28-a5e2-f73084bebeed",
@@ -299,7 +314,12 @@ window.DATAFORGE_CATALOG = {
           "city": "Roelofarendsveen",
           "state_province": "Zuid-Holland",
           "postal_code": "2371 EG",
-          "country": "Netherlands"
+          "country": "Netherlands",
+          "latitude": "",
+          "longitude": "",
+          "phone": "071-3314585",
+          "website_url": "https://www.t-veen.nl/t-veense-brouwhuys/",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "venue_id": "5128df48-79fc-4f0f-8b52-d06be54d0cec",
@@ -309,7 +329,12 @@ window.DATAFORGE_CATALOG = {
           "city": "Norman",
           "state_province": "Oklahoma",
           "postal_code": "73069-8224",
-          "country": "United States"
+          "country": "United States",
+          "latitude": "35.25738891",
+          "longitude": "-97.46818222",
+          "phone": "4058160490",
+          "website_url": "http://www.405brewing.com",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "venue_id": "9c5a66c8-cc13-416f-a5d9-0a769c87d318",
@@ -319,7 +344,12 @@ window.DATAFORGE_CATALOG = {
           "city": "Austin",
           "state_province": "Texas",
           "postal_code": "78745-1197",
-          "country": "United States"
+          "country": "United States",
+          "latitude": "",
+          "longitude": "",
+          "phone": "5129211545",
+          "website_url": "http://www.512brewing.com",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "venue_id": "34e8c68b-6146-453f-a4b9-1f6cd99a5ada",
@@ -329,7 +359,12 @@ window.DATAFORGE_CATALOG = {
           "city": "Mount Pleasant",
           "state_province": "Wisconsin",
           "postal_code": "53406-3920",
-          "country": "United States"
+          "country": "United States",
+          "latitude": "42.720108268996",
+          "longitude": "-87.883363502094",
+          "phone": "2624847553",
+          "website_url": "https://www.1ofusbrewing.com",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "venue_id": "21f21cc0-5b2f-4b79-be29-3bc625bcc4c8",
@@ -339,7 +374,12 @@ window.DATAFORGE_CATALOG = {
           "city": "Oberasbach",
           "state_province": "Bayern",
           "postal_code": "90522",
-          "country": "Germany"
+          "country": "Germany",
+          "latitude": "49.4369958",
+          "longitude": "10.9685585",
+          "phone": "+49 911 604237",
+          "website_url": "http://www.altenberger-brauhaus.de",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         }
       ]
     },
@@ -664,11 +704,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Alternative Investment & Sentiment Signals",
       "description": "Metadata for the 30 most recently updated cs.AI papers on arXiv each refresh: title, link, 250-character abstract preview and update date, accumulated into a rolling 90-day master file.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T19:00:08Z",
-      "next_update_utc": "2026-11-10T07:00:08Z",
+      "last_updated_utc": "2026-11-10T01:57:34Z",
+      "next_update_utc": "2026-11-10T07:00:00Z",
       "latest_records": 30,
-      "master_records": 60,
-      "retained_snapshots": 8,
+      "master_records": 30,
+      "retained_snapshots": 1,
       "completeness_pct": 100.0,
       "columns": [
         "paper_title",
@@ -691,66 +731,66 @@ window.DATAFORGE_CATALOG = {
         {
           "paper_title": "On Agentic Manipulation Policies",
           "arxiv_url": "http://arxiv.org/abs/2611.09892v1",
-          "abstract_preview": "Recent work on robot manipulation has focused on specialist policies traine...",
-          "publication_date": "2026-11-06T18:59:34Z",
+          "abstract_preview": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-a",
+          "publication_date": "2026-11-06",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "paper_title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
           "arxiv_url": "http://arxiv.org/abs/2611.09891v1",
-          "abstract_preview": "Large language models reinvent the wheel all the time. They conflate task-s...",
-          "publication_date": "2026-11-06T18:58:50Z",
+          "abstract_preview": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its s",
+          "publication_date": "2026-11-06",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "paper_title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcemen...",
+          "paper_title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
           "arxiv_url": "http://arxiv.org/abs/2611.09872v1",
-          "abstract_preview": "Test-time reinforcement learning (TTRL) adapts pretrained language models t...",
-          "publication_date": "2026-11-06T18:49:02Z",
+          "abstract_preview": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direc",
+          "publication_date": "2026-11-06",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "paper_title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Descrip...",
+          "paper_title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
           "arxiv_url": "http://arxiv.org/abs/2611.09866v1",
-          "abstract_preview": "Purpose: Surgical operative reports support procedural documentation, surgi...",
-          "publication_date": "2026-11-06T18:47:23Z",
+          "abstract_preview": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated ",
+          "publication_date": "2026-11-06",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "paper_title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensi...",
+          "paper_title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
           "arxiv_url": "http://arxiv.org/abs/2611.09864v1",
-          "abstract_preview": "Loco-manipulation, which requires mobile manipulators to coordinate locomot...",
-          "publication_date": "2026-11-06T18:44:33Z",
+          "abstract_preview": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent p",
+          "publication_date": "2026-11-06",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "paper_title": "Flow-Guided Target-Space Alignment via Path Consistency",
           "arxiv_url": "http://arxiv.org/abs/2611.09863v1",
-          "abstract_preview": "Many multimodal alignment problems require mapping a source modality into a...",
-          "publication_date": "2026-11-06T18:44:08Z",
+          "abstract_preview": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, succes",
+          "publication_date": "2026-11-06",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "paper_title": "Differentiable Nonlinear Model Predictive Control",
           "arxiv_url": "http://arxiv.org/abs/2505.01353v3",
-          "abstract_preview": "The efficient computation of parametric solution sensitivities is a key cha...",
-          "publication_date": "2026-11-06T18:39:20Z",
+          "abstract_preview": "The efficient computation of parametric solution sensitivities is a key challenge in the integration of learning-enhanced methods with nonlinear model predictive control, as their availability is crucial for many learning algorithms. This paper discu",
+          "publication_date": "2026-11-06",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
-          "paper_title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based ...",
+          "paper_title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization",
           "arxiv_url": "http://arxiv.org/abs/2611.09846v1",
-          "abstract_preview": "This paper describes an approach and use case to estimate the correctness o...",
-          "publication_date": "2026-11-06T18:29:48Z",
+          "abstract_preview": "This paper describes an approach and use case to estimate the correctness of LLM-generated COBOL summaries without access to human-authored references. The core intuition is that inter-model agreement on semantics is informative about truth, and that",
+          "publication_date": "2026-11-06",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-09T19:00:08.425110+00:00"
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         }
       ]
     },
@@ -760,11 +800,11 @@ window.DATAFORGE_CATALOG = {
       "category": "Alternative Investment & Sentiment Signals",
       "description": "Daily English Wikipedia pageview counts for 6 tracked entities (Nvidia, OpenAI, Microsoft, Tesla, Bitcoin, Amazon) over the most recent 9 days. Pageviews only; it does not include search volume.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-09T19:00:09Z",
-      "next_update_utc": "2026-11-10T07:00:09Z",
-      "latest_records": 54,
-      "master_records": 54,
-      "retained_snapshots": 8,
+      "last_updated_utc": "2026-11-10T01:57:34Z",
+      "next_update_utc": "2026-11-10T07:00:00Z",
+      "latest_records": 48,
+      "master_records": 48,
+      "retained_snapshots": 1,
       "completeness_pct": 100.0,
       "columns": [
         "entity",
@@ -784,51 +824,51 @@ window.DATAFORGE_CATALOG = {
       "preview_rows": [
         {
           "entity": "Nvidia",
-          "date": "20261020",
-          "daily_views": "9883",
-          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
+          "date": "20261101",
+          "daily_views": "7196",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "entity": "Nvidia",
-          "date": "20261021",
-          "daily_views": "8460",
-          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
+          "date": "20261102",
+          "daily_views": "7838",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "entity": "Nvidia",
-          "date": "20261022",
-          "daily_views": "9041",
-          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
+          "date": "20261103",
+          "daily_views": "8383",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "entity": "Nvidia",
-          "date": "20261023",
-          "daily_views": "8108",
-          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
+          "date": "20261104",
+          "daily_views": "7206",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "entity": "Nvidia",
-          "date": "20261024",
-          "daily_views": "7805",
-          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
+          "date": "20261105",
+          "daily_views": "7613",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "entity": "Nvidia",
-          "date": "20261025",
-          "daily_views": "6665",
-          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
+          "date": "20261106",
+          "daily_views": "7740",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "entity": "Nvidia",
-          "date": "20261026",
-          "daily_views": "7776",
-          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
+          "date": "20261107",
+          "daily_views": "8324",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         },
         {
           "entity": "Nvidia",
-          "date": "20261027",
-          "daily_views": "7288",
-          "collected_at_iso": "2026-11-09T19:00:08.045219+00:00"
+          "date": "20261108",
+          "daily_views": "21027",
+          "collected_at_iso": "2026-11-10T01:57:34+00:00"
         }
       ]
     }
