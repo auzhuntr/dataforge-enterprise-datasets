@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-10T07:21:07Z",
+  "generated_at_utc": "2026-11-10T12:48:20Z",
   "total_datasets": 8,
-  "total_cumulative_records": 1255,
+  "total_cumulative_records": 1379,
   "refresh_cycle": "12-Hourly Automated Pipeline (Rolling 90-Day Master + 60 Snapshot Archive)",
   "datasets": [
     {
@@ -10,12 +10,14 @@
       "category": "Points of Interest (POI) & Geospatial Data",
       "description": "Directory of United States universities and colleges with their websites and internet domains, from the Hipo university-domains-list. Up to 300 records per refresh.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "last_updated_utc": "2026-11-10T12:48:20Z",
       "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 299,
-      "master_records": 299,
-      "retained_snapshots": 4,
-      "completeness_pct": 84.7,
+      "master_records": 390,
+      "retained_snapshots": 5,
+      "completeness_pct": 89.8,
+      "core_completeness_pct": 100.0,
+      "refresh_status": "verified",
       "columns": [
         "institution_name",
         "country",
@@ -36,67 +38,13 @@
       "sample_csv_url": "samples/world_universities_poi_sample_50.csv",
       "preview_rows": [
         {
-          "institution_name": "42 US",
-          "country": "United States",
-          "alpha_two_code": "US",
-          "state_province": "",
-          "domains": "student.42.us.org",
-          "web_pages": "http://www.42.us.org/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
-        },
-        {
-          "institution_name": "A.T. Still University",
-          "country": "United States",
-          "alpha_two_code": "US",
-          "state_province": "",
-          "domains": "atsu.edu",
-          "web_pages": "https://www.atsu.edu/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
-        },
-        {
-          "institution_name": "ASA College",
-          "country": "United States",
-          "alpha_two_code": "US",
-          "state_province": "",
-          "domains": "asa.edu",
-          "web_pages": "http://www.asa.edu/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
-        },
-        {
-          "institution_name": "Aaniiih Nakoda College",
-          "country": "United States",
-          "alpha_two_code": "US",
-          "state_province": "",
-          "domains": "ancollege.edu",
-          "web_pages": "http://www.ancollege.edu/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
-        },
-        {
-          "institution_name": "Abilene Christian University",
-          "country": "United States",
-          "alpha_two_code": "US",
-          "state_province": "",
-          "domains": "acu.edu",
-          "web_pages": "http://www.acu.edu/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
-        },
-        {
           "institution_name": "Abraham Baldwin Agricultural College",
           "country": "United States",
           "alpha_two_code": "US",
           "state_province": "Georgia",
           "domains": "abac.edu; stallions.abac.edu",
           "web_pages": "https://www.abac.edu/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
-        },
-        {
-          "institution_name": "Academic medical center at State University of New York at Stony Brook",
-          "country": "United States",
-          "alpha_two_code": "US",
-          "state_province": "",
-          "domains": "stonybrookmedicine.edu",
-          "web_pages": "http://www.stonybrookmedicine.edu/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "institution_name": "Academy of Art University",
@@ -105,7 +53,61 @@
           "state_province": "California",
           "domains": "academyart.edu; art.edu",
           "web_pages": "https://www.academyart.edu/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
+        },
+        {
+          "institution_name": "Allen College",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "Iowa",
+          "domains": "allencollege.edu",
+          "web_pages": "https://www.allencollege.edu/",
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
+        },
+        {
+          "institution_name": "Alvernia University",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "Pennsylvania",
+          "domains": "alvernia.edu",
+          "web_pages": "https://www.alvernia.edu/",
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
+        },
+        {
+          "institution_name": "Anderson University",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "South Carolina",
+          "domains": "andersonuniversity.edu",
+          "web_pages": "https://andersonuniversity.edu/",
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
+        },
+        {
+          "institution_name": "Bay Path University",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "MA",
+          "domains": "baypath.edu",
+          "web_pages": "https://www.baypath.edu/",
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
+        },
+        {
+          "institution_name": "Bellevue College",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "Washington",
+          "domains": "bellevuecollege.edu",
+          "web_pages": "https://bellevuecollege.edu/",
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
+        },
+        {
+          "institution_name": "Bentley University",
+          "country": "United States",
+          "alpha_two_code": "US",
+          "state_province": "Massachusetts",
+          "domains": "bentley.edu",
+          "web_pages": "http://www.bentley.edu/",
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         }
       ]
     },
@@ -115,12 +117,14 @@
       "category": "Healthcare & Life Sciences Data",
       "description": "Product records from the openFDA National Drug Code directory: brand and generic names, labeler, active ingredient, dosage form, route and marketing category. 100 records per refresh, accumulated into a rolling 90-day master file.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "last_updated_utc": "2026-11-10T12:48:20Z",
       "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 100,
       "master_records": 200,
-      "retained_snapshots": 3,
+      "retained_snapshots": 4,
       "completeness_pct": 93.5,
+      "core_completeness_pct": 100.0,
+      "refresh_status": "verified",
       "columns": [
         "product_ndc",
         "brand_name",
@@ -151,7 +155,7 @@
           "dosage_form": "SHAMPOO",
           "route": "TOPICAL",
           "marketing_category": "OTC MONOGRAPH DRUG",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "product_ndc": "76282-704",
@@ -162,7 +166,7 @@
           "dosage_form": "CAPSULE",
           "route": "ORAL",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "product_ndc": "80684-072",
@@ -173,7 +177,7 @@
           "dosage_form": "LIQUID",
           "route": "TOPICAL",
           "marketing_category": "OTC MONOGRAPH DRUG",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "product_ndc": "80861-007",
@@ -184,7 +188,7 @@
           "dosage_form": "KIT",
           "route": "",
           "marketing_category": "OTC MONOGRAPH DRUG",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "product_ndc": "80425-0334",
@@ -195,7 +199,7 @@
           "dosage_form": "TABLET",
           "route": "ORAL",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "product_ndc": "80425-0587",
@@ -206,7 +210,7 @@
           "dosage_form": "TABLET",
           "route": "ORAL",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "product_ndc": "0591-5443",
@@ -217,7 +221,7 @@
           "dosage_form": "TABLET",
           "route": "ORAL",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "product_ndc": "0597-0100",
@@ -228,7 +232,7 @@
           "dosage_form": "SPRAY, METERED",
           "route": "RESPIRATORY (INHALATION)",
           "marketing_category": "NDA",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         }
       ]
     },
@@ -238,12 +242,14 @@
       "category": "Points of Interest (POI) & Geospatial Data",
       "description": "Brewery, taproom and brewpub listings from Open Brewery DB with addresses, postal codes, coordinates and websites where available. Up to 200 records per refresh.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "last_updated_utc": "2026-11-10T12:48:20Z",
       "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 200,
       "master_records": 200,
-      "retained_snapshots": 4,
+      "retained_snapshots": 5,
       "completeness_pct": 93.2,
+      "core_completeness_pct": 100.0,
+      "refresh_status": "verified",
       "columns": [
         "venue_id",
         "venue_name",
@@ -282,7 +288,7 @@
           "longitude": "11.327765",
           "phone": "+49 9261 628000",
           "website_url": "http://www.antla.de",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "venue_id": "aa7cbe9b-3a0f-4888-9884-6186b0042b55",
@@ -297,7 +303,7 @@
           "longitude": "5.0569549",
           "phone": "+32 496 76 40 63",
           "website_url": "http://tdrankorgel.be/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "venue_id": "1034754f-abf9-4b42-bd6d-37e110ba4b1a",
@@ -312,7 +318,7 @@
           "longitude": "4.0913928",
           "phone": "+32 495 43 33 25",
           "website_url": "http://www.tkroontje.be/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "venue_id": "907826b3-6902-4d28-a5e2-f73084bebeed",
@@ -327,7 +333,7 @@
           "longitude": "",
           "phone": "071-3314585",
           "website_url": "https://www.t-veen.nl/t-veense-brouwhuys/",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "venue_id": "5128df48-79fc-4f0f-8b52-d06be54d0cec",
@@ -342,7 +348,7 @@
           "longitude": "-97.46818222",
           "phone": "4058160490",
           "website_url": "http://www.405brewing.com",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "venue_id": "9c5a66c8-cc13-416f-a5d9-0a769c87d318",
@@ -357,7 +363,7 @@
           "longitude": "",
           "phone": "5129211545",
           "website_url": "http://www.512brewing.com",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "venue_id": "34e8c68b-6146-453f-a4b9-1f6cd99a5ada",
@@ -372,7 +378,7 @@
           "longitude": "-87.883363502094",
           "phone": "2624847553",
           "website_url": "https://www.1ofusbrewing.com",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "venue_id": "21f21cc0-5b2f-4b79-be29-3bc625bcc4c8",
@@ -387,7 +393,7 @@
           "longitude": "10.9685585",
           "phone": "+49 911 604237",
           "website_url": "http://www.altenberger-brauhaus.de",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         }
       ]
     },
@@ -397,12 +403,14 @@
       "category": "Healthcare & Life Sciences Data",
       "description": "Device classification records from openFDA: device name, device class, medical specialty, regulation number and review panel. 100 records per refresh, accumulated into a rolling 90-day master file. This is the classification database, not a list of approvals or clearances.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "last_updated_utc": "2026-11-10T12:48:20Z",
       "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 100,
       "master_records": 198,
-      "retained_snapshots": 3,
+      "retained_snapshots": 4,
       "completeness_pct": 98.4,
+      "core_completeness_pct": 100.0,
+      "refresh_status": "verified",
       "columns": [
         "device_class",
         "device_name",
@@ -427,7 +435,7 @@
           "medical_specialty": "Neurology",
           "regulation_number": "882.5870",
           "review_panel": "NE",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "device_class": "2",
@@ -435,7 +443,7 @@
           "medical_specialty": "Radiology",
           "regulation_number": "892.1570",
           "review_panel": "RA",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "device_class": "1",
@@ -443,7 +451,7 @@
           "medical_specialty": "Ophthalmic",
           "regulation_number": "886.1350",
           "review_panel": "OP",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "device_class": "1",
@@ -451,7 +459,7 @@
           "medical_specialty": "Microbiology",
           "regulation_number": "866.3500",
           "review_panel": "MI",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "device_class": "2",
@@ -459,7 +467,7 @@
           "medical_specialty": "Immunology",
           "regulation_number": "866.5840",
           "review_panel": "IM",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "device_class": "1",
@@ -467,7 +475,7 @@
           "medical_specialty": "Clinical Toxicology",
           "regulation_number": "862.3280",
           "review_panel": "TX",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "device_class": "2",
@@ -475,7 +483,7 @@
           "medical_specialty": "General, Plastic Surgery",
           "regulation_number": "878.4580",
           "review_panel": "SU",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "device_class": "1",
@@ -483,7 +491,7 @@
           "medical_specialty": "Ear, Nose, Throat",
           "regulation_number": "874.4420",
           "review_panel": "EN",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         }
       ]
     },
@@ -493,12 +501,14 @@
       "category": "Healthcare & Life Sciences Data",
       "description": "The 100 most recent drug enforcement reports (recalls) from openFDA each refresh: recall number, firm, classification, status, reason and product description, accumulated into a rolling 90-day master file.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "last_updated_utc": "2026-11-10T12:48:20Z",
       "next_update_utc": "2026-11-10T19:00:00Z",
-      "latest_records": 99,
-      "master_records": 133,
-      "retained_snapshots": 3,
+      "latest_records": 98,
+      "master_records": 136,
+      "retained_snapshots": 4,
       "completeness_pct": 100.0,
+      "core_completeness_pct": 100.0,
+      "refresh_status": "verified",
       "columns": [
         "recall_number",
         "recalling_firm",
@@ -527,7 +537,7 @@
           "reason_for_recall": "CGMP Deviations",
           "product_description": "Wechem Hand Guard8/1000mL Bag, Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA, 30013",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "D-0104-2027",
@@ -537,7 +547,7 @@
           "reason_for_recall": "CGMP Deviations",
           "product_description": "ULTRA STRENTGH, ELECTRIC MIDICATED BALM (menthol 16% and methyl salicylate 32%) packaged in a) Net 2.45 oz (70g) (NDC 63299-001-01) and b) 10g (NDC 63299-001-02), Manufactured by Fei Fah Medical Mfg Pte Ltd, Singapore, U.S Distributor: SOLISTICE MEDICINE COMPANY, 215 West Ann Street, Los Angeles, CA 90012",
           "recall_initiation_date": "20261023",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "D-0077-2027",
@@ -547,7 +557,7 @@
           "reason_for_recall": "Failed Dissolution Specifications.",
           "product_description": "Olmesartan Medoxomil, Amlodipine, and Hydrochlorothiazide Tablets 40 mg/10 mg/12.5mg, packaged as a) 30-count bottle, NDC 33342-246-07; b) 90-count bottle, NDC 33342-246-10;  Rx Only, Manufactured for : Macleods Pharma USA, Inc. Princeton, NJ 08540, Manufactured by: Macleods Pharmaceuticals Ltd, Daman, 396210, India",
           "recall_initiation_date": "20261007",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "D-0092-2027",
@@ -557,7 +567,7 @@
           "reason_for_recall": "CGMP Deviations",
           "product_description": "Lynx, LX0864 peachy-foam antiseptic handsoap, 1000 ML (33.8 FL OZ.) Manufactured by: ABC Compounding Co., INC., 2500 Dogwood Dr., Conyers, GA 30013, UPC 711808210804.",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "D-0080-2027",
@@ -567,7 +577,7 @@
           "reason_for_recall": "Failed Impurities/Degradation Specification; detection of polyethylene (PE)-related oligomers",
           "product_description": "Carboxymethylcellulose Sodium, 0.5% Lubricant Eye Drops, Sterile, 30 Single-Use Containers, 0.02 FL OZ (0.5 mL) each, Manufactured by: Huons Co., Ltd, Jecheon-si, Chungcheongbuk-do, 27159, South Korea; Marketed by: GSMS Incorporated, Camarillo, CA 93012, USA. NDC 51407-945-30  Pouch Label: Carboxymethylcellulose Sodium, Lubricant Eye Drops, 0.5 mL, Single-Use, gsms.",
           "recall_initiation_date": "20261002",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "D-0098-2027",
@@ -577,7 +587,7 @@
           "reason_for_recall": "CGMP Deviations",
           "product_description": "PRO CHEM BAN AID, Antiseptic Hand Soap, Net Contents: 1 GALLON (3.8 L), Sold by: PRO CHEM, Inc.,1475 Bluegrass Lakes Parkway, Alpharetta, GA 30004.",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "D-0091-2027",
@@ -587,7 +597,7 @@
           "reason_for_recall": "CGMP Deviations",
           "product_description": "Antiseptic Hand Soap, Net Contents: 1 Gallon (3.8 L) Distributed By: image supply, inc., P.O. Box 1108, 5081 Dawn Drive, Lumberton, NC28359",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "D-0101-2027",
@@ -597,7 +607,7 @@
           "reason_for_recall": "CGMP Deviations",
           "product_description": "Spurrier, Antimicrobial Hand Soap, Net Contents: 1 Gallon (3.8 L), Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA, 30013, UPC 726133100508",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         }
       ]
     },
@@ -607,12 +617,14 @@
       "category": "Supply Chain, ESG & Risk Data",
       "description": "The 100 most recent food enforcement reports (recalls) from openFDA each refresh: recall number, firm, classification, reason, voluntary or mandated, and report date, accumulated into a rolling 90-day master file. United States data.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "last_updated_utc": "2026-11-10T12:48:20Z",
       "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 99,
       "master_records": 111,
-      "retained_snapshots": 3,
+      "retained_snapshots": 4,
       "completeness_pct": 100.0,
+      "core_completeness_pct": 100.0,
+      "refresh_status": "verified",
       "columns": [
         "recall_number",
         "recalling_firm",
@@ -639,7 +651,7 @@
           "reason_for_recall": "Products are recalled due to potential undeclared wheat gluten",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "H-0177-2027",
@@ -648,7 +660,7 @@
           "reason_for_recall": "Salmonella",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "H-0178-2027",
@@ -657,7 +669,7 @@
           "reason_for_recall": "Product recalled due to yeast, mold, and E. coli.",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "H-0181-2027",
@@ -666,7 +678,7 @@
           "reason_for_recall": "contains undeclared sesame",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "H-0179-2027",
@@ -675,7 +687,7 @@
           "reason_for_recall": "contains undeclared sesame",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "H-0176-2027",
@@ -684,7 +696,7 @@
           "reason_for_recall": "Broccoli seeds potentially contaminated with Salmonella",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "H-0185-2027",
@@ -693,7 +705,7 @@
           "reason_for_recall": "Products are recalled due to potential undeclared wheat gluten",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "recall_number": "H-0182-2027",
@@ -702,7 +714,7 @@
           "reason_for_recall": "Product sterility was potentially compromised.",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         }
       ]
     },
@@ -712,12 +724,14 @@
       "category": "Alternative Investment & Sentiment Signals",
       "description": "Metadata for the 30 most recently updated cs.AI papers on arXiv each refresh: title, link, 250-character abstract preview and update date, accumulated into a rolling 90-day master file.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "last_updated_utc": "2026-11-10T12:48:20Z",
       "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 30,
-      "master_records": 60,
-      "retained_snapshots": 4,
+      "master_records": 90,
+      "retained_snapshots": 5,
       "completeness_pct": 100.0,
+      "core_completeness_pct": 100.0,
+      "refresh_status": "verified",
       "columns": [
         "paper_title",
         "arxiv_url",
@@ -737,68 +751,68 @@
       "sample_csv_url": "samples/arxiv_ai_research_sample_50.csv",
       "preview_rows": [
         {
-          "paper_title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
-          "arxiv_url": "http://arxiv.org/abs/2611.12557v1",
-          "abstract_preview": "Video world models conditioned on an input video make it possible to explore real, recorded dynamic scenes, enabling re-shooting of footage, free-viewpoint replay, and real-to-sim environments for embodied agents. Such uses require the generated roll",
+          "paper_title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+          "arxiv_url": "http://arxiv.org/abs/2611.12872v1",
+          "abstract_preview": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed me",
           "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
-          "paper_title": "Correctness vs Efficiency: Behavior Control with Weight-Space Extrapolation in Code RL",
-          "arxiv_url": "http://arxiv.org/abs/2605.28751v2",
-          "abstract_preview": "A model trained with an imperfect reward in RL may learn to exploit the reward with undesired behavior. We study a controlled form of this problem in competitive programming. A program may pass small tests while violating the intended efficiency requ",
+          "paper_title": "Bench-MFG: A Benchmark Suite for Learning in Stationary Mean Field Games",
+          "arxiv_url": "http://arxiv.org/abs/2602.12517v2",
+          "abstract_preview": "The rise of Mean Field Games (MFGs) has fostered a growing family of algorithms designed to solve large-scale multi-agent systems. However, the field currently lacks a standardized evaluation protocol, forcing researchers to rely on bespoke, isolated",
           "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
-          "paper_title": "Hierarchical Conformal Classification",
-          "arxiv_url": "http://arxiv.org/abs/2508.13288v2",
-          "abstract_preview": "Conformal prediction (CP) is a powerful framework for quantifying uncertainty in machine learning models, offering reliable predictions with finite-sample coverage guarantees. When applied to classification, CP produces a prediction set of possible l",
+          "paper_title": "Discovering formally verified quantum programs with AI",
+          "arxiv_url": "http://arxiv.org/abs/2611.09822v2",
+          "abstract_preview": "The timeline by which quantum computers can solve breakthrough problems in science depends on improved quantum algorithms as much as on better hardware. Such algorithmic advances are typically achieved through many years of expert human collaboration",
           "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
-          "paper_title": "Conformal PM2.5 Mapping Under Spatial Covariate Shift: Satellite-Reanalysis Fusion for Africa's Green Industrial Transition",
-          "arxiv_url": "http://arxiv.org/abs/2604.22787v2",
-          "abstract_preview": "Africa's green industrialization imperative demands reliable infrastructure for monitoring air quality. We present a satellite-reanalysis PM2.5 fusion system trained on 2,068,901 records from 404 monitoring locations in 29 African countries (OpenAQ, ",
+          "paper_title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+          "arxiv_url": "http://arxiv.org/abs/2611.12865v1",
+          "abstract_preview": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conf",
           "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
-          "paper_title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
-          "arxiv_url": "http://arxiv.org/abs/2611.12552v1",
-          "abstract_preview": "We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, ",
+          "paper_title": "An offline approach to fNIRS-guided reinforcement learning for robot behavior",
+          "arxiv_url": "http://arxiv.org/abs/2607.14393v3",
+          "abstract_preview": "Human-in-the-loop Reinforcement Learning has become a popular approach for training, finetuning, and aligning robot behavior with user preferences. Our paper explores the feasibility of using brain signals via functional near-infrared spectroscopy (f",
           "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
-          "paper_title": "A Strict Upper Bound for Three-Point Weighted Selection in Planar Vector-Valued Regression",
-          "arxiv_url": "http://arxiv.org/abs/2611.12550v1",
-          "abstract_preview": "We prove $F_{\\mathrm{weighted}}(2,2,3)<11/6$ for minimum-Frobenius-norm least-squares regression with two input and two output coordinates, improving the upper bound $15/8$. More precisely, a universal $\\varepsilon_0>0$ satisfies $\\mathcal T_3\\le(5/6",
+          "paper_title": "A Statistical Framework for Algorithmic Collective Action with Multiple Collectives",
+          "arxiv_url": "http://arxiv.org/abs/2605.06749v2",
+          "abstract_preview": "As learning systems increasingly shape everyday decisions, Algorithmic Collective Action (ACA), i.e., users coordinating changes to shared data to steer model behavior, offers a complement to regulator-side policy and corporate model design. Real-wor",
           "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
-          "paper_title": "Web World Models",
-          "arxiv_url": "http://arxiv.org/abs/2512.23676v2",
-          "abstract_preview": "Language agents increasingly require persistent worlds in which they can act, remember, and learn. Existing approaches sit at two extremes: conventional web frameworks provide reliable but fixed contexts backed by databases, while fully generative wo",
+          "paper_title": "Programming Prescience: Issues in Human Construction of Forecasting Bots",
+          "arxiv_url": "http://arxiv.org/abs/2611.12834v1",
+          "abstract_preview": "AI models' growing capacity for complex reasoning has made them attractive tools for forecasting, or the systematic prediction of the future based on past and present data. However, should AI forecasting systems be adopted, human builders will should",
           "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
-          "paper_title": "EffiNav: Fusing Depth and Vision-Language for Efficient Object Goal Navigation",
-          "arxiv_url": "http://arxiv.org/abs/2606.18634v2",
-          "abstract_preview": "To locate a target object while exploring the unknown environment is a fundamental capability for autonomous agents, with applications ranging from search-and-rescue to field robots. A simplified version of such task is Object Goal Navigation (ObjNav",
+          "paper_title": "Worse Forces Can Lead to Better Structures: Trajectory-Level Fine-Tuning of Machine Learning Interatomic Potentials",
+          "arxiv_url": "http://arxiv.org/abs/2512.01067v3",
+          "abstract_preview": "Machine learning interatomic potentials (MLIPs) are commonly trained and evaluated by their ability to reproduce first-principles energies and forces. Practical value, however, is often determined by downstream processes such as structural relaxation",
           "publication_date": "2026-11-09",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         }
       ]
     },
@@ -808,12 +822,14 @@
       "category": "Alternative Investment & Sentiment Signals",
       "description": "Daily English Wikipedia pageview counts for 6 tracked entities (Nvidia, OpenAI, Microsoft, Tesla, Bitcoin, Amazon) over the most recent 9 days. Pageviews only; it does not include search volume.",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-10T07:21:07Z",
+      "last_updated_utc": "2026-11-10T12:48:20Z",
       "next_update_utc": "2026-11-10T19:00:00Z",
       "latest_records": 54,
       "master_records": 54,
-      "retained_snapshots": 4,
+      "retained_snapshots": 5,
       "completeness_pct": 100.0,
+      "core_completeness_pct": 100.0,
+      "refresh_status": "verified",
       "columns": [
         "entity",
         "date",
@@ -834,49 +850,49 @@
           "entity": "Nvidia",
           "date": "20261101",
           "daily_views": "7196",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261102",
           "daily_views": "7838",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261103",
           "daily_views": "8383",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261104",
           "daily_views": "7206",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261105",
           "daily_views": "7613",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261106",
           "daily_views": "7740",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261107",
           "daily_views": "8324",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261108",
           "daily_views": "21027",
-          "collected_at_iso": "2026-11-10T07:21:07+00:00"
+          "collected_at_iso": "2026-11-10T12:48:20+00:00"
         }
       ]
     }

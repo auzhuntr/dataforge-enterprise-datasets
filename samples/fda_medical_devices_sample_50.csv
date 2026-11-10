@@ -1,51 +1,51 @@
 device_class,device_name,medical_specialty,regulation_number,review_panel,collected_at_iso
-2,"Stimulator, Peripheral Nerve, Implanted (Pain Relief)",Neurology,882.5870,NE,2026-11-10T07:21:07+00:00
-1,"Topographer, Corneal, Battery Powered",Ophthalmic,886.1350,OP,2026-11-10T07:21:07+00:00
-1,Alcohol Control Materials,Clinical Toxicology,862.3280,TX,2026-11-10T07:21:07+00:00
-1,Methylene Blue Thiocyanate,Hematology,864.1850,PA,2026-11-10T07:21:07+00:00
-3,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic, Cemented",Unknown,,OR,2026-11-10T07:21:07+00:00
-2,Culdoscope (And Accessories),Obstetrics/Gynecology,884.1640,OB,2026-11-10T07:21:07+00:00
-1,"Handpiece, Air-Powered, Root Canal Irrigation",Dental,872.4200,DE,2026-11-10T07:21:07+00:00
-1,"Hook, External Limb Component, Powered",Physical Medicine,890.3420,PM,2026-11-10T07:21:07+00:00
-N,Synthetic Next-Generation Sequencing Quality Control And Filler Material,Unknown,,PA,2026-11-10T07:21:07+00:00
-1,"Exoenzymes, Multiple, Streptococcal",Microbiology,866.3720,MI,2026-11-10T07:21:07+00:00
-2,Mycoplasma Pneumoniae Dna Assay System,Microbiology,866.3980,MI,2026-11-10T07:21:07+00:00
-2,"Elevator, Wheelchair, Portable",Physical Medicine,890.3930,PM,2026-11-10T07:21:07+00:00
-1,"Ng3m(G), Antigen, Antiserum, Control",Immunology,866.5065,IM,2026-11-10T07:21:07+00:00
-1,"Inter-Alpha Trypsin Inhibitor, Antigen, Antiserum, Control",Immunology,866.5890,IM,2026-11-10T07:21:07+00:00
-2,"Ultrasound, Skin Permeation","General, Plastic Surgery",878.4410,SU,2026-11-10T07:21:07+00:00
-1,"Phantom, Test-Pattern, Radionuclide",Radiology,892.1420,RA,2026-11-10T07:21:07+00:00
-U,"Device, Electrical Dental Anesthesia",Unknown,,DE,2026-11-10T07:21:07+00:00
-2,"Radioimmunoassay, Calcitonin",Clinical Chemistry,862.1140,CH,2026-11-10T07:21:07+00:00
-2,"Prosthesis, Toe, Hemi-, Phalangeal",Orthopedic,888.3730,OR,2026-11-10T07:21:07+00:00
-2,"Pad, Kelly","General, Plastic Surgery",878.4370,SU,2026-11-10T07:21:07+00:00
-1,"Speculum, Vaginal, Metal",Obstetrics/Gynecology,884.4520,OB,2026-11-10T07:21:07+00:00
-1,"Handpiece, Direct Drive, Ac-Powered",Dental,872.4200,DE,2026-11-10T07:21:07+00:00
-1,"Radioimmunoassay, Immunoreactive Insulin",Clinical Chemistry,862.1405,CH,2026-11-10T07:21:07+00:00
-3,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic/Metal, Cemented Or Uncemented",Unknown,,OR,2026-11-10T07:21:07+00:00
-1,"Agent, Polishing, Abrasive, Oral Cavity",Dental,872.6030,DE,2026-11-10T07:21:07+00:00
-3,"Generator, Pulsatile Flow, Cardiopulmonary Bypass",Cardiovascular,870.4320,CV,2026-11-10T07:21:07+00:00
-2,"Antiserum, Positive Control, Coccidioides Immitis",Microbiology,866.3135,MI,2026-11-10T07:21:07+00:00
-2,"Igg, Antigen, Antiserum, Control",Immunology,866.5510,IM,2026-11-10T07:21:07+00:00
-3,Tissue Adhesive For Internal Use,"General, Plastic Surgery",878.4010,SU,2026-11-10T07:21:07+00:00
-1,"Colorimetric Method, Gamma-Glutamyl Transpeptidase",Clinical Chemistry,862.1360,CH,2026-11-10T07:21:07+00:00
-3,"Prosthesis, Knee, Patellofemorotibial, Semi-Constrained, Metal/Polymer, Mobile Bearing",Unknown,,OR,2026-11-10T07:21:07+00:00
-2,"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component, Metal Composite",Orthopedic,888.3030,OR,2026-11-10T07:21:07+00:00
-1,"Reader, Prism, Ophthalmic",Ophthalmic,886.5810,OP,2026-11-10T07:21:07+00:00
-2,Culture-Based Short-Term Incubation Antimicrobial Resistance Assay,Microbiology,866.1655,MI,2026-11-10T07:21:07+00:00
-1,"Snare, Surgical","General, Plastic Surgery",878.4800,SU,2026-11-10T07:21:07+00:00
-1,"Eraser, Dental Stain",Dental,872.6855,DE,2026-11-10T07:21:07+00:00
-1,"Plates, Ouchterlony Agar",Immunology,866.4600,IM,2026-11-10T07:21:07+00:00
-2,"Mesh, Surgical, Non-Absorbable, Large Abdominal Wall Defects","General, Plastic Surgery",878.3300,SU,2026-11-10T07:21:07+00:00
-2,"Handpiece, Rotary Bone Cutting",Dental,872.4120,DE,2026-11-10T07:21:07+00:00
-2,"Fluorescence In Situ Hybridization, Anaplastic Lymphoma Kinase, Gene Rearrangement",Pathology,864.1890,PA,2026-11-10T07:21:07+00:00
-2,Early Growth Response 1 (Egr) Fish Probe Kit,Immunology,866.6040,PA,2026-11-10T07:21:07+00:00
-2,"Clamp, Vascular, Reprocessed",Cardiovascular,870.4450,CV,2026-11-10T07:21:07+00:00
-1,"Synchronizer, Electrocardiograph, Nuclear",Radiology,892.1410,RA,2026-11-10T07:21:07+00:00
-1,"Table, Instrument, Manual, Ophthalmic",Ophthalmic,886.4855,OP,2026-11-10T07:21:07+00:00
-2,Hiv-1 Genotyping Assay Using Ngs Technology,Medical Genetics,866.3955,MI,2026-11-10T07:21:07+00:00
-2,Laparoscopic Single Port Access Device,"Gastroenterology, Urology",876.1500,SU,2026-11-10T07:21:07+00:00
-1,"Stand, Instrument, Ophthalmic, Battery Powered",Ophthalmic,886.1860,OP,2026-11-10T07:21:07+00:00
-1,Leukotome,Neurology,882.4600,NE,2026-11-10T07:21:07+00:00
-1,"Instrument, Ligature Passing And Knot Tying","General, Plastic Surgery",878.4800,SU,2026-11-10T07:21:07+00:00
-2,Immunoglobulin M Kappa Heavy And Light Chain Combined,Immunology,866.5510,IM,2026-11-10T07:21:07+00:00
+2,"Diagnostic Ultrasonic Transducer, Robotic",Radiology,892.1570,RA,2026-11-10T12:48:20+00:00
+1,"Topographer, Corneal, Battery Powered",Ophthalmic,886.1350,OP,2026-11-10T12:48:20+00:00
+1,"Antiserum, Rocky Mountain Spotted Fever",Microbiology,866.3500,MI,2026-11-10T12:48:20+00:00
+1,Alcohol Control Materials,Clinical Toxicology,862.3280,TX,2026-11-10T12:48:20+00:00
+2,"Lamp, Surgical","General, Plastic Surgery",878.4580,SU,2026-11-10T12:48:20+00:00
+3,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic, Cemented",Unknown,,OR,2026-11-10T12:48:20+00:00
+2,Intraoperative Orthopedic Strain Sensor,Orthopedic,888.3090,OR,2026-11-10T12:48:20+00:00
+1,"Antisera, Bethesda - Ballerup Polyvalent, Citrobacter Spp.",Microbiology,866.3125,MI,2026-11-10T12:48:20+00:00
+2,Breast Implant Suction Retrieval Device,"General, Plastic Surgery",878.4675,SU,2026-11-10T12:48:20+00:00
+1,"Handpiece, Air-Powered, Root Canal Irrigation",Dental,872.4200,DE,2026-11-10T12:48:20+00:00
+1,"Hook, External Limb Component, Powered",Physical Medicine,890.3420,PM,2026-11-10T12:48:20+00:00
+1,"Exoenzymes, Multiple, Streptococcal",Microbiology,866.3720,MI,2026-11-10T12:48:20+00:00
+2,Mycoplasma Pneumoniae Dna Assay System,Microbiology,866.3980,MI,2026-11-10T12:48:20+00:00
+1,Haploscope,Ophthalmic,886.1340,OP,2026-11-10T12:48:20+00:00
+1,"Inter-Alpha Trypsin Inhibitor, Antigen, Antiserum, Control",Immunology,866.5890,IM,2026-11-10T12:48:20+00:00
+2,"Ultrasound, Skin Permeation","General, Plastic Surgery",878.4410,SU,2026-11-10T12:48:20+00:00
+U,"Device, Electrical Dental Anesthesia",Unknown,,DE,2026-11-10T12:48:20+00:00
+2,"Prosthesis, Toe, Hemi-, Phalangeal",Orthopedic,888.3730,OR,2026-11-10T12:48:20+00:00
+2,"Catheter, Balloon, Dilation Of Cervical Canal",Obstetrics/Gynecology,884.4260,OB,2026-11-10T12:48:20+00:00
+3,"Laser, Neodymium:Yag, Ophthalmic For Uses Other Than Posterior Capsulotomy & Cutting Pupillary",Unknown,,OP,2026-11-10T12:48:20+00:00
+2,Joint Biological Agent Identification And Diagnostic System (Jbaids) Tularemia Detection Kit,Microbiology,866.3280,MI,2026-11-10T12:48:20+00:00
+2,"Pad, Kelly","General, Plastic Surgery",878.4370,SU,2026-11-10T12:48:20+00:00
+1,"Handpiece, Direct Drive, Ac-Powered",Dental,872.4200,DE,2026-11-10T12:48:20+00:00
+1,"Radioimmunoassay, Immunoreactive Insulin",Clinical Chemistry,862.1405,CH,2026-11-10T12:48:20+00:00
+1,"Board, Arm (With Cover), Non-Sterile","General, Plastic Surgery",878.3910,SU,2026-11-10T12:48:20+00:00
+1,"Agent, Polishing, Abrasive, Oral Cavity",Dental,872.6030,DE,2026-11-10T12:48:20+00:00
+1,"Microtome, Ultra",Pathology,864.3010,PA,2026-11-10T12:48:20+00:00
+2,"Igg, Peroxidase, Antigen, Antiserum, Control",Immunology,866.5510,PA,2026-11-10T12:48:20+00:00
+2,Positive Blood Culture Processor For Inoculum Preparation Used For Antimicrobial Susceptibility Testing,Microbiology,866.1650,MI,2026-11-10T12:48:20+00:00
+1,"Joint, Hip, External Brace",Physical Medicine,890.3475,PM,2026-11-10T12:48:20+00:00
+1,Expressor,Ophthalmic,886.4350,OP,2026-11-10T12:48:20+00:00
+1,"Colorimetric Method, Gamma-Glutamyl Transpeptidase",Clinical Chemistry,862.1360,CH,2026-11-10T12:48:20+00:00
+1,"Pusher, Socket",Orthopedic,888.4540,OR,2026-11-10T12:48:20+00:00
+2,Culture-Based Short-Term Incubation Antimicrobial Resistance Assay,Microbiology,866.1655,MI,2026-11-10T12:48:20+00:00
+1,"Snare, Surgical","General, Plastic Surgery",878.4800,SU,2026-11-10T12:48:20+00:00
+2,"Cup, Menstrual",Obstetrics/Gynecology,884.5400,OB,2026-11-10T12:48:20+00:00
+1,"Eraser, Dental Stain",Dental,872.6855,DE,2026-11-10T12:48:20+00:00
+1,Van Gieson'S Picro-Fuchsin,Hematology,864.1850,PA,2026-11-10T12:48:20+00:00
+2,"Mesh, Surgical, Non-Absorbable, Large Abdominal Wall Defects","General, Plastic Surgery",878.3300,SU,2026-11-10T12:48:20+00:00
+2,"Handpiece, Rotary Bone Cutting",Dental,872.4120,DE,2026-11-10T12:48:20+00:00
+1,"Antigen, Ha (Including Ha Control), Rubeola",Microbiology,866.3520,MI,2026-11-10T12:48:20+00:00
+2,"Fluorescence In Situ Hybridization, Anaplastic Lymphoma Kinase, Gene Rearrangement",Pathology,864.1890,PA,2026-11-10T12:48:20+00:00
+2,Early Growth Response 1 (Egr) Fish Probe Kit,Immunology,866.6040,PA,2026-11-10T12:48:20+00:00
+2,Hiv-1 Genotyping Assay Using Ngs Technology,Medical Genetics,866.3955,MI,2026-11-10T12:48:20+00:00
+2,"System, Test, Tumor Marker, Monitoring, Bladder",Immunology,866.6010,IM,2026-11-10T12:48:20+00:00
+2,"Spacer, Direct Patient Interface",Anesthesiology,868.5630,AN,2026-11-10T12:48:20+00:00
+2,"Test, Natriuretic Peptide",Clinical Chemistry,862.1117,CH,2026-11-10T12:48:20+00:00
+2,Spinous Process Plate,Orthopedic,888.3050,OR,2026-11-10T12:48:20+00:00
+1,Leukotome,Neurology,882.4600,NE,2026-11-10T12:48:20+00:00
+1,"Instrument, Ligature Passing And Knot Tying","General, Plastic Surgery",878.4800,SU,2026-11-10T12:48:20+00:00
