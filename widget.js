@@ -271,7 +271,7 @@
       </div>
       <div class="ai-widget-body" id="ai-widget-body">
         <div class="ai-widget-message bot">
-          👋 Hi! I am the **DataForge IT Assistant**. Ask me about our datasets, delivery, refunds, custom data feeds, or the **NEWMEMBER10** 10% discount!
+          👋 Hi! I am the **DataForge IT Assistant**. Ask me about our datasets, delivery, refunds, custom data feeds, or the 10% new member discount!
         </div>
         <div class="ai-widget-faq-pills" id="ai-widget-pills">
           <span class="ai-widget-faq-title">Quick Questions</span>
