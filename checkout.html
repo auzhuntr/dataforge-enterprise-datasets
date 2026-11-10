@@ -105,7 +105,7 @@
 
   <script>
     const params = new URLSearchParams(window.location.search);
-    const datasetId = params.get('dataset') || 'ecommerce_pricing_intelligence';
+    const datasetId = params.get('dataset') || 'world_universities_poi';
     const initialMethod = params.get('method') || 'stripe';
     let currentDataset = null;
 
@@ -158,6 +158,7 @@
         document.getElementById('coCategory').textContent = currentDataset.category;
         document.getElementById('coTitle').textContent = currentDataset.title;
         document.getElementById('coDesc').textContent = currentDataset.description;
+        if (window.dataforgePayUrl && !window.dataforgePayUrl(currentDataset.id, 'monthly') && window.dataforgePayUrl(currentDataset.id, 'oneoff')) { document.getElementById('planSelect').value = 'oneoff'; }
         updateTotal();
       }
     }
