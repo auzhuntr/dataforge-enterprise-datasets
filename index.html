@@ -235,7 +235,7 @@
           </a>
           <button id="modalPaypalBtn" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#003087] text-white text-xs font-bold shadow-md shadow-blue-500/20 transition-all flex items-center justify-center gap-1.5">
             <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.787.787 0 0 1 .776-.645h6.634c3.085 0 5.485 1.258 5.767 4.143.238 2.457-.96 4.38-3.05 5.25 1.83.67 2.65 2.27 2.23 4.54-.49 2.68-2.61 4.33-5.83 4.33H8.38l-.63 3.99H7.076z"/></svg>
-            <span>Pay with PayPal</span>
+            <span>Buy One-Off (PayPal)</span>
           </button>
           <button id="modalStripeBtn" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-xs font-bold shadow-md shadow-cyan-500/20 transition-all flex items-center justify-center gap-1.5">
             <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/></svg>
@@ -675,6 +675,7 @@
   </script>
   <script src="catalog-data.js?v=20261109"></script>
   <script src="catalog-loader.js?v=20261109"></script>
+  <script src="paypal-links.js?v=20261110"></script>
   <script>
     let activeCategory = "All";
     let showAllCatalog = false;
@@ -771,7 +772,7 @@
                 Preview
               </button>
               <button onclick="buyPaypal('${d.id}')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                PayPal Buy
+                Buy One-Off
               </button>
               <button onclick="buyStripe('${d.id}')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
                 Pay by Card
@@ -794,12 +795,9 @@
     }
 
     function buyPaypal(datasetId) {
-      const catData = window.DATAFORGE_CATALOG;
-      const d = catData.datasets.find(x => x.id === datasetId);
-      if (!d) return;
-      const itemName = encodeURIComponent(`DataForge IT - ${d.title} (12-Hour Subscription Feed)`);
-      const price = d.price_new_member_usd || d.price_monthly_usd;
-      window.open(`https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=jleake2620%40gmail.com&item_name=${itemName}&amount=${price}&currency_code=USD&no_shipping=1`, '_blank');
+      // One-off purchase through a PayPal hosted link (price is fixed on PayPal's side).
+      const url = window.dataforgePayUrl && window.dataforgePayUrl(datasetId, 'oneoff');
+      window.open(url || `checkout.html?dataset=${encodeURIComponent(datasetId)}&method=paypal`, '_blank');
     }
 
     function buyStripe(datasetId) {

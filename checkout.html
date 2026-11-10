@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="site.css">
   <script src="catalog-data.js?v=20261109"></script>
   <script src="catalog-loader.js?v=20261109"></script>
+  <script src="paypal-links.js?v=20261110"></script>
 </head>
 <body class="bg-[#0b0f19] text-slate-100 font-sans antialiased min-h-screen flex flex-col">
   <nav class="border-b border-slate-800/80 px-6 py-4 bg-[#0b0f19]/90">
@@ -133,10 +134,15 @@
       document.getElementById('coTotalPrice').textContent = '$' + finalPrice + '.00';
       document.getElementById('cardPaypalLink').textContent = 'Pay $' + finalPrice + '.00 USD by Card (Secure Checkout) \u2192';
 
-      const itemName = encodeURIComponent('DataForge IT - ' + currentDataset.title + (isMonthly ? ' (12h Subscription)' : ' (One-Off Archive)'));
-      const paypalUrl = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=jleake2620%40gmail.com&item_name=' + itemName + '&amount=' + finalPrice + '&currency_code=USD&no_shipping=1';
-      document.getElementById('directPaypalLink').href = paypalUrl;
-      document.getElementById('cardPaypalLink').href = paypalUrl + '&landing_page=billing';
+      // PayPal hosted link: the price is fixed on PayPal's side and cannot be changed in the browser.
+      const payUrl = window.dataforgePayUrl ? window.dataforgePayUrl(currentDataset.id, isMonthly ? 'monthly' : 'oneoff') : null;
+      document.querySelectorAll('#directPaypalLink, #cardPaypalLink').forEach(el => {
+        if (payUrl) { el.href = payUrl; el.style.pointerEvents = ''; el.style.opacity = ''; }
+        else { el.removeAttribute('href'); el.style.pointerEvents = 'none'; el.style.opacity = '0.4'; }
+      });
+      const box = document.getElementById('paymentStatusBox');
+      box.classList.toggle('hidden', !!payUrl);
+      if (!payUrl) box.textContent = 'Online payment for this option is not available yet. Email contact@dataforgeit.digital and we will send you a payment link.';
     }
 
     function showDataset() {
