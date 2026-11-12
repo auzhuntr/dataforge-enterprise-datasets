@@ -1,0 +1,69 @@
+# DataForge IT site monitor: runs every hour on GitHub's computers (free, no PC needed).
+# If anything is wrong, the run fails, which makes GitHub email the owner, and an issue is opened (another email).
+# The issue is closed automatically once everything passes again.
+name: Site monitor
+on:
+  schedule:
+    - cron: "17 * * * *"   # every hour at :17
+  workflow_dispatch: {}     # "Run workflow" button for a manual check
+permissions:
+  issues: write
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check site, HTTPS, pages and data freshness
+        id: check
+        run: |
+          set -u
+          SITE=https://dataforgeit.digital
+          fail() { echo "FAIL: $1"; echo "- $1" >> problems.txt; }
+          # 1. HTTPS with a valid certificate (curl fails on a bad cert), key pages load
+          for p in / /catalog.json /checkout.html /catalog-data.js; do
+            code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 30 --retry 2 "$SITE$p" 2>&1) || true
+            [ "$code" = "200" ] || fail "$SITE$p returned '$code' (bad certificate or page down)"
+          done
+          # 2. Certificate not about to expire (under 14 days)
+          end=$(echo | openssl s_client -connect dataforgeit.digital:443 -servername dataforgeit.digital 2>/dev/null | openssl x509 -noout -enddate | cut -d= -f2)
+          if [ -n "$end" ]; then
+            days=$(( ( $(date -d "$end" +%s) - $(date +%s) ) / 86400 ))
+            [ "$days" -ge 14 ] || fail "HTTPS certificate expires in $days days"
+          else fail "could not read the HTTPS certificate"; fi
+          # 3. Data refreshed within the last 13 hours and every dataset present
+          curl -sS --max-time 30 "$SITE/catalog.json?nocache=$RANDOM" -o catalog.json || fail "could not download catalog.json"
+          python3 - <<'PY' || true
+          import json, datetime, sys
+          try:
+              d = json.load(open("catalog.json"))
+          except Exception as e:
+              open("problems.txt","a").write(f"- catalog.json is not valid JSON ({e})\n"); sys.exit()
+          t = datetime.datetime.fromisoformat(d["generated_at_utc"].replace("Z","+00:00"))
+          age = (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() / 3600
+          print(f"Data generated {d['generated_at_utc']} ({age:.1f} h ago), {d['total_datasets']} datasets, {d['total_cumulative_records']} records")
+          if age > 13:
+              open("problems.txt","a").write(f"- Data refresh is late: last refresh {d['generated_at_utc']} ({age:.0f} hours ago). The 12-hourly refresh script did not push.\n")
+          if d.get("total_datasets", 0) < 8 or len(d.get("datasets", [])) < 8:
+              open("problems.txt","a").write(f"- Only {len(d.get('datasets', []))} datasets listed (expected 8)\n")
+          PY
+          if [ -s problems.txt ]; then echo "failed=true" >> "$GITHUB_OUTPUT"; else echo "All checks passed"; fi
+
+      - name: Open or update an alert issue
+        if: steps.check.outputs.failed == 'true'
+        env: { GH_TOKEN: "${{ github.token }}", GH_REPO: "${{ github.repository }}" }
+        run: |
+          body="$(printf 'The hourly site check found problems at %s UTC:\n\n%s\n\nRun log: %s/%s/actions/runs/%s' "$(date -u '+%F %T')" "$(cat problems.txt)" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
+          n=$(gh issue list --label site-down --state open --json number -q '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$body"
+          else gh label create site-down --color B60205 --force >/dev/null 2>&1 || true
+               gh issue create --title "SITE PROBLEM: dataforgeit.digital" --label site-down --body "$body"; fi
+          exit 1
+
+      - name: Close the alert once everything is OK again
+        if: steps.check.outputs.failed != 'true'
+        env: { GH_TOKEN: "${{ github.token }}", GH_REPO: "${{ github.repository }}" }
+        run: |
+          for n in $(gh issue list --label site-down --state open --json number -q '.[].number'); do
+            gh issue close "$n" --comment "All checks pass again ($(date -u '+%F %T') UTC)."
+          done
