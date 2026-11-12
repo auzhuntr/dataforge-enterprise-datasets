@@ -1,0 +1,9 @@
+column,type,description,required,fill_rate_pct,example,source,licence
+recall_number,code,"FDA: number assigned to a specific recall event, for tracking.",yes,100.0,D-0103-2027,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+recalling_firm,text,"FDA: firm that initiated the recall, or that is primarily responsible for the product.",yes,100.0,"ABC Compounding Co., Inc.",openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+classification,code,"FDA hazard class: Class I (could cause serious health problems or death), Class II (temporary or reversible problems, or remote chance of serious ones), Class III (unlikely to cause harm).",yes,100.0,Class II,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+status,code,"FDA recall status: Ongoing, Completed, Terminated (or Pending).",yes,100.0,Ongoing,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+reason_for_recall,text,FDA: how the product is defective or violates the law. Phone numbers are removed by DataForge.,yes,100.0,CGMP Deviations,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+product_description,text,FDA: brief description of the recalled product. Phone numbers are removed by DataForge.,yes,100.0,"Wechem Hand Guard8/1000mL Bag, Manufactured by: ABC Compounding Co., Inc., 2600 ",openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+recall_initiation_date,date (YYYYMMDD),FDA: date the firm first began notifying the public or its customers of the recall.,yes,100.0,20260922,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,openFDA (U.S. Food & Drug Administration),Public domain (CC0)

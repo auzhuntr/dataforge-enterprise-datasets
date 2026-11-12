@@ -1,0 +1,14 @@
+column,type,description,required,fill_rate_pct,example,source,licence
+venue_id,code,Open Brewery DB's unique identifier for the venue.,yes,100.0,ae7b3174-8be8-4d53-a3a5-9b8240970eea,Open Brewery DB,MIT License (c) Open Brewery DB
+venue_name,text,Venue name as listed by Open Brewery DB.,yes,100.0,'s,Open Brewery DB,MIT License (c) Open Brewery DB
+venue_type,code,"Open Brewery DB type: micro, nano, regional, brewpub, large, contract, proprietor, taproom, bar, beergarden, cidery, planning (not yet open) or closed (no longer operating).",yes,100.0,brewpub,Open Brewery DB,MIT License (c) Open Brewery DB
+address,text,Street address (first line). Blank for venues still in planning.,no,92.5,Friesener Straße 1,Open Brewery DB,MIT License (c) Open Brewery DB
+city,text,City or town.,yes,100.0,Kronach,Open Brewery DB,MIT License (c) Open Brewery DB
+state_province,text,State or province.,yes,100.0,Bayern,Open Brewery DB,MIT License (c) Open Brewery DB
+postal_code,text,"Postal or ZIP code, as written in the source.",no,99.5,96317,Open Brewery DB,MIT License (c) Open Brewery DB
+country,text,Country name.,yes,100.0,Germany,Open Brewery DB,MIT License (c) Open Brewery DB
+latitude,decimal,Latitude in decimal degrees (WGS84). Blank where the source has no location.,no,75.5,50.241246,Open Brewery DB,MIT License (c) Open Brewery DB
+longitude,decimal,Longitude in decimal degrees (WGS84). Blank where the source has no location.,no,75.5,11.327765,Open Brewery DB,MIT License (c) Open Brewery DB
+phone,text,Business phone number as published by Open Brewery DB.,no,88.0,+49 9261 628000,Open Brewery DB,MIT License (c) Open Brewery DB
+website_url,url,Venue website or social media page.,no,87.5,http://www.antla.de,Open Brewery DB,MIT License (c) Open Brewery DB
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,Open Brewery DB,MIT License (c) Open Brewery DB

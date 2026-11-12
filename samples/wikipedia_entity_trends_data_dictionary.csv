@@ -1,0 +1,5 @@
+column,type,description,required,fill_rate_pct,example,source,licence
+entity,text,English Wikipedia article tracked (underscores shown as spaces).,yes,100.0,Nvidia,Wikimedia Pageviews API,CC0
+date,date (YYYYMMDD),Day of the count (UTC).,yes,100.0,20261103,Wikimedia Pageviews API,CC0
+daily_views,integer,"Page views that day, all devices and ALL agents (includes automated traffic and crawlers, not only people).",yes,100.0,8383,Wikimedia Pageviews API,CC0
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,Wikimedia Pageviews API,CC0

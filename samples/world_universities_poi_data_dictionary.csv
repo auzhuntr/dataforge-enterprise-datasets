@@ -1,0 +1,8 @@
+column,type,description,required,fill_rate_pct,example,source,licence
+institution_name,text,"Name of the university or college, as listed by Hipo.",yes,100.0,Abraham Baldwin Agricultural College,Hipo university-domains-list,MIT License (c) Hipo
+country,text,Country name. This pack contains United States institutions only.,yes,100.0,United States,Hipo university-domains-list,MIT License (c) Hipo
+alpha_two_code,code,ISO 3166-1 alpha-2 country code (US).,yes,100.0,US,Hipo university-domains-list,MIT License (c) Hipo
+state_province,text,"State, where Hipo records one. Often blank in the source.",no,38.8,Georgia,Hipo university-domains-list,MIT License (c) Hipo
+domains,text list (values separated by '; '),"Internet domain(s) used by the institution, e.g. for email or websites.",yes,100.0,abac.edu; stallions.abac.edu,Hipo university-domains-list,MIT License (c) Hipo
+web_pages,text list (values separated by '; '),Website address(es) of the institution.,yes,100.0,https://www.abac.edu/,Hipo university-domains-list,MIT License (c) Hipo
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,Hipo university-domains-list,MIT License (c) Hipo

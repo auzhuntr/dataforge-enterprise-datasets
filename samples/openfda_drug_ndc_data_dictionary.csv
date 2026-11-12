@@ -1,0 +1,10 @@
+column,type,description,required,fill_rate_pct,example,source,licence
+product_ndc,code,"FDA: the labeler code and product code segments of the National Drug Code, separated by a hyphen.",yes,100.0,0002-9307,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+brand_name,text,FDA: brand or trade name of the drug product.,no,58.0,Hydrating Hand Sanitizer ALOE BREEZE,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+generic_name,text,FDA: generic name(s) of the drug product.,no,100.0,Insulin human,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+labeler_name,text,"Company that labels the product (manufacturer, repackager or distributor).",yes,100.0,Eli Lilly and Company,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+active_ingredient,text,Name of the FIRST active ingredient listed. Products with several active ingredients show only the first.,no,95.0,INSULIN HUMAN,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+dosage_form,text,"FDA: the drug's dosage form, e.g. tablet or solution for injection (no fixed list).",yes,100.0,CRYSTAL,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+route,text list (values separated by '; '),"FDA: route of administration, e.g. ORAL, TOPICAL. Blank for many bulk ingredients, which have no route.",no,53.0,TOPICAL,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+marketing_category,code,"FDA: marketing category, e.g. NDA, ANDA, BLA, OTC MONOGRAPH DRUG, BULK INGREDIENT, UNAPPROVED DRUG OTHER.",yes,100.0,BULK INGREDIENT,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,openFDA (U.S. Food & Drug Administration),Public domain (CC0)

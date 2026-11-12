@@ -1,0 +1,7 @@
+column,type,description,required,fill_rate_pct,example,source,licence
+paper_title,text,Paper title (whitespace tidied).,yes,100.0,Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Tra,arXiv.org paper metadata,CC0 (metadata only)
+arxiv_url,url,"arXiv abstract page link, including the version number.",yes,100.0,http://arxiv.org/abs/2611.14519v1,arXiv.org paper metadata,CC0 (metadata only)
+abstract_preview,text,First 250 characters of the abstract (the full abstract is CC0 too; this pack is shortened).,yes,100.0,Foundation models pretrained on large natural-image collections are increasingly,arXiv.org paper metadata,CC0 (metadata only)
+publication_date,date (YYYY-MM-DD),Date the paper was LAST UPDATED on arXiv (not necessarily first published).,yes,100.0,2026-11-10,arXiv.org paper metadata,CC0 (metadata only)
+category,text,"Fixed label: Computer Science (AI), i.e. arXiv category cs.AI.",yes,100.0,Computer Science (AI),arXiv.org paper metadata,CC0 (metadata only)
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,arXiv.org paper metadata,CC0 (metadata only)
