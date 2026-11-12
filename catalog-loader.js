@@ -16,7 +16,10 @@
       var local = window.DATAFORGE_CATALOG;
       if (!remote || !Array.isArray(remote.datasets) || !remote.datasets.length) return false;
       if (local && local.generated_at_utc && remote.generated_at_utc < local.generated_at_utc) return false;
-      remote.datasets.forEach(function (d) { d.sample_csv_url = BASE + d.sample_csv_url; });
+      remote.datasets.forEach(function (d) {
+        d.sample_csv_url = BASE + d.sample_csv_url;
+        if (d.data_dictionary_url) d.data_dictionary_url = BASE + d.data_dictionary_url;
+      });
       window.DATAFORGE_CATALOG = remote;
       return true;
     } catch (e) {
