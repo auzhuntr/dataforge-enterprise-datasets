@@ -10,7 +10,10 @@ window.DATAFORGE_PAYPAL = {
       arxiv_ai_research:        { oneoff: "U29A4KX95BENJ", monthly: "" },
       wikipedia_entity_trends:  { oneoff: "W6QFMP63GJ8R6", monthly: "" }
     };
+/* 2026-11-13: purchases PAUSED while packs are upgraded (James approved). Set to false to sell again. */
+window.DATAFORGE_SALES_PAUSED = true;
 window.dataforgePayUrl = function (datasetId, plan) {
+  if (window.DATAFORGE_SALES_PAUSED) return null;
   var e = (window.DATAFORGE_PAYPAL || {})[datasetId];
   var id = e && e[plan];
   return id ? "https://www.paypal.com/ncp/payment/" + id : null;

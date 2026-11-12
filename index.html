@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DataForge IT | Open-Licence Data Feeds Refreshed Every 12 Hours</title>
+  <title>DataForge IT | Open-Licence Data Feeds Checked Every 12 Hours</title>
   
   <!-- SEO & Social Preview Tags -->
-  <meta name="description" content="Cleaned, ready-to-use datasets built from openly licensed public sources, refreshed every 12 hours. Free CSV sample (up to 50 rows) on every dataset.">
+  <meta name="description" content="Cleaned, ready-to-use datasets built from openly licensed public sources, re-checked every 12 hours. Free CSV sample (up to 50 rows) on every dataset.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dataforgeit.digital/">
   <meta property="og:title" content="DataForge IT &mdash; Open-Licence Data Feeds Refreshed Every 12 Hours">
   <meta property="og:description" content="Inspect schemas and download free sample CSVs (up to 50 rows): FDA recalls and drug data, research trends, universities and more. New members save 10%.">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="DataForge IT &mdash; Open-Licence Data Feeds">
-  <meta name="twitter:description" content="10% new member discount. Free CSV sample (up to 50 rows) on every dataset.">
+  <meta name="twitter:description" content="Upgraded packs coming soon. Free CSV sample (up to 50 rows) on every dataset.">
   
   <link rel="stylesheet" href="site.css">
   <style>
@@ -74,7 +74,7 @@
         <a href="#services" class="hover:text-cyan-400 transition-colors">Data Categories</a>
         <a href="#it-solutions" class="hover:text-cyan-400 transition-colors">Custom Engineering</a>
         <a href="#calculator" class="hover:text-cyan-400 transition-colors">Pricing Estimator</a>
-        <a href="#compliance" class="hover:text-cyan-400 transition-colors">Compliance &amp; SLA</a>
+        <a href="#compliance" class="hover:text-cyan-400 transition-colors">Quality &amp; Compliance</a>
         <a href="#faq" class="hover:text-cyan-400 transition-colors">FAQ</a>
       </div>
 
@@ -90,15 +90,15 @@
   <header class="relative pt-24 pb-20 px-6 max-w-7xl mx-auto text-center">
     <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700/80 text-xs text-cyan-300 font-medium mb-8 backdrop-blur-sm">
       <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-      Automated 12-Hourly Refresh &bullet; Open-Licence Sources &bullet; Free CSV Samples
+      Open-Licence Sources &bullet; Free CSV Samples &bullet; Upgraded Packs Coming Soon
     </div>
 
     <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight sm:leading-tight">
-      Open-Licence Data Feeds <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Updated Every 12 Hours</span>
+      Open-Licence Data Feeds <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Checked Every 12 Hours</span>
     </h1>
 
     <p class="mt-6 text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-      Datasets built only from openly licensed public sources, refreshed every 12 hours and checked automatically for licence sign-off, duplicates, completeness and freshness. Delivered as CSV by email after purchase.
+      Datasets built only from openly licensed public sources, re-checked against the source every 12 hours for licence sign-off, duplicates, completeness and freshness. Purchases are paused while we upgrade every pack to full source coverage; free samples stay available.
     </p>
 
     <!-- CTAs -->
@@ -158,12 +158,12 @@
       <!-- Standalone Removable 10% New Membership Promo Banner -->
       <div id="newMemberPromoBanner" class="mt-6 p-4 rounded-2xl bg-gradient-to-r from-emerald-500/15 via-cyan-500/15 to-blue-600/15 border border-emerald-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div class="flex items-center gap-3">
-          <span class="px-2.5 py-1 rounded-lg bg-emerald-500 text-slate-950 text-xs font-extrabold uppercase tracking-wider">New Member Special</span>
+          <span class="px-2.5 py-1 rounded-lg bg-emerald-500 text-slate-950 text-xs font-extrabold uppercase tracking-wider">Upgrading</span>
           <span class="text-xs sm:text-sm text-slate-200 font-medium">
-            New members get <strong class="text-emerald-300">10% OFF</strong> any monthly 12-hourly feed plan. The discount is already included in the price shown on each card.
+            We are upgrading every pack to <strong class="text-emerald-300">full source coverage</strong> with better documentation and formats. Purchases are paused until the upgraded packs are ready. Free 50-row samples stay available below.
           </span>
         </div>
-        <span class="text-[11px] text-emerald-300 font-semibold whitespace-nowrap">&check; Applied automatically at checkout</span>
+        <a href="#contact" class="text-[11px] text-emerald-300 font-semibold whitespace-nowrap hover:underline">Join the waitlist &rarr;</a>
       </div>
 
       <!-- Category Filter Tabs -->
@@ -213,11 +213,8 @@
               <button onclick="openDatasetModal('world_universities_poi')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('world_universities_poi')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('world_universities_poi')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('world_universities_poi')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -264,11 +261,8 @@
               <button onclick="openDatasetModal('openfda_drug_ndc')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('openfda_drug_ndc')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('openfda_drug_ndc')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('openfda_drug_ndc')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -315,11 +309,8 @@
               <button onclick="openDatasetModal('open_brewery_poi')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('open_brewery_poi')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('open_brewery_poi')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('open_brewery_poi')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -366,11 +357,8 @@
               <button onclick="openDatasetModal('fda_medical_devices')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('fda_medical_devices')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('fda_medical_devices')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('fda_medical_devices')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -417,11 +405,8 @@
               <button onclick="openDatasetModal('fda_drug_recalls')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('fda_drug_recalls')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('fda_drug_recalls')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('fda_drug_recalls')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -468,11 +453,8 @@
               <button onclick="openDatasetModal('fda_food_recalls')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('fda_food_recalls')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('fda_food_recalls')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('fda_food_recalls')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -519,11 +501,8 @@
               <button onclick="openDatasetModal('arxiv_ai_research')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('arxiv_ai_research')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('arxiv_ai_research')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('arxiv_ai_research')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -570,11 +549,8 @@
               <button onclick="openDatasetModal('wikipedia_entity_trends')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('wikipedia_entity_trends')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('wikipedia_entity_trends')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('wikipedia_entity_trends')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -652,10 +628,9 @@
             Download Sample CSV
           </a>
           <button id="modalPaypalBtn" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#003087] text-white text-xs font-bold shadow-md shadow-blue-500/20 transition-all flex items-center justify-center gap-1.5">
-            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.787.787 0 0 1 .776-.645h6.634c3.085 0 5.485 1.258 5.767 4.143.238 2.457-.96 4.38-3.05 5.25 1.83.67 2.65 2.27 2.23 4.54-.49 2.68-2.61 4.33-5.83 4.33H8.38l-.63 3.99H7.076z"/></svg>
-            <span>Buy One-Off (PayPal)</span>
+            <span>Coming soon &bull; Join waitlist</span>
           </button>
-          <button id="modalStripeBtn" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-xs font-bold shadow-md shadow-cyan-500/20 transition-all flex items-center justify-center gap-1.5">
+          <button id="modalStripeBtn" style="display:none" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-xs font-bold shadow-md shadow-cyan-500/20 transition-all flex items-center justify-center gap-1.5">
             <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/></svg>
             <span>Pay by Card</span>
           </button>
@@ -706,7 +681,7 @@
         <h3 class="text-xl font-bold text-white mb-2">Research &amp; Attention Signals</h3>
         <p class="text-slate-400 text-sm mb-4 leading-relaxed">CC0 metadata feeds: recent arXiv AI papers and daily Wikipedia pageviews for six tracked entities.</p>
         <ul class="text-xs text-slate-400 space-y-1.5 font-medium border-t border-slate-800 pt-4">
-          <li class="flex items-center gap-2"><span class="text-cyan-400">&check;</span> Latest 30 cs.AI papers per refresh</li>
+          <li class="flex items-center gap-2"><span class="text-cyan-400">&check;</span> Latest 50 cs.AI papers per refresh</li>
           <li class="flex items-center gap-2"><span class="text-cyan-400">&check;</span> Daily pageviews, last 9 days</li>
           <li class="flex items-center gap-2"><span class="text-cyan-400">&check;</span> Pageviews only; no search volume</li>
         </ul>
@@ -1074,7 +1049,7 @@
             <span class="px-2.5 py-0.5 rounded-md bg-amber-500/15 text-amber-300 text-[11px] font-mono">Snapshot Continuity</span>
           </div>
           <p class="text-xs text-slate-400 leading-relaxed">
-            If an upstream institutional API remains unreachable across all 3 passes, bad data is never published. Instead, the product tile badges its hold status and continues serving the <strong class="text-slate-200">Last Verified Snapshot</strong> while hourly catch-up rescans run.
+            If an upstream institutional API remains unreachable across all 3 passes, bad data is never published. Instead, the product tile badges its hold status and continues serving the <strong class="text-slate-200">Last Verified Snapshot</strong> until a later scheduled run passes.
           </p>
         </div>
       </div>
@@ -1117,7 +1092,7 @@
       <a href="#services" class="hover:text-cyan-400">Data Feeds</a>
       <a href="#it-solutions" class="hover:text-cyan-400">Custom Engineering</a>
       <a href="#calculator" class="hover:text-cyan-400">Pricing</a>
-      <a href="#compliance" class="hover:text-cyan-400">Compliance &amp; SLA</a>
+      <a href="#compliance" class="hover:text-cyan-400">Quality &amp; Compliance</a>
       <a href="#faq" class="hover:text-cyan-400">FAQ</a>
       <a href="#contact" class="hover:text-cyan-400">Contact</a>
       <a href="terms.html" class="hover:text-cyan-400">Terms</a>
@@ -1231,7 +1206,7 @@
   </script>
   <script src="catalog-data.js?v=20261109"></script>
   <script src="catalog-loader.js?v=20261109"></script>
-  <script src="paypal-links.js?v=20261110"></script>
+  <script src="paypal-links.js?v=20261113"></script>
   <script>
     let activeCategory = "All";
     let showAllCatalog = false;
@@ -1330,11 +1305,8 @@
               <button onclick="openDatasetModal('${d.id}')" class="px-2.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-[11px] font-semibold transition-colors">
                 Preview
               </button>
-              <button onclick="buyPaypal('${d.id}')" class="px-2.5 py-2.5 rounded-xl bg-[#0070ba] hover:bg-[#005ea6] text-white text-[11px] font-bold shadow-md transition-all">
-                Buy One-Off
-              </button>
-              <button onclick="buyStripe('${d.id}')" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
-                Pay by Card
+              <button onclick="joinWaitlist('${d.id}')" style="grid-column: span 2 / span 2" class="px-2.5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-[11px] font-bold shadow-md shadow-cyan-500/15 transition-all">
+                Coming soon &bull; Join waitlist
               </button>
             </div>
           </div>
@@ -1353,17 +1325,22 @@
       }
     }
 
-    function buyPaypal(datasetId) {
-      // One-off purchase through a PayPal hosted link (price is fixed on PayPal's side).
-      const url = window.dataforgePayUrl && window.dataforgePayUrl(datasetId, 'oneoff');
-      window.open(url || `checkout.html?dataset=${encodeURIComponent(datasetId)}&method=paypal`, '_blank');
-    }
+    function buyPaypal(datasetId) { joinWaitlist(datasetId); }   // purchases paused 2026-11-13
+    function buyStripe(datasetId) { joinWaitlist(datasetId); }
 
-    function buyStripe(datasetId) {
-      const catData = window.DATAFORGE_CATALOG;
-      const d = catData.datasets.find(x => x.id === datasetId);
-      if (!d) return;
-      window.open(`checkout.html?dataset=${encodeURIComponent(d.id)}&method=stripe`, '_blank');
+    function joinWaitlist(datasetId) {
+      // Purchases are paused while every pack is upgraded. Pre-fill the contact form as a waitlist request.
+      const cat = window.DATAFORGE_CATALOG || {};
+      const d = (cat.datasets || []).find(x => x.id === datasetId);
+      const name = d ? d.title : datasetId;
+      if (typeof closeDatasetModal === "function") closeDatasetModal();
+      const form = document.getElementById("sampleForm");
+      if (form) {
+        if (form.elements.target_website) form.elements.target_website.value = "Waitlist: " + name;
+        if (form.elements.notes) form.elements.notes.value = "Please tell me when the upgraded \"" + name + "\" pack is available.";
+      }
+      const c = document.getElementById("contact");
+      if (c) c.scrollIntoView({ behavior: "smooth" });
     }
 
     function openDatasetModal(datasetId) {
@@ -1391,11 +1368,11 @@
       document.getElementById("modalSampleBtn").href = d.sample_csv_url;
       document.getElementById("modalSource").innerHTML = `Source: <a href="${d.licence_url}" target="_blank" rel="noopener" class="text-cyan-400 hover:underline">${d.source}</a> &bull; Licence: ${d.licence}. ${d.attribution || ""}`;
       document.getElementById("modalPricingText").innerHTML =
-        `<strong>$${d.price_monthly_usd}/mo</strong> General Rate (<span class="text-emerald-300 font-bold">$${d.price_new_member_usd}/mo New Member -10%</span>) &bull; <strong>$${d.price_oneoff_usd}</strong> One-Off`;
+        `<span class="text-slate-400">Purchases paused &bull; list price:</span> <strong>$${d.price_monthly_usd}/mo</strong> General Rate (<span class="text-emerald-300 font-bold">$${d.price_new_member_usd}/mo New Member -10%</span>) &bull; <strong>$${d.price_oneoff_usd}</strong> One-Off`;
 
       // Direct PayPal Instant Checkout
       const paypalBtn = document.getElementById("modalPaypalBtn");
-      paypalBtn.onclick = () => buyPaypal(d.id);
+      paypalBtn.onclick = () => joinWaitlist(d.id);
 
       // Direct Stripe / Card Instant Checkout
       const stripeBtn = document.getElementById("modalStripeBtn");

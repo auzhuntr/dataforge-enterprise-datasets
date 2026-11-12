@@ -71,7 +71,7 @@
           "email",
           "how long"
         ],
-        "answer": "After your payment is confirmed, we run a fresh extract, review it for accuracy and privacy, and then email it to your PayPal email address as soon as possible. Nothing is sent until it has been checked."
+        "answer": "Purchases are currently paused while we upgrade every pack to full source coverage. Free 50-row samples are still available, and you can join the waitlist with the contact form. After your payment is confirmed, we run a fresh extract, review it for accuracy and privacy, and then email it to your PayPal email address as soon as possible. Nothing is sent until it has been checked."
       },
       {
         "question": "How does pricing and the new member discount work?",
@@ -87,7 +87,7 @@
           "rates",
           "membership"
         ],
-        "answer": "Every dataset shows a monthly subscription price and a one-off price on its card. Monthly plans get a **10% new member discount**, already shown on each card and applied at checkout. A monthly plan covers one month of 12-hourly updates with no automatic renewal. Prices are in USD."
+        "answer": "Purchases are currently paused while we upgrade every pack to full source coverage. Free 50-row samples are still available, and you can join the waitlist with the contact form. Every dataset shows a monthly subscription price and a one-off price on its card. Monthly plans get a **10% new member discount**, already shown on each card and applied at checkout. A monthly plan covers one month of 12-hourly updates with no automatic renewal. Prices are in USD."
       },
       {
         "question": "Can you build a custom data feed?",
