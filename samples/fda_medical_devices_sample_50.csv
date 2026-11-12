@@ -1,51 +1,51 @@
 product_code,device_name,device_class,device_class_label,medical_specialty,review_panel,regulation_number,submission_type_id,implant_flag,life_sustain_support_flag,gmp_exempt_flag,third_party_flag,definition,collected_at_iso
-GZF,"Stimulator, Peripheral Nerve, Implanted (Pain Relief)",2,Class II,Neurology,NE,21 CFR 882.5870,1,Y,N,N,N,,2026-11-12T11:36:13+00:00
-NOG,"Topographer, Corneal, Battery Powered",1,Class I,Ophthalmic,OP,21 CFR 886.1350,4,N,N,Y,N,"Topographer, corneal, battery powered",2026-11-12T11:36:13+00:00
-GPP,"Antiserum, Rocky Mountain Spotted Fever",1,Class I,Microbiology,MI,21 CFR 866.3500,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-DKC,Alcohol Control Materials,1,Class I,Clinical Toxicology,TX,21 CFR 862.3280,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-FTD,"Lamp, Surgical",2,Class II,"General, Plastic Surgery",SU,21 CFR 878.4580,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-KCD,"Bougie, Esophageal, Ent",1,Class I,"Ear, Nose, Throat",EN,21 CFR 874.4420,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-KKM,Methylene Blue Thiocyanate,1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-12T11:36:13+00:00
-LPF,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic, Cemented",3,Class III,Orthopedic,OR,,2,Y,N,N,N,,2026-11-12T11:36:13+00:00
-QFP,Intraoperative Orthopedic Strain Sensor,2,Class II,Orthopedic,OR,21 CFR 888.3090,1,N,N,N,N,A strain sensor device is an adjunct tool intended to measure strain on an orthopedic implant in the intraoperative setting only. The device is not intended to provide diagnostic information or influence clinical decision-making.,2026-11-12T11:36:13+00:00
-LYV,"Label Or Tag, Sterile",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-MCP,"Stimulator, Fetal, Acoustic",3,Class III,Obstetrics/Gynecology,OB,,2,N,N,N,N,,2026-11-12T11:36:13+00:00
-QVS,Breast Implant Suction Retrieval Device,2,Class II,"General, Plastic Surgery",SU,21 CFR 878.4675,1,N,N,N,N,A breast implant suction retrieval system is a prescription surgical device that uses vacuum suction to assist in the removal and containment of a ruptured silicone breast implant.,2026-11-12T11:36:13+00:00
-NYL,"Handpiece, Air-Powered, Root Canal Irrigation",1,Class I,Dental,DE,21 CFR 872.4200,1,N,N,N,Y,To clean the root canal prior to filling and used for root canal irrigation.,2026-11-12T11:36:13+00:00
-LOP,"Solution, Antimicrobial",2,Class II,Microbiology,MI,21 CFR 866.1640,1,N,N,N,Y,,2026-11-12T11:36:13+00:00
-IQW,"Hook, External Limb Component, Powered",1,Class I,Physical Medicine,PM,21 CFR 890.3420,4,N,N,Y,N,,2026-11-12T11:36:13+00:00
-QFI,Synthetic Next-Generation Sequencing Quality Control And Filler Material,N,Not Classified,Pathology,PA,,3,N,N,N,N,A synthetic next-generation sequencing filler material which contains an adapter-ligated library which allows users to run partial batches of next-generation sequencing assays by adding the material to sample pools to fill in for incomplete batched runs.,2026-11-12T11:36:13+00:00
-JLF,"Radioimmunoassay, Etiocholanolone",1,Class I,Clinical Chemistry,CH,21 CFR 862.1285,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-OZX,Mycoplasma Pneumoniae Dna Assay System,2,Class II,Microbiology,MI,21 CFR 866.3980,1,N,N,N,N,A qualitative in vitro diagnostic assay intended to detect Mycoplasma pneumoniae DNA extracted from human respiratory specimens. Detection of Mycoplasma pneumoniae DNA aids in the diagnosis of Mycoplasma pneumoniae respiratory infection in conjunction with other clinical and laboratory testing in patients exhibiting signs and symptoms of upper respiratory tract infection.,2026-11-12T11:36:13+00:00
-ING,"Elevator, Wheelchair, Portable",2,Class II,Physical Medicine,PM,21 CFR 890.3930,1,N,N,N,Y,"A motorized lift device that is not permanently mounted in one location and that is intended for medical purposes to provide a means to move a person with impaired mobility, with or without a wheelchair, from one level to another (e.g., portable platform lifts, attendant-operated stair climbing devices for wheelchairs).",2026-11-12T11:36:13+00:00
-HJT,Haploscope,1,Class I,Ophthalmic,OP,21 CFR 886.1340,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-DHQ,"Ng3m(G), Antigen, Antiserum, Control",1,Class I,Immunology,IM,21 CFR 866.5065,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-NRJ,"Ultrasound, Skin Permeation",2,Class II,"General, Plastic Surgery",SU,21 CFR 878.4410,1,N,N,N,Y,"Indicated for the temporary disruption of the outer layer of skin for the application of drugs, etc.",2026-11-12T11:36:13+00:00
-JKR,"Radioimmunoassay, Calcitonin",2,Class II,Clinical Chemistry,CH,21 CFR 862.1140,1,N,N,N,Y,,2026-11-12T11:36:13+00:00
-KWD,"Prosthesis, Toe, Hemi-, Phalangeal",2,Class II,Orthopedic,OR,21 CFR 888.3730,1,Y,N,N,N,,2026-11-12T11:36:13+00:00
-PON,"Catheter, Balloon, Dilation Of Cervical Canal",2,Class II,Obstetrics/Gynecology,OB,21 CFR 884.4260,1,N,N,N,Y,Mechanical dilation and softening of the cervix.,2026-11-12T11:36:13+00:00
-EJR,"Agent, Polishing, Abrasive, Oral Cavity",1,Class I,Dental,DE,21 CFR 872.6030,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-IDM,"Microtome, Ultra",1,Class I,Pathology,PA,21 CFR 864.3010,4,N,N,Y,N,,2026-11-12T11:36:13+00:00
-GMH,"Antiserum, Positive Control, Coccidioides Immitis",2,Class II,Microbiology,MI,21 CFR 866.3135,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-OIF,Tyrosine Phosphatase (Ia-2) Autoantibody Assay,2,Class II,Immunology,IM,21 CFR 866.5660,1,N,N,N,Y,The device is used for the semi-quantitative determination of autoantibodies against tyrosine phosphatase (IA-2) in human serum as an aid in the diagnosis of Type 1 diabetes mellitus (autoimmune mediated diabetes).,2026-11-12T11:36:13+00:00
-DEW,"Igg, Antigen, Antiserum, Control",2,Class II,Immunology,IM,21 CFR 866.5510,1,N,N,N,Y,,2026-11-12T11:36:13+00:00
-PJK,Tissue Adhesive For Internal Use,3,Class III,"General, Plastic Surgery",SU,21 CFR 878.4010,2,Y,N,N,N,Approximation of tissue layers where subcutaneous dead space exists between the tissue planes in abdominoplasty.,2026-11-12T11:36:13+00:00
-RGC,X-Ray Field Indicator Light (Laser),1,Class I,Radiology,RA,21 CFR 892.5780,4,N,N,N,N,A laser incorporated in a diagnostic x-ray system that is irradiated onto the film screen area indicating the x-radiation area.  The beam is usually scanned to show a rectangular region for patient placement.,2026-11-12T11:36:13+00:00
-JPZ,"Colorimetric Method, Gamma-Glutamyl Transpeptidase",1,Class I,Clinical Chemistry,CH,21 CFR 862.1360,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-LXT,"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component, Metal Composite",2,Class II,Orthopedic,OR,21 CFR 888.3030,1,Y,N,N,N,,2026-11-12T11:36:13+00:00
-HXO,"Pusher, Socket",1,Class I,Orthopedic,OR,21 CFR 888.4540,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-HHE,"Cup, Menstrual",2,Class II,Obstetrics/Gynecology,OB,21 CFR 884.5400,4,N,N,N,N,A menstrual cup is a receptacle placed in the vagina to collect menstrual flow.,2026-11-12T11:36:13+00:00
-MAU,"Eraser, Dental Stain",1,Class I,Dental,DE,21 CFR 872.6855,4,N,N,Y,N,,2026-11-12T11:36:13+00:00
-JZP,"Plates, Ouchterlony Agar",1,Class I,Immunology,IM,21 CFR 866.4600,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-IAD,Van Gieson'S Picro-Fuchsin,1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-12T11:36:13+00:00
-OWE,"Fluorescence In Situ Hybridization, Anaplastic Lymphoma Kinase, Gene Rearrangement",2,Class II,Pathology,PA,21 CFR 864.1890,1,N,N,N,N,"Anaplastic lymphoma kinase (ALK) fluorescence in situ hybridization (FISH) kit is to detect rearrangements involving the ALK gene in formalin-fixed, paraffin-embedded (FFPE) non-small cell lung cancer (NSCLC) tissue specimens. It is indicated to aid in the selection of patients for treatment with specific FDA approved therapeutic drugs.",2026-11-12T11:36:13+00:00
-OWK,Early Growth Response 1 (Egr) Fish Probe Kit,2,Class II,Immunology,PA,21 CFR 866.6040,1,N,N,N,Y,"The egr1 fish probe kit is intended to detect deletion of the lsi egr1 probe target in bone marrow specimens and may be used, in addition to cytogenetics, other biomarkers, morphology, and other clinical information, at the time of diagnosis as an aid in determining the prognosis of acute myeloid leukemia (aml) patients.",2026-11-12T11:36:13+00:00
-NMF,"Clamp, Vascular, Reprocessed",2,Class II,Cardiovascular,CV,21 CFR 870.4450,1,N,N,N,Y,"Reprocessing validation data for this device type must be included in a 510(k) submission. (70 FR 56911, available at https://www.govinfo.gov/content/pkg/FR-2005-09-29/pdf/05-19510.pdf).",2026-11-12T11:36:13+00:00
-GPY,"Antisera, Hai, Reovirus 1-3",1,Class I,Microbiology,MI,21 CFR 866.3470,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-IYY,"Synchronizer, Electrocardiograph, Nuclear",1,Class I,Radiology,RA,21 CFR 892.1410,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-MMW,"System, Test, Tumor Marker, Monitoring, Bladder",2,Class II,Immunology,IM,21 CFR 866.6010,1,N,N,N,Y,,2026-11-12T11:36:13+00:00
-MPG,Urinary Carbohydrate Analysis Kit,1,Class I,Clinical Chemistry,CH,21 CFR 862.1505,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-HZT,"Reagent, Schiff",1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-12T11:36:13+00:00
-HCF,"Instrument, Ligature Passing And Knot Tying",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-12T11:36:13+00:00
-PDE,Immunoglobulin M Kappa Heavy And Light Chain Combined,2,Class II,Immunology,IM,21 CFR 866.5510,1,N,N,N,Y,"Intended for the in-vitro quantification of IgM kappa concentration in human serum.  The result is to be used with previously diagnosed igm Waldenstoms Macrolobulinaemia, in conjunction with other clinical and laboratory findings.",2026-11-12T11:36:13+00:00
-MAW,"Marker, Suture Identification",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,1,N,N,N,N,,2026-11-12T11:36:13+00:00
+GZF,"Stimulator, Peripheral Nerve, Implanted (Pain Relief)",2,Class II,Neurology,NE,21 CFR 882.5870,1,Y,N,N,N,,2026-11-12T11:37:33+00:00
+NOG,"Topographer, Corneal, Battery Powered",1,Class I,Ophthalmic,OP,21 CFR 886.1350,4,N,N,Y,N,"Topographer, corneal, battery powered",2026-11-12T11:37:33+00:00
+GPP,"Antiserum, Rocky Mountain Spotted Fever",1,Class I,Microbiology,MI,21 CFR 866.3500,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+DKC,Alcohol Control Materials,1,Class I,Clinical Toxicology,TX,21 CFR 862.3280,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+FTD,"Lamp, Surgical",2,Class II,"General, Plastic Surgery",SU,21 CFR 878.4580,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+KCD,"Bougie, Esophageal, Ent",1,Class I,"Ear, Nose, Throat",EN,21 CFR 874.4420,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+KKM,Methylene Blue Thiocyanate,1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-12T11:37:33+00:00
+LPF,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic, Cemented",3,Class III,Orthopedic,OR,,2,Y,N,N,N,,2026-11-12T11:37:33+00:00
+QFP,Intraoperative Orthopedic Strain Sensor,2,Class II,Orthopedic,OR,21 CFR 888.3090,1,N,N,N,N,A strain sensor device is an adjunct tool intended to measure strain on an orthopedic implant in the intraoperative setting only. The device is not intended to provide diagnostic information or influence clinical decision-making.,2026-11-12T11:37:33+00:00
+LYV,"Label Or Tag, Sterile",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+MCP,"Stimulator, Fetal, Acoustic",3,Class III,Obstetrics/Gynecology,OB,,2,N,N,N,N,,2026-11-12T11:37:33+00:00
+QVS,Breast Implant Suction Retrieval Device,2,Class II,"General, Plastic Surgery",SU,21 CFR 878.4675,1,N,N,N,N,A breast implant suction retrieval system is a prescription surgical device that uses vacuum suction to assist in the removal and containment of a ruptured silicone breast implant.,2026-11-12T11:37:33+00:00
+NYL,"Handpiece, Air-Powered, Root Canal Irrigation",1,Class I,Dental,DE,21 CFR 872.4200,1,N,N,N,Y,To clean the root canal prior to filling and used for root canal irrigation.,2026-11-12T11:37:33+00:00
+LOP,"Solution, Antimicrobial",2,Class II,Microbiology,MI,21 CFR 866.1640,1,N,N,N,Y,,2026-11-12T11:37:33+00:00
+IQW,"Hook, External Limb Component, Powered",1,Class I,Physical Medicine,PM,21 CFR 890.3420,4,N,N,Y,N,,2026-11-12T11:37:33+00:00
+QFI,Synthetic Next-Generation Sequencing Quality Control And Filler Material,N,Not Classified,Pathology,PA,,3,N,N,N,N,A synthetic next-generation sequencing filler material which contains an adapter-ligated library which allows users to run partial batches of next-generation sequencing assays by adding the material to sample pools to fill in for incomplete batched runs.,2026-11-12T11:37:33+00:00
+JLF,"Radioimmunoassay, Etiocholanolone",1,Class I,Clinical Chemistry,CH,21 CFR 862.1285,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+OZX,Mycoplasma Pneumoniae Dna Assay System,2,Class II,Microbiology,MI,21 CFR 866.3980,1,N,N,N,N,A qualitative in vitro diagnostic assay intended to detect Mycoplasma pneumoniae DNA extracted from human respiratory specimens. Detection of Mycoplasma pneumoniae DNA aids in the diagnosis of Mycoplasma pneumoniae respiratory infection in conjunction with other clinical and laboratory testing in patients exhibiting signs and symptoms of upper respiratory tract infection.,2026-11-12T11:37:33+00:00
+ING,"Elevator, Wheelchair, Portable",2,Class II,Physical Medicine,PM,21 CFR 890.3930,1,N,N,N,Y,"A motorized lift device that is not permanently mounted in one location and that is intended for medical purposes to provide a means to move a person with impaired mobility, with or without a wheelchair, from one level to another (e.g., portable platform lifts, attendant-operated stair climbing devices for wheelchairs).",2026-11-12T11:37:33+00:00
+HJT,Haploscope,1,Class I,Ophthalmic,OP,21 CFR 886.1340,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+DHQ,"Ng3m(G), Antigen, Antiserum, Control",1,Class I,Immunology,IM,21 CFR 866.5065,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+NRJ,"Ultrasound, Skin Permeation",2,Class II,"General, Plastic Surgery",SU,21 CFR 878.4410,1,N,N,N,Y,"Indicated for the temporary disruption of the outer layer of skin for the application of drugs, etc.",2026-11-12T11:37:33+00:00
+JKR,"Radioimmunoassay, Calcitonin",2,Class II,Clinical Chemistry,CH,21 CFR 862.1140,1,N,N,N,Y,,2026-11-12T11:37:33+00:00
+KWD,"Prosthesis, Toe, Hemi-, Phalangeal",2,Class II,Orthopedic,OR,21 CFR 888.3730,1,Y,N,N,N,,2026-11-12T11:37:33+00:00
+PON,"Catheter, Balloon, Dilation Of Cervical Canal",2,Class II,Obstetrics/Gynecology,OB,21 CFR 884.4260,1,N,N,N,Y,Mechanical dilation and softening of the cervix.,2026-11-12T11:37:33+00:00
+EJR,"Agent, Polishing, Abrasive, Oral Cavity",1,Class I,Dental,DE,21 CFR 872.6030,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+IDM,"Microtome, Ultra",1,Class I,Pathology,PA,21 CFR 864.3010,4,N,N,Y,N,,2026-11-12T11:37:33+00:00
+GMH,"Antiserum, Positive Control, Coccidioides Immitis",2,Class II,Microbiology,MI,21 CFR 866.3135,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+OIF,Tyrosine Phosphatase (Ia-2) Autoantibody Assay,2,Class II,Immunology,IM,21 CFR 866.5660,1,N,N,N,Y,The device is used for the semi-quantitative determination of autoantibodies against tyrosine phosphatase (IA-2) in human serum as an aid in the diagnosis of Type 1 diabetes mellitus (autoimmune mediated diabetes).,2026-11-12T11:37:33+00:00
+DEW,"Igg, Antigen, Antiserum, Control",2,Class II,Immunology,IM,21 CFR 866.5510,1,N,N,N,Y,,2026-11-12T11:37:33+00:00
+PJK,Tissue Adhesive For Internal Use,3,Class III,"General, Plastic Surgery",SU,21 CFR 878.4010,2,Y,N,N,N,Approximation of tissue layers where subcutaneous dead space exists between the tissue planes in abdominoplasty.,2026-11-12T11:37:33+00:00
+RGC,X-Ray Field Indicator Light (Laser),1,Class I,Radiology,RA,21 CFR 892.5780,4,N,N,N,N,A laser incorporated in a diagnostic x-ray system that is irradiated onto the film screen area indicating the x-radiation area.  The beam is usually scanned to show a rectangular region for patient placement.,2026-11-12T11:37:33+00:00
+JPZ,"Colorimetric Method, Gamma-Glutamyl Transpeptidase",1,Class I,Clinical Chemistry,CH,21 CFR 862.1360,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+LXT,"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component, Metal Composite",2,Class II,Orthopedic,OR,21 CFR 888.3030,1,Y,N,N,N,,2026-11-12T11:37:33+00:00
+HXO,"Pusher, Socket",1,Class I,Orthopedic,OR,21 CFR 888.4540,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+HHE,"Cup, Menstrual",2,Class II,Obstetrics/Gynecology,OB,21 CFR 884.5400,4,N,N,N,N,A menstrual cup is a receptacle placed in the vagina to collect menstrual flow.,2026-11-12T11:37:33+00:00
+MAU,"Eraser, Dental Stain",1,Class I,Dental,DE,21 CFR 872.6855,4,N,N,Y,N,,2026-11-12T11:37:33+00:00
+JZP,"Plates, Ouchterlony Agar",1,Class I,Immunology,IM,21 CFR 866.4600,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+IAD,Van Gieson'S Picro-Fuchsin,1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-12T11:37:33+00:00
+OWE,"Fluorescence In Situ Hybridization, Anaplastic Lymphoma Kinase, Gene Rearrangement",2,Class II,Pathology,PA,21 CFR 864.1890,1,N,N,N,N,"Anaplastic lymphoma kinase (ALK) fluorescence in situ hybridization (FISH) kit is to detect rearrangements involving the ALK gene in formalin-fixed, paraffin-embedded (FFPE) non-small cell lung cancer (NSCLC) tissue specimens. It is indicated to aid in the selection of patients for treatment with specific FDA approved therapeutic drugs.",2026-11-12T11:37:33+00:00
+OWK,Early Growth Response 1 (Egr) Fish Probe Kit,2,Class II,Immunology,PA,21 CFR 866.6040,1,N,N,N,Y,"The egr1 fish probe kit is intended to detect deletion of the lsi egr1 probe target in bone marrow specimens and may be used, in addition to cytogenetics, other biomarkers, morphology, and other clinical information, at the time of diagnosis as an aid in determining the prognosis of acute myeloid leukemia (aml) patients.",2026-11-12T11:37:33+00:00
+NMF,"Clamp, Vascular, Reprocessed",2,Class II,Cardiovascular,CV,21 CFR 870.4450,1,N,N,N,Y,"Reprocessing validation data for this device type must be included in a 510(k) submission. (70 FR 56911, available at https://www.govinfo.gov/content/pkg/FR-2005-09-29/pdf/05-19510.pdf).",2026-11-12T11:37:33+00:00
+GPY,"Antisera, Hai, Reovirus 1-3",1,Class I,Microbiology,MI,21 CFR 866.3470,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+IYY,"Synchronizer, Electrocardiograph, Nuclear",1,Class I,Radiology,RA,21 CFR 892.1410,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+MMW,"System, Test, Tumor Marker, Monitoring, Bladder",2,Class II,Immunology,IM,21 CFR 866.6010,1,N,N,N,Y,,2026-11-12T11:37:33+00:00
+MPG,Urinary Carbohydrate Analysis Kit,1,Class I,Clinical Chemistry,CH,21 CFR 862.1505,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+HZT,"Reagent, Schiff",1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-12T11:37:33+00:00
+HCF,"Instrument, Ligature Passing And Knot Tying",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-12T11:37:33+00:00
+PDE,Immunoglobulin M Kappa Heavy And Light Chain Combined,2,Class II,Immunology,IM,21 CFR 866.5510,1,N,N,N,Y,"Intended for the in-vitro quantification of IgM kappa concentration in human serum.  The result is to be used with previously diagnosed igm Waldenstoms Macrolobulinaemia, in conjunction with other clinical and laboratory findings.",2026-11-12T11:37:33+00:00
+MAW,"Marker, Suture Identification",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,1,N,N,N,N,,2026-11-12T11:37:33+00:00
