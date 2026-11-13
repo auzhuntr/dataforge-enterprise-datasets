@@ -11,4 +11,4 @@ latitude,decimal,Latitude in decimal degrees (WGS84). Blank where the source has
 longitude,decimal,Longitude in decimal degrees (WGS84). Blank where the source has no location.,no,75.5,11.327765,Open Brewery DB,MIT License (c) Open Brewery DB
 phone,text,Business phone number as published by Open Brewery DB.,no,88.0,+49 9261 628000,Open Brewery DB,MIT License (c) Open Brewery DB
 website_url,url,Venue website or social media page.,no,87.5,http://www.antla.de,Open Brewery DB,MIT License (c) Open Brewery DB
-collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,Open Brewery DB,MIT License (c) Open Brewery DB
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-13T15:15:15+00:00,Open Brewery DB,MIT License (c) Open Brewery DB

@@ -12,4 +12,4 @@ life_sustain_support_flag,code,"FDA: Y if the device is used to sustain or suppo
 gmp_exempt_flag,code,"FDA: Y if exempt from Good Manufacturing Practice / Quality System rules (21 CFR 820), else N.",yes,100.0,N,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
 third_party_flag,code,"FDA: Y if eligible for review by an accredited third party instead of FDA directly, else N.",yes,100.0,N,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
 definition,text,"FDA's compositional definition of the device, where available.",no,34.0,Diagnostic ultrasonic imaging or monitoring.,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
-collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-13T15:15:15+00:00,openFDA (U.S. Food & Drug Administration),Public domain (CC0)

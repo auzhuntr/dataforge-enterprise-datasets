@@ -5,4 +5,4 @@ alpha_two_code,code,ISO 3166-1 alpha-2 country code (US).,yes,100.0,US,Hipo univ
 state_province,text,"State, where Hipo records one. Often blank in the source.",no,38.8,Georgia,Hipo university-domains-list,MIT License (c) Hipo
 domains,text list (values separated by '; '),"Internet domain(s) used by the institution, e.g. for email or websites.",yes,100.0,abac.edu; stallions.abac.edu,Hipo university-domains-list,MIT License (c) Hipo
 web_pages,text list (values separated by '; '),Website address(es) of the institution.,yes,100.0,https://www.abac.edu/,Hipo university-domains-list,MIT License (c) Hipo
-collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-12T19:38:33+00:00,Hipo university-domains-list,MIT License (c) Hipo
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-13T15:15:15+00:00,Hipo university-domains-list,MIT License (c) Hipo
