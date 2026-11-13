@@ -5,4 +5,4 @@ classification,code,"FDA hazard class: Class I (could cause serious health probl
 reason_for_recall,text,FDA: how the product is defective or violates the law. Phone numbers are removed by DataForge.,yes,100.0,Products are recalled due to potential undeclared wheat gluten,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
 voluntary_mandated,text,FDA: who initiated the recall. Almost always 'Voluntary: Firm initiated'.,yes,100.0,Voluntary: Firm initiated,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
 report_date,date (YYYYMMDD),FDA: date FDA issued the enforcement report for this recall.,yes,100.0,20261104,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
-collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-13T15:15:15+00:00,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-13T16:11:42+00:00,openFDA (U.S. Food & Drug Administration),Public domain (CC0)

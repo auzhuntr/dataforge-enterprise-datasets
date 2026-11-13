@@ -1,5 +1,5 @@
 window.DATAFORGE_CATALOG = {
-  "generated_at_utc": "2026-11-13T15:15:15Z",
+  "generated_at_utc": "2026-11-13T16:11:42Z",
   "total_datasets": 8,
   "total_cumulative_records": 1897,
   "refresh_cycle": "12-Hourly Automated Pipeline (Rolling 90-Day Master + 60 Snapshot Archive)",
@@ -11,11 +11,11 @@ window.DATAFORGE_CATALOG = {
       "description": "Directory of United States universities and colleges with their websites and internet domains, from the Hipo university-domains-list. Up to 300 records per refresh.",
       "region": "Worldwide",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-13T15:15:15Z",
+      "last_updated_utc": "2026-11-13T16:11:42Z",
       "next_update_utc": "2026-11-13T19:00:00Z",
       "latest_records": 299,
       "master_records": 390,
-      "retained_snapshots": 17,
+      "retained_snapshots": 18,
       "completeness_pct": 89.8,
       "core_completeness_pct": 100.0,
       "refresh_status": "verified",
@@ -46,7 +46,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "Georgia",
           "domains": "abac.edu; stallions.abac.edu",
           "web_pages": "https://www.abac.edu/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "institution_name": "Academy of Art University",
@@ -55,7 +55,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "California",
           "domains": "academyart.edu; art.edu",
           "web_pages": "https://www.academyart.edu/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "institution_name": "Allen College",
@@ -64,7 +64,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "Iowa",
           "domains": "allencollege.edu",
           "web_pages": "https://www.allencollege.edu/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "institution_name": "Alvernia University",
@@ -73,7 +73,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "Pennsylvania",
           "domains": "alvernia.edu",
           "web_pages": "https://www.alvernia.edu/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "institution_name": "Anderson University",
@@ -82,7 +82,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "South Carolina",
           "domains": "andersonuniversity.edu",
           "web_pages": "https://andersonuniversity.edu/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "institution_name": "Bay Path University",
@@ -91,7 +91,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "MA",
           "domains": "baypath.edu",
           "web_pages": "https://www.baypath.edu/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "institution_name": "Bellevue College",
@@ -100,7 +100,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "Washington",
           "domains": "bellevuecollege.edu",
           "web_pages": "https://bellevuecollege.edu/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "institution_name": "Bentley University",
@@ -109,7 +109,7 @@ window.DATAFORGE_CATALOG = {
           "state_province": "Massachusetts",
           "domains": "bentley.edu",
           "web_pages": "http://www.bentley.edu/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         }
       ]
     },
@@ -120,11 +120,11 @@ window.DATAFORGE_CATALOG = {
       "description": "Product records from the openFDA National Drug Code directory: brand and generic names, labeler, active ingredient, dosage form, route and marketing category. 100 records per refresh, accumulated into a rolling 90-day master file.",
       "region": "Worldwide",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-13T15:15:15Z",
+      "last_updated_utc": "2026-11-13T16:11:42Z",
       "next_update_utc": "2026-11-13T19:00:00Z",
       "latest_records": 100,
       "master_records": 698,
-      "retained_snapshots": 18,
+      "retained_snapshots": 19,
       "completeness_pct": 93.1,
       "core_completeness_pct": 100.0,
       "refresh_status": "verified",
@@ -159,7 +159,7 @@ window.DATAFORGE_CATALOG = {
           "dosage_form": "CREAM",
           "route": "TOPICAL",
           "marketing_category": "OTC MONOGRAPH DRUG",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_ndc": "80425-0133",
@@ -170,7 +170,7 @@ window.DATAFORGE_CATALOG = {
           "dosage_form": "TABLET, DELAYED RELEASE",
           "route": "ORAL",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_ndc": "80425-0396",
@@ -181,7 +181,7 @@ window.DATAFORGE_CATALOG = {
           "dosage_form": "CAPSULE, EXTENDED RELEASE",
           "route": "ORAL",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_ndc": "0615-8507",
@@ -192,7 +192,7 @@ window.DATAFORGE_CATALOG = {
           "dosage_form": "TABLET, FILM COATED",
           "route": "ORAL",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_ndc": "80684-146",
@@ -203,7 +203,7 @@ window.DATAFORGE_CATALOG = {
           "dosage_form": "CREAM",
           "route": "TOPICAL",
           "marketing_category": "OTC MONOGRAPH DRUG",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_ndc": "0615-8566",
@@ -214,7 +214,7 @@ window.DATAFORGE_CATALOG = {
           "dosage_form": "TABLET, FILM COATED",
           "route": "ORAL",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_ndc": "76204-700",
@@ -225,7 +225,7 @@ window.DATAFORGE_CATALOG = {
           "dosage_form": "SOLUTION",
           "route": "RESPIRATORY (INHALATION)",
           "marketing_category": "ANDA",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_ndc": "76305-301",
@@ -236,7 +236,7 @@ window.DATAFORGE_CATALOG = {
           "dosage_form": "CREAM",
           "route": "TOPICAL",
           "marketing_category": "OTC MONOGRAPH DRUG",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         }
       ]
     },
@@ -247,11 +247,11 @@ window.DATAFORGE_CATALOG = {
       "description": "Brewery, taproom and brewpub listings from Open Brewery DB with addresses, postal codes, coordinates and websites where available. Up to 200 records per refresh.",
       "region": "Worldwide",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-13T15:15:15Z",
+      "last_updated_utc": "2026-11-13T16:11:42Z",
       "next_update_utc": "2026-11-13T19:00:00Z",
       "latest_records": 200,
       "master_records": 200,
-      "retained_snapshots": 18,
+      "retained_snapshots": 19,
       "completeness_pct": 93.2,
       "core_completeness_pct": 100.0,
       "refresh_status": "verified",
@@ -294,7 +294,7 @@ window.DATAFORGE_CATALOG = {
           "longitude": "5.0569549",
           "phone": "+32 496 76 40 63",
           "website_url": "http://tdrankorgel.be/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "venue_id": "1034754f-abf9-4b42-bd6d-37e110ba4b1a",
@@ -309,7 +309,7 @@ window.DATAFORGE_CATALOG = {
           "longitude": "4.0913928",
           "phone": "+32 495 43 33 25",
           "website_url": "http://www.tkroontje.be/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "venue_id": "907826b3-6902-4d28-a5e2-f73084bebeed",
@@ -324,7 +324,7 @@ window.DATAFORGE_CATALOG = {
           "longitude": "",
           "phone": "071-3314585",
           "website_url": "https://www.t-veen.nl/t-veense-brouwhuys/",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "venue_id": "5128df48-79fc-4f0f-8b52-d06be54d0cec",
@@ -339,7 +339,7 @@ window.DATAFORGE_CATALOG = {
           "longitude": "-97.46818222",
           "phone": "4058160490",
           "website_url": "http://www.405brewing.com",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "venue_id": "9c5a66c8-cc13-416f-a5d9-0a769c87d318",
@@ -354,7 +354,7 @@ window.DATAFORGE_CATALOG = {
           "longitude": "",
           "phone": "5129211545",
           "website_url": "http://www.512brewing.com",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "venue_id": "34e8c68b-6146-453f-a4b9-1f6cd99a5ada",
@@ -369,7 +369,7 @@ window.DATAFORGE_CATALOG = {
           "longitude": "-87.883363502094",
           "phone": "2624847553",
           "website_url": "https://www.1ofusbrewing.com",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "venue_id": "21f21cc0-5b2f-4b79-be29-3bc625bcc4c8",
@@ -384,7 +384,7 @@ window.DATAFORGE_CATALOG = {
           "longitude": "10.9685585",
           "phone": "+49 911 604237",
           "website_url": "http://www.altenberger-brauhaus.de",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "venue_id": "6d14b220-8926-4521-8d19-b98a2d6ec3db",
@@ -399,7 +399,7 @@ window.DATAFORGE_CATALOG = {
           "longitude": "-121.281706",
           "phone": "5415851007",
           "website_url": "http://www.10barrel.com",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         }
       ]
     },
@@ -410,11 +410,11 @@ window.DATAFORGE_CATALOG = {
       "description": "Enriched device classification records from openFDA keyed by 3-letter FDA product code: device name, class code and label (Class I/II/III/Unclassified), panel-resolved medical specialty, 21 CFR regulation number, submission type, implant/life-support/GMP-exempt/third-party flags, and device definition. 100 records per refresh in a rolling 90-day master file.",
       "region": "Worldwide",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-13T15:15:15Z",
+      "last_updated_utc": "2026-11-13T16:11:42Z",
       "next_update_utc": "2026-11-13T19:00:00Z",
       "latest_records": 100,
       "master_records": 100,
-      "retained_snapshots": 17,
+      "retained_snapshots": 18,
       "completeness_pct": 94.3,
       "core_completeness_pct": 100.0,
       "refresh_status": "verified",
@@ -459,7 +459,7 @@ window.DATAFORGE_CATALOG = {
           "gmp_exempt_flag": "N",
           "third_party_flag": "N",
           "definition": "",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_code": "OQQ",
@@ -475,7 +475,7 @@ window.DATAFORGE_CATALOG = {
           "gmp_exempt_flag": "N",
           "third_party_flag": "Y",
           "definition": "Diagnostic ultrasonic imaging or monitoring.",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_code": "NOG",
@@ -491,7 +491,7 @@ window.DATAFORGE_CATALOG = {
           "gmp_exempt_flag": "Y",
           "third_party_flag": "N",
           "definition": "Topographer, corneal, battery powered",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_code": "GPP",
@@ -507,7 +507,7 @@ window.DATAFORGE_CATALOG = {
           "gmp_exempt_flag": "N",
           "third_party_flag": "N",
           "definition": "",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_code": "SET",
@@ -523,7 +523,7 @@ window.DATAFORGE_CATALOG = {
           "gmp_exempt_flag": "N",
           "third_party_flag": "N",
           "definition": "An Immunoassay blood test for amyloid pathology assessment is an in vitro diagnostic test used to identify patients with amyloid pathology associated with Alzheimers Disease who have signs and symptoms of cognitive decline. The results of the test are to be interpreted in conjunction with other patient clinical information.",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_code": "DKC",
@@ -539,7 +539,7 @@ window.DATAFORGE_CATALOG = {
           "gmp_exempt_flag": "N",
           "third_party_flag": "N",
           "definition": "",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_code": "FTD",
@@ -555,7 +555,7 @@ window.DATAFORGE_CATALOG = {
           "gmp_exempt_flag": "N",
           "third_party_flag": "N",
           "definition": "",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "product_code": "KCD",
@@ -571,7 +571,7 @@ window.DATAFORGE_CATALOG = {
           "gmp_exempt_flag": "N",
           "third_party_flag": "N",
           "definition": "",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         }
       ]
     },
@@ -582,11 +582,11 @@ window.DATAFORGE_CATALOG = {
       "description": "The 100 most recent drug enforcement reports (recalls) from openFDA each refresh: recall number, firm, classification, status, reason and product description, accumulated into a rolling 90-day master file. FDA updates this data weekly. FDA states it should not be used to issue alerts to the public or to track the lifecycle of a recall; it is not medical or safety advice.",
       "region": "Worldwide",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-13T15:15:15Z",
+      "last_updated_utc": "2026-11-13T16:11:42Z",
       "next_update_utc": "2026-11-13T19:00:00Z",
       "latest_records": 98,
       "master_records": 136,
-      "retained_snapshots": 17,
+      "retained_snapshots": 18,
       "completeness_pct": 100.0,
       "core_completeness_pct": 100.0,
       "refresh_status": "verified",
@@ -619,7 +619,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP Deviations",
           "product_description": "Wechem Hand Guard8/1000mL Bag, Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA, 30013",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "D-0104-2027",
@@ -629,7 +629,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP Deviations",
           "product_description": "ULTRA STRENTGH, ELECTRIC MIDICATED BALM (menthol 16% and methyl salicylate 32%) packaged in a) Net 2.45 oz (70g) (NDC 63299-001-01) and b) 10g (NDC 63299-001-02), Manufactured by Fei Fah Medical Mfg Pte Ltd, Singapore, U.S Distributor: SOLISTICE MEDICINE COMPANY, 215 West Ann Street, Los Angeles, CA 90012",
           "recall_initiation_date": "20261023",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "D-0077-2027",
@@ -639,7 +639,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Failed Dissolution Specifications.",
           "product_description": "Olmesartan Medoxomil, Amlodipine, and Hydrochlorothiazide Tablets 40 mg/10 mg/12.5mg, packaged as a) 30-count bottle, NDC 33342-246-07; b) 90-count bottle, NDC 33342-246-10;  Rx Only, Manufactured for : Macleods Pharma USA, Inc. Princeton, NJ 08540, Manufactured by: Macleods Pharmaceuticals Ltd, Daman, 396210, India",
           "recall_initiation_date": "20261007",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "D-0092-2027",
@@ -649,7 +649,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP Deviations",
           "product_description": "Lynx, LX0864 peachy-foam antiseptic handsoap, 1000 ML (33.8 FL OZ.) Manufactured by: ABC Compounding Co., INC., 2500 Dogwood Dr., Conyers, GA 30013, UPC 711808210804.",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "D-0080-2027",
@@ -659,7 +659,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Failed Impurities/Degradation Specification; detection of polyethylene (PE)-related oligomers",
           "product_description": "Carboxymethylcellulose Sodium, 0.5% Lubricant Eye Drops, Sterile, 30 Single-Use Containers, 0.02 FL OZ (0.5 mL) each, Manufactured by: Huons Co., Ltd, Jecheon-si, Chungcheongbuk-do, 27159, South Korea; Marketed by: GSMS Incorporated, Camarillo, CA 93012, USA. NDC 51407-945-30  Pouch Label: Carboxymethylcellulose Sodium, Lubricant Eye Drops, 0.5 mL, Single-Use, gsms.",
           "recall_initiation_date": "20261002",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "D-0098-2027",
@@ -669,7 +669,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP Deviations",
           "product_description": "PRO CHEM BAN AID, Antiseptic Hand Soap, Net Contents: 1 GALLON (3.8 L), Sold by: PRO CHEM, Inc.,1475 Bluegrass Lakes Parkway, Alpharetta, GA 30004.",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "D-0091-2027",
@@ -679,7 +679,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP Deviations",
           "product_description": "Antiseptic Hand Soap, Net Contents: 1 Gallon (3.8 L) Distributed By: image supply, inc., P.O. Box 1108, 5081 Dawn Drive, Lumberton, NC28359",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "D-0101-2027",
@@ -689,7 +689,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "CGMP Deviations",
           "product_description": "Spurrier, Antimicrobial Hand Soap, Net Contents: 1 Gallon (3.8 L), Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA, 30013, UPC 726133100508",
           "recall_initiation_date": "20260922",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         }
       ]
     },
@@ -700,11 +700,11 @@ window.DATAFORGE_CATALOG = {
       "description": "The 100 most recent food enforcement reports (recalls) from openFDA each refresh: recall number, firm, classification, reason, voluntary or mandated, and report date, accumulated into a rolling 90-day master file. United States data. FDA updates this data weekly. FDA states it should not be used to issue alerts to the public or to track the lifecycle of a recall; it is not medical or safety advice.",
       "region": "Worldwide",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-13T15:15:15Z",
+      "last_updated_utc": "2026-11-13T16:11:42Z",
       "next_update_utc": "2026-11-13T19:00:00Z",
       "latest_records": 99,
       "master_records": 111,
-      "retained_snapshots": 17,
+      "retained_snapshots": 18,
       "completeness_pct": 100.0,
       "core_completeness_pct": 100.0,
       "refresh_status": "verified",
@@ -735,7 +735,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Products are recalled due to potential undeclared wheat gluten",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "H-0177-2027",
@@ -744,7 +744,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Salmonella",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "H-0178-2027",
@@ -753,7 +753,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Product recalled due to yeast, mold, and E. coli.",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "H-0181-2027",
@@ -762,7 +762,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "contains undeclared sesame",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "H-0179-2027",
@@ -771,7 +771,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "contains undeclared sesame",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "H-0176-2027",
@@ -780,7 +780,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Broccoli seeds potentially contaminated with Salmonella",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "H-0185-2027",
@@ -789,7 +789,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Products are recalled due to potential undeclared wheat gluten",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "recall_number": "H-0182-2027",
@@ -798,7 +798,7 @@ window.DATAFORGE_CATALOG = {
           "reason_for_recall": "Product sterility was potentially compromised.",
           "voluntary_mandated": "Voluntary: Firm initiated",
           "report_date": "20261104",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         }
       ]
     },
@@ -809,11 +809,11 @@ window.DATAFORGE_CATALOG = {
       "description": "Metadata for the 50 most recently updated cs.AI papers on arXiv each refresh: title, link, 250-character abstract preview and update date, accumulated into a rolling 90-day master file.",
       "region": "Worldwide",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-13T15:15:15Z",
+      "last_updated_utc": "2026-11-13T16:11:42Z",
       "next_update_utc": "2026-11-13T19:00:00Z",
       "latest_records": 50,
       "master_records": 190,
-      "retained_snapshots": 18,
+      "retained_snapshots": 19,
       "completeness_pct": 100.0,
       "core_completeness_pct": 100.0,
       "refresh_status": "verified",
@@ -842,7 +842,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in",
           "publication_date": "2026-11-12",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "paper_title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
@@ -850,7 +850,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and re",
           "publication_date": "2026-11-12",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "paper_title": "Sketching Language Models for Context Attribution",
@@ -858,7 +858,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model eval",
           "publication_date": "2026-11-12",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "paper_title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
@@ -866,7 +866,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simp",
           "publication_date": "2026-11-12",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "paper_title": "Consistent Video-to-Video Translation via Explicit Correspondences",
@@ -874,7 +874,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This limits long-range consistency",
           "publication_date": "2026-11-12",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "paper_title": "Goal Encoding in LLMs",
@@ -882,7 +882,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks",
           "publication_date": "2026-11-12",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "paper_title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
@@ -890,7 +890,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions alternate ",
           "publication_date": "2026-11-12",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "paper_title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
@@ -898,7 +898,7 @@ window.DATAFORGE_CATALOG = {
           "abstract_preview": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content",
           "publication_date": "2026-11-12",
           "category": "Computer Science (AI)",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         }
       ]
     },
@@ -909,11 +909,11 @@ window.DATAFORGE_CATALOG = {
       "description": "Daily English Wikipedia pageview counts for 6 tracked entities (Nvidia, OpenAI, Microsoft, Tesla, Bitcoin, Amazon) over the most recent 9 days. Pageviews only; it does not include search volume.",
       "region": "Worldwide",
       "update_frequency": "Every 12 Hours (06:00 & 18:00)",
-      "last_updated_utc": "2026-11-13T15:15:15Z",
+      "last_updated_utc": "2026-11-13T16:11:42Z",
       "next_update_utc": "2026-11-13T19:00:00Z",
       "latest_records": 54,
       "master_records": 72,
-      "retained_snapshots": 18,
+      "retained_snapshots": 19,
       "completeness_pct": 100.0,
       "core_completeness_pct": 100.0,
       "refresh_status": "verified",
@@ -938,49 +938,49 @@ window.DATAFORGE_CATALOG = {
           "entity": "Nvidia",
           "date": "20261104",
           "daily_views": "7206",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261105",
           "daily_views": "7613",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261106",
           "daily_views": "7740",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261107",
           "daily_views": "8324",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261108",
           "daily_views": "21027",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261109",
           "daily_views": "148408",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261110",
           "daily_views": "130512",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         },
         {
           "entity": "Nvidia",
           "date": "20261111",
           "daily_views": "93269",
-          "collected_at_iso": "2026-11-13T15:15:15+00:00"
+          "collected_at_iso": "2026-11-13T16:11:42+00:00"
         }
       ]
     }
