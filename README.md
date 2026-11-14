@@ -4,7 +4,7 @@ This repository is the **[dataforgeit.digital](https://dataforgeit.digital)** we
 It is published automatically after each 12-hour refresh, once the data passes its checks.
 Every dataset is built only from sources whose licences allow commercial reuse.
 
-Last refresh (UTC): 2026-11-13T16:11:42Z
+Last refresh (UTC): 2026-11-14T00:17:51Z
 
 | Dataset | Sample file | Source | Licence |
 |---|---|---|---|
