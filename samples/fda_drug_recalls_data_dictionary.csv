@@ -6,4 +6,4 @@ status,code,"FDA recall status: Ongoing, Completed, Terminated (or Pending).",ye
 reason_for_recall,text,FDA: how the product is defective or violates the law. Phone numbers are removed by DataForge.,yes,100.0,CGMP Deviations,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
 product_description,text,FDA: brief description of the recalled product. Phone numbers are removed by DataForge.,yes,100.0,"Wechem Hand Guard8/1000mL Bag, Manufactured by: ABC Compounding Co., Inc., 2600 ",openFDA (U.S. Food & Drug Administration),Public domain (CC0)
 recall_initiation_date,date (YYYYMMDD),FDA: date the firm first began notifying the public or its customers of the recall.,yes,100.0,20260922,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
-collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-14T00:17:51+00:00,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
+collected_at_iso,"timestamp (ISO 8601, UTC)",When DataForge fetched this row from the source.,no,100.0,2026-11-14T14:02:10+00:00,openFDA (U.S. Food & Drug Administration),Public domain (CC0)
