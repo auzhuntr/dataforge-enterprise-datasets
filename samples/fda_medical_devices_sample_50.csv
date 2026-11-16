@@ -1,51 +1,51 @@
 product_code,device_name,device_class,device_class_label,medical_specialty,review_panel,regulation_number,submission_type_id,implant_flag,life_sustain_support_flag,gmp_exempt_flag,third_party_flag,definition,collected_at_iso
-NOG,"Topographer, Corneal, Battery Powered",1,Class I,Ophthalmic,OP,21 CFR 886.1350,4,N,N,Y,N,"Topographer, corneal, battery powered",2026-11-16T20:45:57+00:00
-DKC,Alcohol Control Materials,1,Class I,Clinical Toxicology,TX,21 CFR 862.3280,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-KCD,"Bougie, Esophageal, Ent",1,Class I,"Ear, Nose, Throat",EN,21 CFR 874.4420,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-LPF,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic, Cemented",3,Class III,Orthopedic,OR,,2,Y,N,N,N,,2026-11-16T20:45:57+00:00
-QFP,Intraoperative Orthopedic Strain Sensor,2,Class II,Orthopedic,OR,21 CFR 888.3090,1,N,N,N,N,A strain sensor device is an adjunct tool intended to measure strain on an orthopedic implant in the intraoperative setting only. The device is not intended to provide diagnostic information or influence clinical decision-making.,2026-11-16T20:45:57+00:00
-MCP,"Stimulator, Fetal, Acoustic",3,Class III,Obstetrics/Gynecology,OB,,2,N,N,N,N,,2026-11-16T20:45:57+00:00
-GTF,"Antisera, Bethesda - Ballerup Polyvalent, Citrobacter Spp.",1,Class I,Microbiology,MI,21 CFR 866.3125,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-ILS,"Adaptor, Hygiene",1,Class I,Physical Medicine,PM,21 CFR 890.5050,4,N,N,Y,N,,2026-11-16T20:45:57+00:00
-NYL,"Handpiece, Air-Powered, Root Canal Irrigation",1,Class I,Dental,DE,21 CFR 872.4200,1,N,N,N,Y,To clean the root canal prior to filling and used for root canal irrigation.,2026-11-16T20:45:57+00:00
-GTP,"Exoenzymes, Multiple, Streptococcal",1,Class I,Microbiology,MI,21 CFR 866.3720,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-HJT,Haploscope,1,Class I,Ophthalmic,OP,21 CFR 886.1340,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-DHQ,"Ng3m(G), Antigen, Antiserum, Control",1,Class I,Immunology,IM,21 CFR 866.5065,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-CZO,"Inter-Alpha Trypsin Inhibitor, Antigen, Antiserum, Control",1,Class I,Immunology,IM,21 CFR 866.5890,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-NRJ,"Ultrasound, Skin Permeation",2,Class II,"General, Plastic Surgery",SU,21 CFR 878.4410,1,N,N,N,Y,"Indicated for the temporary disruption of the outer layer of skin for the application of drugs, etc.",2026-11-16T20:45:57+00:00
-JAR,"Phantom, Test-Pattern, Radionuclide",1,Class I,Radiology,RA,21 CFR 892.1420,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-LOI,"Laser, Neodymium:Yag, Ophthalmic For Uses Other Than Posterior Capsulotomy & Cutting Pupillary",3,Class III,Ophthalmic,OP,,2,N,N,N,N,,2026-11-16T20:45:57+00:00
-OEH,Joint Biological Agent Identification And Diagnostic System (Jbaids) Tularemia Detection Kit,2,Class II,Microbiology,MI,21 CFR 866.3280,1,N,N,N,N,To aid in the diagnosis of individuals presenting with signs and symptoms of pneumonic or typhoidal tularemia with a qualitative in vitro diagnostic (ivd) detection of target dna sequences of francisella tularensis.,2026-11-16T20:45:57+00:00
-HDF,"Speculum, Vaginal, Metal",1,Class I,Obstetrics/Gynecology,OB,21 CFR 884.4520,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-EKX,"Handpiece, Direct Drive, Ac-Powered",1,Class I,Dental,DE,21 CFR 872.4200,1,N,N,N,Y,,2026-11-16T20:45:57+00:00
-GAI,"Stripper, Vein, Reusable",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-MRA,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic/Metal, Cemented Or Uncemented",3,Class III,Orthopedic,OR,,2,Y,N,N,N,,2026-11-16T20:45:57+00:00
-GNQ,"Antigen, Cf (Including Cf Control), Epstein-Barr Virus",1,Class I,Microbiology,MI,21 CFR 866.3235,1,N,N,N,Y,,2026-11-16T20:45:57+00:00
-DAA,"Igg, Peroxidase, Antigen, Antiserum, Control",2,Class II,Immunology,PA,21 CFR 866.5510,1,N,N,N,Y,,2026-11-16T20:45:57+00:00
-JOR,"Generator, Pulsatile Flow, Cardiopulmonary Bypass",3,Class III,Cardiovascular,CV,21 CFR 870.4320,2,N,N,N,N,"Date PMA or notice of completion of PDP is required. A PMA or notice of completion of a PDP is required to be filed with the Food and Drug Administration on or before September 21, 2004, for any cardiopulmonary bypass pulsatile flow generator that was in commercial distribution before May 28, 1976, or that has, on or before September 21, 2004, been found to be substantially equivalent to any cardiopulmonary bypass pulsatile flow generator that was in commercial distribution before May 28, 1976. Any other cardiopulmonary bypass pulsatile flow generator shall have an approved PMA or declared completed PDP in effect before being placed in commercial distribution.",2026-11-16T20:45:57+00:00
-OIF,Tyrosine Phosphatase (Ia-2) Autoantibody Assay,2,Class II,Immunology,IM,21 CFR 866.5660,1,N,N,N,Y,The device is used for the semi-quantitative determination of autoantibodies against tyrosine phosphatase (IA-2) in human serum as an aid in the diagnosis of Type 1 diabetes mellitus (autoimmune mediated diabetes).,2026-11-16T20:45:57+00:00
-DEW,"Igg, Antigen, Antiserum, Control",2,Class II,Immunology,IM,21 CFR 866.5510,1,N,N,N,Y,,2026-11-16T20:45:57+00:00
-JXT,"Crimper, Wire, Ent, Sterile",1,Class I,"Ear, Nose, Throat",EN,21 CFR 874.3540,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-JPZ,"Colorimetric Method, Gamma-Glutamyl Transpeptidase",1,Class I,Clinical Chemistry,CH,21 CFR 862.1360,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-NJL,"Prosthesis, Knee, Patellofemorotibial, Semi-Constrained, Metal/Polymer, Mobile Bearing",3,Class III,Orthopedic,OR,,2,Y,N,N,N,"This type of device is designed to allow for motion between the plastic bearing and metal baseplate components of a knee prosthesis.  It is intended to replace a knee joint in order to relieve pain and restore knee function, for indications such as osteoarthritis, inflammatory arthritis, traumatic arthritis, and revision of failed knee prostheses.",2026-11-16T20:45:57+00:00
-LXT,"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component, Metal Composite",2,Class II,Orthopedic,OR,21 CFR 888.3030,1,Y,N,N,N,,2026-11-16T20:45:57+00:00
-HJX,"Reader, Prism, Ophthalmic",1,Class I,Ophthalmic,OP,21 CFR 886.5810,4,N,N,Y,N,,2026-11-16T20:45:57+00:00
-HXO,"Pusher, Socket",1,Class I,Orthopedic,OR,21 CFR 888.4540,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-GAE,"Snare, Surgical",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-HHE,"Cup, Menstrual",2,Class II,Obstetrics/Gynecology,OB,21 CFR 884.5400,4,N,N,N,N,A menstrual cup is a receptacle placed in the vagina to collect menstrual flow.,2026-11-16T20:45:57+00:00
-HRB,"Microscope, Operating, Non-Electric, Ophthalmic",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4700,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-IAD,Van Gieson'S Picro-Fuchsin,1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-16T20:45:57+00:00
-OXJ,"Mesh, Surgical, Non-Absorbable, Large Abdominal Wall Defects",2,Class II,"General, Plastic Surgery",SU,21 CFR 878.3300,1,Y,N,N,N,For reinforcement of soft tissue where weakness exists in abdominal wall defects.,2026-11-16T20:45:57+00:00
-GRH,"Antigen, Ha (Including Ha Control), Rubeola",1,Class I,Microbiology,MI,21 CFR 866.3520,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-OWE,"Fluorescence In Situ Hybridization, Anaplastic Lymphoma Kinase, Gene Rearrangement",2,Class II,Pathology,PA,21 CFR 864.1890,1,N,N,N,N,"Anaplastic lymphoma kinase (ALK) fluorescence in situ hybridization (FISH) kit is to detect rearrangements involving the ALK gene in formalin-fixed, paraffin-embedded (FFPE) non-small cell lung cancer (NSCLC) tissue specimens. It is indicated to aid in the selection of patients for treatment with specific FDA approved therapeutic drugs.",2026-11-16T20:45:57+00:00
-GPY,"Antisera, Hai, Reovirus 1-3",1,Class I,Microbiology,MI,21 CFR 866.3470,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-GWJ,"Stimulator, Auditory, Evoked Response",2,Class II,Neurology,NE,21 CFR 882.1900,1,N,N,N,Y,,2026-11-16T20:45:57+00:00
-HRK,"Table, Instrument, Manual, Ophthalmic",1,Class I,Ophthalmic,OP,21 CFR 886.4855,4,N,N,Y,N,,2026-11-16T20:45:57+00:00
-QIC,Hiv-1 Genotyping Assay Using Ngs Technology,2,Class II,Medical Genetics,MI,21 CFR 866.3955,1,N,N,N,N,The human immunodeficiency virus (HIV) drug resistance genotyping assay using next generation sequencing (NGS) technology is a prescription in vitro diagnostic device intended for use in detecting HIV genomic mutations that confer resistance to specific anti-retroviral drugs.  The device is intended to be used as an aid in monitoring and treating HIV infection.,2026-11-16T20:45:57+00:00
-NBC,"Test, Natriuretic Peptide",2,Class II,Clinical Chemistry,CH,21 CFR 862.1117,1,N,N,N,N,,2026-11-16T20:45:57+00:00
-HZT,"Reagent, Schiff",1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-16T20:45:57+00:00
-PEK,Spinous Process Plate,2,Class II,Orthopedic,OR,21 CFR 888.3050,1,Y,N,N,N,"A posterior, non-pedicle supplemental fixation device intended for single level use in the non-cervical spine (T1-S1).  It is intended for single level plate fixation/attachment to spinous process for the purpose of achieving supplemental fusion in the following conditions: Degenerative Disc Disease (defined as back pain of discogenic origin with degeneration of the disc confirmed by history and radiographic studies), Trauma (i.e., fracture or dislocation), Spondylolisthesis, and/or Tumor.  It is not intended for stand-alone use.",2026-11-16T20:45:57+00:00
-NOI,"Stand, Instrument, Ophthalmic, Battery Powered",1,Class I,Ophthalmic,OP,21 CFR 886.1860,4,N,N,Y,N,AC-powered or non-powered device intended to store ophthalmic instruments in a readily accessible position.,2026-11-16T20:45:57+00:00
-HCF,"Instrument, Ligature Passing And Knot Tying",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-16T20:45:57+00:00
-QNF,Laser Activator For Polymerization,2,Class II,Dental,DE,21 CFR 872.6070,1,N,N,N,N,Intended to polymerize dental restorative resins,2026-11-16T20:45:57+00:00
-MAW,"Marker, Suture Identification",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,1,N,N,N,N,,2026-11-16T20:45:57+00:00
+NOG,"Topographer, Corneal, Battery Powered",1,Class I,Ophthalmic,OP,21 CFR 886.1350,4,N,N,Y,N,"Topographer, corneal, battery powered",2026-11-16T20:46:34+00:00
+DKC,Alcohol Control Materials,1,Class I,Clinical Toxicology,TX,21 CFR 862.3280,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+KCD,"Bougie, Esophageal, Ent",1,Class I,"Ear, Nose, Throat",EN,21 CFR 874.4420,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+LPF,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic, Cemented",3,Class III,Orthopedic,OR,,2,Y,N,N,N,,2026-11-16T20:46:34+00:00
+QFP,Intraoperative Orthopedic Strain Sensor,2,Class II,Orthopedic,OR,21 CFR 888.3090,1,N,N,N,N,A strain sensor device is an adjunct tool intended to measure strain on an orthopedic implant in the intraoperative setting only. The device is not intended to provide diagnostic information or influence clinical decision-making.,2026-11-16T20:46:34+00:00
+MCP,"Stimulator, Fetal, Acoustic",3,Class III,Obstetrics/Gynecology,OB,,2,N,N,N,N,,2026-11-16T20:46:34+00:00
+GTF,"Antisera, Bethesda - Ballerup Polyvalent, Citrobacter Spp.",1,Class I,Microbiology,MI,21 CFR 866.3125,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+ILS,"Adaptor, Hygiene",1,Class I,Physical Medicine,PM,21 CFR 890.5050,4,N,N,Y,N,,2026-11-16T20:46:34+00:00
+NYL,"Handpiece, Air-Powered, Root Canal Irrigation",1,Class I,Dental,DE,21 CFR 872.4200,1,N,N,N,Y,To clean the root canal prior to filling and used for root canal irrigation.,2026-11-16T20:46:34+00:00
+GTP,"Exoenzymes, Multiple, Streptococcal",1,Class I,Microbiology,MI,21 CFR 866.3720,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+HJT,Haploscope,1,Class I,Ophthalmic,OP,21 CFR 886.1340,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+DHQ,"Ng3m(G), Antigen, Antiserum, Control",1,Class I,Immunology,IM,21 CFR 866.5065,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+CZO,"Inter-Alpha Trypsin Inhibitor, Antigen, Antiserum, Control",1,Class I,Immunology,IM,21 CFR 866.5890,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+NRJ,"Ultrasound, Skin Permeation",2,Class II,"General, Plastic Surgery",SU,21 CFR 878.4410,1,N,N,N,Y,"Indicated for the temporary disruption of the outer layer of skin for the application of drugs, etc.",2026-11-16T20:46:34+00:00
+JAR,"Phantom, Test-Pattern, Radionuclide",1,Class I,Radiology,RA,21 CFR 892.1420,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+LOI,"Laser, Neodymium:Yag, Ophthalmic For Uses Other Than Posterior Capsulotomy & Cutting Pupillary",3,Class III,Ophthalmic,OP,,2,N,N,N,N,,2026-11-16T20:46:34+00:00
+OEH,Joint Biological Agent Identification And Diagnostic System (Jbaids) Tularemia Detection Kit,2,Class II,Microbiology,MI,21 CFR 866.3280,1,N,N,N,N,To aid in the diagnosis of individuals presenting with signs and symptoms of pneumonic or typhoidal tularemia with a qualitative in vitro diagnostic (ivd) detection of target dna sequences of francisella tularensis.,2026-11-16T20:46:34+00:00
+HDF,"Speculum, Vaginal, Metal",1,Class I,Obstetrics/Gynecology,OB,21 CFR 884.4520,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+EKX,"Handpiece, Direct Drive, Ac-Powered",1,Class I,Dental,DE,21 CFR 872.4200,1,N,N,N,Y,,2026-11-16T20:46:34+00:00
+GAI,"Stripper, Vein, Reusable",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+MRA,"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Ceramic/Metal, Cemented Or Uncemented",3,Class III,Orthopedic,OR,,2,Y,N,N,N,,2026-11-16T20:46:34+00:00
+GNQ,"Antigen, Cf (Including Cf Control), Epstein-Barr Virus",1,Class I,Microbiology,MI,21 CFR 866.3235,1,N,N,N,Y,,2026-11-16T20:46:34+00:00
+DAA,"Igg, Peroxidase, Antigen, Antiserum, Control",2,Class II,Immunology,PA,21 CFR 866.5510,1,N,N,N,Y,,2026-11-16T20:46:34+00:00
+JOR,"Generator, Pulsatile Flow, Cardiopulmonary Bypass",3,Class III,Cardiovascular,CV,21 CFR 870.4320,2,N,N,N,N,"Date PMA or notice of completion of PDP is required. A PMA or notice of completion of a PDP is required to be filed with the Food and Drug Administration on or before September 21, 2004, for any cardiopulmonary bypass pulsatile flow generator that was in commercial distribution before May 28, 1976, or that has, on or before September 21, 2004, been found to be substantially equivalent to any cardiopulmonary bypass pulsatile flow generator that was in commercial distribution before May 28, 1976. Any other cardiopulmonary bypass pulsatile flow generator shall have an approved PMA or declared completed PDP in effect before being placed in commercial distribution.",2026-11-16T20:46:34+00:00
+OIF,Tyrosine Phosphatase (Ia-2) Autoantibody Assay,2,Class II,Immunology,IM,21 CFR 866.5660,1,N,N,N,Y,The device is used for the semi-quantitative determination of autoantibodies against tyrosine phosphatase (IA-2) in human serum as an aid in the diagnosis of Type 1 diabetes mellitus (autoimmune mediated diabetes).,2026-11-16T20:46:34+00:00
+DEW,"Igg, Antigen, Antiserum, Control",2,Class II,Immunology,IM,21 CFR 866.5510,1,N,N,N,Y,,2026-11-16T20:46:34+00:00
+JXT,"Crimper, Wire, Ent, Sterile",1,Class I,"Ear, Nose, Throat",EN,21 CFR 874.3540,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+JPZ,"Colorimetric Method, Gamma-Glutamyl Transpeptidase",1,Class I,Clinical Chemistry,CH,21 CFR 862.1360,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+NJL,"Prosthesis, Knee, Patellofemorotibial, Semi-Constrained, Metal/Polymer, Mobile Bearing",3,Class III,Orthopedic,OR,,2,Y,N,N,N,"This type of device is designed to allow for motion between the plastic bearing and metal baseplate components of a knee prosthesis.  It is intended to replace a knee joint in order to relieve pain and restore knee function, for indications such as osteoarthritis, inflammatory arthritis, traumatic arthritis, and revision of failed knee prostheses.",2026-11-16T20:46:34+00:00
+LXT,"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component, Metal Composite",2,Class II,Orthopedic,OR,21 CFR 888.3030,1,Y,N,N,N,,2026-11-16T20:46:34+00:00
+HJX,"Reader, Prism, Ophthalmic",1,Class I,Ophthalmic,OP,21 CFR 886.5810,4,N,N,Y,N,,2026-11-16T20:46:34+00:00
+HXO,"Pusher, Socket",1,Class I,Orthopedic,OR,21 CFR 888.4540,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+GAE,"Snare, Surgical",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+HHE,"Cup, Menstrual",2,Class II,Obstetrics/Gynecology,OB,21 CFR 884.5400,4,N,N,N,N,A menstrual cup is a receptacle placed in the vagina to collect menstrual flow.,2026-11-16T20:46:34+00:00
+HRB,"Microscope, Operating, Non-Electric, Ophthalmic",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4700,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+IAD,Van Gieson'S Picro-Fuchsin,1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-16T20:46:34+00:00
+OXJ,"Mesh, Surgical, Non-Absorbable, Large Abdominal Wall Defects",2,Class II,"General, Plastic Surgery",SU,21 CFR 878.3300,1,Y,N,N,N,For reinforcement of soft tissue where weakness exists in abdominal wall defects.,2026-11-16T20:46:34+00:00
+GRH,"Antigen, Ha (Including Ha Control), Rubeola",1,Class I,Microbiology,MI,21 CFR 866.3520,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+OWE,"Fluorescence In Situ Hybridization, Anaplastic Lymphoma Kinase, Gene Rearrangement",2,Class II,Pathology,PA,21 CFR 864.1890,1,N,N,N,N,"Anaplastic lymphoma kinase (ALK) fluorescence in situ hybridization (FISH) kit is to detect rearrangements involving the ALK gene in formalin-fixed, paraffin-embedded (FFPE) non-small cell lung cancer (NSCLC) tissue specimens. It is indicated to aid in the selection of patients for treatment with specific FDA approved therapeutic drugs.",2026-11-16T20:46:34+00:00
+GPY,"Antisera, Hai, Reovirus 1-3",1,Class I,Microbiology,MI,21 CFR 866.3470,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+GWJ,"Stimulator, Auditory, Evoked Response",2,Class II,Neurology,NE,21 CFR 882.1900,1,N,N,N,Y,,2026-11-16T20:46:34+00:00
+HRK,"Table, Instrument, Manual, Ophthalmic",1,Class I,Ophthalmic,OP,21 CFR 886.4855,4,N,N,Y,N,,2026-11-16T20:46:34+00:00
+QIC,Hiv-1 Genotyping Assay Using Ngs Technology,2,Class II,Medical Genetics,MI,21 CFR 866.3955,1,N,N,N,N,The human immunodeficiency virus (HIV) drug resistance genotyping assay using next generation sequencing (NGS) technology is a prescription in vitro diagnostic device intended for use in detecting HIV genomic mutations that confer resistance to specific anti-retroviral drugs.  The device is intended to be used as an aid in monitoring and treating HIV infection.,2026-11-16T20:46:34+00:00
+NBC,"Test, Natriuretic Peptide",2,Class II,Clinical Chemistry,CH,21 CFR 862.1117,1,N,N,N,N,,2026-11-16T20:46:34+00:00
+HZT,"Reagent, Schiff",1,Class I,Hematology,PA,21 CFR 864.1850,4,N,N,Y,N,,2026-11-16T20:46:34+00:00
+PEK,Spinous Process Plate,2,Class II,Orthopedic,OR,21 CFR 888.3050,1,Y,N,N,N,"A posterior, non-pedicle supplemental fixation device intended for single level use in the non-cervical spine (T1-S1).  It is intended for single level plate fixation/attachment to spinous process for the purpose of achieving supplemental fusion in the following conditions: Degenerative Disc Disease (defined as back pain of discogenic origin with degeneration of the disc confirmed by history and radiographic studies), Trauma (i.e., fracture or dislocation), Spondylolisthesis, and/or Tumor.  It is not intended for stand-alone use.",2026-11-16T20:46:34+00:00
+NOI,"Stand, Instrument, Ophthalmic, Battery Powered",1,Class I,Ophthalmic,OP,21 CFR 886.1860,4,N,N,Y,N,AC-powered or non-powered device intended to store ophthalmic instruments in a readily accessible position.,2026-11-16T20:46:34+00:00
+HCF,"Instrument, Ligature Passing And Knot Tying",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,4,N,N,N,N,,2026-11-16T20:46:34+00:00
+QNF,Laser Activator For Polymerization,2,Class II,Dental,DE,21 CFR 872.6070,1,N,N,N,N,Intended to polymerize dental restorative resins,2026-11-16T20:46:34+00:00
+MAW,"Marker, Suture Identification",1,Class I,"General, Plastic Surgery",SU,21 CFR 878.4800,1,N,N,N,N,,2026-11-16T20:46:34+00:00
